@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClassHelpWindowSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="btnClose" label="按钮" x="1808" y="42" skinName="WindowCloseBtnSkin"/>
+	<e:Label id="labClassName" text="4年级一班" x="792" y="26" size="48" textColor="0xffffff" stroke="4" strokeColor="0x007ed7" textAlign="center" width="383"/>
+	<e:Label text="等待求助：" x="904" y="93" size="28" textColor="0x36d5ff" stroke="3" strokeColor="0x023d8c"/>
+	<e:Label id="labWait" text="0" x="1047" y="94" size="28" stroke="3" strokeColor="0x001D45" textColor="0xDDD76D"/>
+	<e:Scroller id="scrollerHelp"  skinName="skins.ScrollerSkin" width="1740" height="878" x="90" y="148" anchorOffsetX="0">
+		<e:Group width="1740" height="878">
+			<e:List id="list" width="1740" x="0" y="0" scaleX="1" scaleY="1">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center"/>
+				</e:layout>
+
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+	<e:Button id="btnIDSort" label="ID排序" x="1372" y="42" skinName="CommonButtonSkin" anchorOffsetX="0" width="153"/>
+	<e:Button id="btnTimeSort" label="时间排序" x="1564" y="42" skinName="CommonButtonSkin"/>
+</e:Skin>

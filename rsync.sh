@@ -1,0 +1,1 @@
+rsync -avz * root@47.96.103.163:/opt/code/game/ --exclude 'node_modules' --exclude-from 'rsync.exclude' 

@@ -1,0 +1,43 @@
+﻿# 2_1_3_机变
+# 1. 英雄存活
+# 2. 抵达终点
+#
+# 你将要经过一个大舱房，房间里有可能会出现恐鼠、宝石或者普通宝箱。
+# 请用if语句判断形势，根据出现对象的不同，采取不同对策。
+# 恐鼠需要攻击，宝石需要拾取，而普通宝箱则可以用open方法直接打开。
+# 首先，移动到房间里。
+
+
+# 然后分别对可能出现的enemy或item进行变量赋值。
+
+
+
+# 针对不同形势，采取不同对策。下面已经帮你写好了部分代码，请补充完整
+
+
+
+
+
+
+
+
+# 当你写对代码后，房门才可能打开。
+# 最后你需要写代码走到终点处。
+
+
+hero.moveXY(49,26)
+enemy = hero.findNearestEnemy()
+item = hero.findNearestItem()
+if enemy:
+    hero.attack(enemy)
+elif item:
+    if item.type == "chest":
+        hero.open(item)
+    elif item.type == "gem":
+        pos = item.pos
+        hero.moveXY(pos.x,pos.y)
+
+hero.moveXY(48,62)
+hero.moveXY(34,63)
+
+

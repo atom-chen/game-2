@@ -1,0 +1,22 @@
+﻿# 1_5_2_分而击之
+# 1. 平安抵达终点
+# 2. 消灭所有敌人
+# 3. 拾取所有宝石
+#
+# 从这一关开始，要勤用罗盘的findNearestEnemy功能哦，它真的很有用！
+
+enemy1 = hero.findNearestEnemy()
+hero.moveRight()
+hero.attack(enemy1)
+hero.attack(enemy1)
+hero.moveRight(2)
+hero.moveDown()
+enemy2 = hero.findNearestEnemy()
+hero.attack(enemy2)
+hero.attack(enemy2)
+hero.moveUp()
+hero.moveLeft(2)
+hero.moveUp()
+hero.moveDown()
+hero.moveRight(3)
+

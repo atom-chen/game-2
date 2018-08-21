@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExploreWayBtnSkin" width="836" height="282" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+		<!-- 正常状态 -->
+		<e:Image id='gamefeature_display' source="main_scene_json.gamefeature_display_normal"/>
+		<e:Image id='gamefeature_name'    source="main_scene_json.gamefeature_word_normal_1" x="274" y="96"/>
+
+		<e:Image id="campaign_name_display" source="main_scene_json.campaign_word_normal_1" x="102" y="41"/>
+
+		<e:Image id='level_start_0' source="common_utils_json.num_blue_1_png" x="238" y="46"/>
+		<e:Image id='level_start_1'   source="common_utils_json.num_blue_0_png" x="256" y="46"/>
+		<e:Image id='level_connect' source="common_utils_json.num_blue_and_png" x="279" y="46"/>
+		<e:Image id='level_end_0' source="common_utils_json.num_blue_2_png" x="301" y="46"/>
+		<e:Image id='level_end_1'   source="common_utils_json.num_blue_1_png" x="321" y="46"/>
+
+		<!-- 禁用状态 -->
+		<e:Image id='gamefeature_disabled' source="main_scene_json.gamefeature_disabled" x="31" y="33" visible="false"/>
+</e:Skin>

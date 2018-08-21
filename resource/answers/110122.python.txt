@@ -1,0 +1,28 @@
+﻿# 这一关必须击败敌人。
+# 但是这一关的敌人会使用黑魔法。
+# 只有高阶精灵才免疫这些魔法。
+# 高阶精灵的名字里面都带有"sir"，把他们找出来。
+
+highlanderName = "sir"
+
+# 这个函数可以在一个单词内搜索特定的字符串:
+def wordInString(string, word):
+    lenString = len(string)
+    lenWord = len(word)
+    # 从0到(lenString - lenWord)，把i代入。
+    for i in range(0, lenString - lenWord):
+        for j in range(lenWord):
+            if string[i+j] != word[j]:
+                break
+            elif j == lenWord - 1:
+                return True
+    return False
+
+# 挑选出高阶精灵，并叫出他们的名字。
+soldiers = hero.findFriends()
+for soldier in soldiers:
+    if wordInString(soldier.id, highlanderName):
+        hero.say(soldier.id + " be ready.")
+        
+# 进攻！
+hero.say("ATTACK!!!")

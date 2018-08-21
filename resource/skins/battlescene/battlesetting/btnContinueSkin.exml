@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="btnComtinue" width="144" height="179" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,over,down,disabled" >
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_continue_selected_img_png" includeIn="down" x="0"/>
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_continue_selected_word_png" includeIn="down" x="-14" y="100"/>
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_continue_selected_img_png" includeIn="over" x="0"/>
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_continue_selected_word_png" includeIn="over" x="-14" y="100"/>
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_continue_normal_img_png" includeIn="up" x="0" y="0"/>
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_continue_normal_word_png" includeIn="up" x="-14" y="100"/>
+</e:Skin>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipWindowSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1592a85ede0"/>
+
+	<e:Image source="equip_bg_png" locked="true"/>
+	<e:Image source="equip_json.equip_card_frame_png" x="63" y="51" locked="true"/>
+	<e:Image source="equip_json.equip_master_png" y="903" locked="true"/>
+    
+	<!-- 页签 tabs -->
+    <e:Component id="equipTab0" skinName="EquipTabAllSkin" x="69" y="53"/>
+	<e:Component id="equipTab1" skinName="EquipTabPrimaryAttackSkin" x="232" y="53"/>
+	<e:Component id="equipTab2" skinName="EquipTabAssistantAttackSkin" x="396" y="53"/>
+	<e:Component id="equipTab3" skinName="EquipTabArmorSkin" x="559" y="53"/>
+	<e:Component id="equipTab4" skinName="EquipTabMicroChipSkin" x="722" y="53"/>
+	<e:Component id="equipTab5" skinName="EquipTabCompassSkin" x="885" y="53"/>
+	<e:Component id="equipTab6" skinName="EquipTabBariteType1Skin" x="1049" y="53"/>
+	<e:Component id="equipTab7" skinName="EquipTabBariteType2Skin" x="1212" y="53"/>
+	<e:Component id="equipTab8" skinName="EquipTabBariteType3Skin" x="1375" y="53"/>
+	<e:Image id="heroProfileImg" x="1539"/>
+	
+	<!-- 装备卡片展示区 -->
+	<e:Scroller id="equipScroller" skinName="skins.ScrollerSkin" x="67" y="101" width="1470" height="757">
+		<e:Group id="equipGroup" x="2" y="10" width="1470" height="757" locked="true">
+			<e:Image id="ownCutoffLineImg" source="equip_json.equip_card_frame_master_png" x="2" locked="true"/>
+			<e:Image id="notownCutoffLineImg" source="equip_json.equip_card_frame_master_png" x="2" y="410" locked="true"/>
+
+			<e:Image id="ownFrameImg" source="equip_json.equip_card_master_png" x="18" y="75"/>
+			<e:Image id="notownFrameImg" source="equip_json.equip_card_master_png" x="18" y="432"/>
+			<e:Image id="ownSignImg" source="equip_json.equip_card_label_have_png" x="34" y="108"/>
+			<e:Image id="notownSignImg" source="equip_json.equip_card_label_nothave_png" x="34" y="465"/>
+
+			<e:Image id="ownPrompt" source="equip_json.equip_card_lable_have_prompt_png" x="397" y="151"/>
+			<e:Image id="notownPrompt" source="equip_json.equip_card_lable_nothave_prompt_png" x="397" y="521"/>
+		</e:Group>
+	</e:Scroller>
+
+	<!-- 卡槽 slots -->
+
+	<!-- 职业肖像 profile -->
+	<e:Image source="equip_json.equip_info_frame_png" x="1619" y="541"/>
+	<!-- 英雄属性 -->
+	<e:Label text="生命值" x="1702" y="546" width="172" height="59" textAlign="left" verticalAlign="middle" fontFamily="Microsoft Yahei UI" size="28" strokeColor="0x003479" stroke="3" bold="true"/>
+	<e:Label text="攻    击" x="1702" y="637" width="172" height="59" verticalAlign="middle" size="28" fontFamily="Microsoft Yahei UI" bold="true" strokeColor="0x003479" stroke="3"/>
+	<e:Label text="速    度" x="1702" y="731" width="172" height="59" textAlign="left" verticalAlign="middle" fontFamily="Microsoft Yahei UI" bold="true" strokeColor="0x003479" stroke="3"/>
+	<e:Label text="视    野" x="1702" y="827" width="172" height="59" textAlign="left" verticalAlign="middle" fontFamily="Microsoft Yahei UI" bold="true" strokeColor="0x003479" stroke="3"/>
+	<e:Label id="healthValue" text="1991" x="1662" y="596" width="172" height="32" textAlign="center" textColor="0xfffe9c" strokeColor="0x4c2f26" stroke="3" size="28" fontFamily="MicroSoft YaHei UI" verticalAlign="middle"/>
+	<e:Label id="damageValue" text="872"  x="1662" y="691" width="172" height="36" textAlign="center" textColor="0xfffe9c" strokeColor="0x4c2f26" stroke="3" size="28" fontFamily="MicroSoft YaHei UI" verticalAlign="middle"/>
+	<e:Label id="speedValue"  text="211"  x="1662" y="784" width="172" height="36" textAlign="center" textColor="0xfffe9c" strokeColor="0x4c2f26" stroke="3" size="28" fontFamily="MicroSoft YaHei UI" verticalAlign="middle"/>
+	<e:Label id="viewValue"   text="985"  x="1662" y="877" width="172" height="36" textAlign="center" textColor="0xFFFE9C" strokeColor="0x4C2F26" stroke="3" size="28" fontFamily="MicroSoft YaHei UI" verticalAlign="middle"/>
+
+	<!-- 开始战斗按钮 -->
+	<e:Button id="fightBtn" skinName="EquipFightBtnSkin" x="1614" y="954" name="btnEnterFight"/>
+
+	<!-- 关闭按钮 -->
+	<e:Button id="btnClose" skinName="CommonReturnBtnSkin" x="1804" y="9"/>
+	<e:Image source="common_utils_json.ability_life_icon_png" x="1632" y="563"/>
+	<e:Image source="common_utils_json.ability_attack_icon_png" x="1633" y="663"/>
+	<e:Image source="common_utils_json.ability_speed_icon_png" x="1633" y="754"/>
+	<e:Image source="common_utils_json.ability_view_icon_png" x="1637" y="847"/>
+</e:Skin>

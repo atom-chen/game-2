@@ -1,0 +1,14 @@
+
+<e:Skin class="battleSettingButtonSkin" states="up,over,down,disabled" width="166" height="166" currentState="up" xmlns:e="http://ns.egret.com/eui">
+        <e:Image source="battle_scene_json.btn_frame_normal_png" includeIn="up" width="166" height="166" />
+        <e:Image source="battle_scene_json.battle_setting_image_normal_png" includeIn="up" x="46" y="36" />
+        <e:Image source="battle_scene_json.battle_setting_word_normal_png" includeIn="up" x="41" y="89" />
+        
+        <e:Image source="battle_scene_json.btn_frame_selected_png" includeIn="over" />
+        <e:Image source="battle_scene_json.battle_setting_image_selected_png" includeIn="over" x="46" y="36" />
+        <e:Image source="battle_scene_json.battle_setting_word_selected_png" includeIn="over" x="41" y="89" />
+        
+        <e:Image source="battle_scene_json.btn_frame_selected_png" includeIn="down"/>
+        <e:Image source="battle_scene_json.battle_setting_image_selected_png" includeIn="down" x="46" y="36" />
+        <e:Image source="battle_scene_json.battle_setting_word_selected_png" includeIn="down" x="41" y="89"/>
+</e:Skin>

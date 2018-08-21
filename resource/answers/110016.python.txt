@@ -1,0 +1,12 @@
+﻿# 1_4_1_致命机关
+# 1. 英雄存活30秒
+# 2. 拾取宝石
+# 
+# 你意外陷入了一个机关，旋转发射的致命能量球离你近在咫尺，努力逃生吧！
+# 请合理使用循环语句。
+
+while True:
+    hero.moveRight(2)
+    hero.moveUp(2)
+    hero.moveLeft(2)
+    hero.moveDown(2)

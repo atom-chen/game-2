@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IDChooseWindowSkin" width="1239" height="861" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1239" height="861" x="0" y="0" source="resource/skin_assets/teach/teaching_choose_frame_bottom.png" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Button id="btnConfirm" label="确认" x="552.5" y="718" skinName="CommonButtonSkin"/>
+	<e:Label text="你具有多重身份，请选择身份进入课堂" x="330" y="109" anchorOffsetX="0" width="598" textAlign="center"/>
+</e:Skin>

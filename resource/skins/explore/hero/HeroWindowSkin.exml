@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeroWindowSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="hero_json.pic_bg_png" x="0" y="0" locked="true"/>
+	<e:Button id="btnClose" label="按钮" x="1799" y="9" skinName="CommonReturnBtnSkin"/>
+	<e:Button id="btnChoose" label="出战" x="1497" y="959" skinName="CommonButtonSkin"/>
+
+
+	<e:Image source="hero_json.pic_hero_bg_png" y="172" horizontalCenter="-104"/>
+
+
+	<e:Image id="imgStar1" source="hero_json.pic_star_png" x="749" y="954"/>
+	<e:Image id="imgStar2" source="hero_json.pic_star_png" x="826" y="954"/>
+	<e:Image id="imgStar3" source="hero_json.pic_star_png" x="903" y="954"/>
+	<e:Image id="imgStar4" source="hero_json.pic_star_png" x="980" y="954" scaleX="1" scaleY="1"/>
+	<e:Image id="imgStar5" source="hero_json.pic_star_png" x="1057" y="955" scaleX="1" scaleY="1"/>
+	<e:Image id="imgStar6" source="hero_json.pic_star_png" x="1134" y="954" scaleX="1" scaleY="1"/>
+	<e:Image id="imgHero1" width="126" height="112" x="222" y="204" locked="true"/>
+	<e:Image id="imgHero2" width="126" height="112" x="222" y="418" locked="true"/>
+	<e:Image id="imgHero3" width="126" height="112" x="222" y="626" locked="true"/>
+	<e:Image id="imgFigure" width="800" height="874" y="71" horizontalCenter="-104"/>
+	<e:Image id="imgCareer" source="hero_json.pic_soldier_logo_warrior_png" width="350" height="176" x="226.5" y="71.12" scaleX="0.89" scaleY="0.88"/>
+	<e:Image  id="imgHeroName" source="hero_json.pic_name_Grace_png" width="223" height="98" x="526" y="943"/>
+	<e:Label id="labOpenDesc" text="标签" x="1423" y="1030" width="318" size="20" fontFamily="Microsoft Yahei" stroke="3" 
+			strokeColor="0x003479" height="30" textAlign="center" verticalAlign="middle"/>
+	<e:Image id="imgRecruite" source="hero_json.pic_battle_png" x="386" y="284"/>
+	<e:Scroller width="644" height="798" x="1274" y="115" anchorOffsetY="0">
+		<e:Group x="0" y="80" anchorOffsetY="0" height="802">
+			<e:Image source="hero_json.pic_frame_bg_png" x="-2" y="2" scaleX="1" scaleY="1"/>
+		<e:Group height="281" y="0" left="-2">
+			<e:Image source="hero_json.pic_title_bg_png" x="2" y="0"/>
+			<e:Image source="hero_json.pic_title_1_png" x="18" y="7"/>
+			<e:Image source="common_utils_json.ability_life_icon_png" x="44" y="51" scaleX="1" scaleY="1"/>
+			<e:Image source="common_utils_json.ability_attack_icon_png" x="41" y="105"/>
+			<e:Image source="common_utils_json.ability_speed_icon_png" x="44" y="164"/>
+			<e:Image source="common_utils_json.ability_view_icon_png" x="44" y="220"/>
+			<e:Label text="生命" x="110" y="58" size="28" width="112" height="42" verticalAlign="middle" fontFamily="Microsoft Yahei" stroke="3" strokeColor="0x003479"/>
+			<e:Label text="攻击" x="110" y="109" size="28" width="112" height="42" verticalAlign="middle" fontFamily="Microsoft Yahei" stroke="3" strokeColor="0x003479"/>
+			<e:Label text="速度" x="110" y="165" size="28" width="112" height="42" verticalAlign="middle" fontFamily="Microsoft Yahei" stroke="3" strokeColor="0x003479"/>
+			<e:Label text="视野" x="110" y="224" size="28" width="112" height="42" verticalAlign="middle" fontFamily="Microsoft Yahei" stroke="3" strokeColor="0x003479"/>
+			<e:Label id="labHp" text="123456" x="280" y="66" size="28" textColor="0xfffe9c" stroke="3" strokeColor="0x4c2f26"/>
+			<e:Label id="labAttack" text="123456" x="280" y="123" size="28" textColor="0xFFFE9C" stroke="3" strokeColor="0x4C2F26"/>
+			<e:Label id="labSpeed" text="123456" x="280" y="172" size="28" textColor="0xFFFE9C" stroke="3" strokeColor="0x4C2F26"/>
+			<e:Label id="labViewRange" text="123456" x="280" y="231" size="28" textColor="0xFFFE9C" stroke="3" strokeColor="0x4C2F26"/>
+		</e:Group>
+		<e:Group y="279" height="308" visible="false">
+			<e:Image source="hero_json.pic_title_bg_png" x="2" y="0"/>
+			<e:Image source="hero_json.pic_title_2_png" x="18" y="7"/>
+			<e:Group width="594" height="260" y="50" id="grpSkill"/>
+		</e:Group>
+		<e:Group y="280" height="516" left="-2" anchorOffsetY="0">
+			<e:Image source="hero_json.pic_title_bg_png" x="2" y="0"/>
+			<e:Image source="hero_json.pic_title_3_png" x="18" y="7"/>
+			<e:Label id="labDesc" text="" x="18" y="66" width="570" height="448" multiline="true" wordWrap="true" size="28" lineSpacing="5" anchorOffsetY="0"/>
+		</e:Group>
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="imgGem" source="icon_gem_png" x="1588" y="958" width="68" height="66"/>
+</e:Skin>

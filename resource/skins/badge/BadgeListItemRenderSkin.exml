@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BadgeListItemRenderSkin" width="230" height="180" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="imgContent" width="156" height="128" x="38"/>
+	<e:Image width="146" height="62" x="43" y="118" source="badge_json.badge_time_frame_png"/>
+	<e:Label id="labTime" text="标签" x="63" y="134" size="20" stroke="3" strokeColor="0x003479" width="108" height="28" textAlign="center" verticalAlign="middle"/>
+</e:Skin>

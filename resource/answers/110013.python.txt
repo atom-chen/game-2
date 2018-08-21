@@ -1,0 +1,18 @@
+﻿# 1_3_3_一石二鸟
+# 1. 安全抵达终点
+# 2. 拾取所有宝石
+# 3. 英雄必须存活
+# 
+# 在你和宝石之间拦着一大排炸弹，怎么办呢？
+# 试试引诱敌人触发炸弹吧！
+
+hero.moveRight(2)
+hero.moveUp()
+hero.moveLeft()
+hero.moveDown(3)
+hero.moveLeft()
+hero.moveUp(2)
+hero.moveRight(4)
+hero.moveDown(2)
+hero.moveRight()
+

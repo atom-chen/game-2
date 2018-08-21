@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RequestHelpButtonSkin" states="up,over,down,disabled"  width="166" height="166" xmlns:e="http://ns.egret.com/eui">
+    <e:Image source="teaching_btn_seekhelp_normal_png" includeIn="up" width="166" height="166"/>
+	<e:Image source="teaching_btn_seekhelp_selected_png" includeIn="over,down"  width="166" height="166"/>
+</e:Skin>

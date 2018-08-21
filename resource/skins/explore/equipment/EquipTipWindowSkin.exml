@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipTipWindowSkin" width="828" height="670" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="equip_tips_frame_png"/>
+	<e:Image id="equipQualityImg" source="common_utils_json.card_white_png" x="86" y="75"/>
+	<e:Image source="equip_tips_info_describe_png" x="399" y="57"/>
+    <e:Image id="heroCareer" source="common_utils_json.career_warrior_icon_png" x="104" y="85"/>
+	
+	<e:Label id="equipNameLabel" text="红宝石" x="86" y="310" width="215" verticalAlign="middle" textAlign="center" size="22" textColor="0xffffff" fontFamily="MicroSoft YaHei UI" strokeColor="0x3a3a3b" stroke="3"/>
+	<e:Image source="equip_tips_info_frame_png" x="74" y="375" scaleX="1" scaleY="1"/>
+	<e:Image id="equipIconImg" x="134" y="154"/>
+
+	<e:Image source="equip_tips_info_rarity_png" x="103" y="390"/>
+	<e:Label id="tipRange" text="普通" x="222" y="393" width="159" size="24" textColor="0xFFFE9C" bold="true" fontFamily="MicroSoft YaHei UI" strokeColor="0x4c2f26" stroke="3" scaleX="1" scaleY="1"/>
+	<e:Image source="equip_tips_info_career_png" x="103" y="449"/>
+	<e:Label id="tipHeroClass" text="战士" x="222" y="450" width="159" size="24" textColor="0xFFFE9C" bold="true" fontFamily="MicroSoft YaHei UI" strokeColor="0x4C2F26" stroke="3" scaleX="1" scaleY="1"/>
+	<e:Image source="equip_tips_info_type_png" x="102" y="503"/>
+	<e:Label id="tipType" text="主手" x="222" y="503" width="159" size="24" textColor="0xFFFE9C" bold="true" fontFamily="MicroSoft YaHei UI" strokeColor="0x4C2F26" stroke="3" scaleX="1" scaleY="1"/>
+
+    <e:Button id="equipBtn" skinName="EquipTipEquipBtnSkin" x="108" y="560"/>
+    <e:Button id="unloadBtn" skinName="EquipTipUnloadBtnSkin" x="108" y="559"/>
+
+	<e:Scroller id="descScroller" skinName="skins.ScrollerSkin" x="386" y="89" width="395" height="521">
+		<e:Group id="descGroup" width="395" height="521">
+			<e:Label id="txtEquipDesc" text="装备描述" width="338" height="143" size="22" fontFamily="MicroSoft YaHei UI" bold="true" multiline="true" textColor="0xffffff" x="26" y="17" lineSpacing="11"/>
+			
+			<e:Image id="tipSplitLine1" source="equip_tips_line_png" visible="false"/>
+			<e:Image id="tipSplitLine2" source="equip_tips_line_png" visible="false"/>
+		</e:Group>
+	</e:Scroller>
+
+	<e:Button id="btnClose" skinName="WindowCloseBtnSkin" x="749" y="13"/>
+</e:Skin>

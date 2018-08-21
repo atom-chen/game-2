@@ -1,0 +1,50 @@
+﻿# 2_4_4_突破防守
+# 1. 英雄存活
+# 2. 抵达终点
+# 3. 消灭敌人
+#
+# 你发现一小队敌人在守卫着某个舱门，长老他们会不会被关押在里面？
+# 你可以先对敌人发一个火球术，然后用自加计数结束循环来分别attack。
+
+
+# 当循环结束，打破房门（Gate）通关。
+
+x= 0
+i = 0
+
+while i<5:
+
+    hero.moveXY(36+x,30)
+    enemy = hero.findNearestEnemy()
+    #hero.say(enemy.type)
+    #if enemy:
+    if hero.isReady("lightning-bolt"):
+        hero.cast("lightning-bolt", enemy)
+    else:
+        hero.attack(enemy)
+    
+    if enemy and enemy.hp == 0:
+        i+=1
+        hero.say("解决掉"+i+"个")
+
+        
+    enemy = hero.findNearestEnemy()
+    if enemy:
+        hero.moveXY(19+x,30)
+    else:
+        i = 5
+        hero.say("全部解决掉了")
+
+    while enemy and enemy.hp > 0:
+        hero.attack(enemy)
+        if enemy.hp == 0:
+            i+=1
+            hero.say("解决掉"+i+"个")
+    x+=10
+    #else:
+    #    i=5
+    
+hero.attack("Gate")
+hero.attack("Gate")
+hero.moveXY(64,8)
+

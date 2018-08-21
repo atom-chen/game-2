@@ -1,0 +1,15 @@
+﻿# 敌人很快来袭，抓紧时间！
+# 能收集多少宝石收集多少宝石，然后向左撤退封住路口。
+while hero.now() < 20:
+    # Collect coins
+    coin = hero.findNearest(hero.findItems())
+    hero.move(coin.pos)
+    
+    
+while hero.pos.x > 16:
+    # Retreat behind the fence
+    hero.move({"x": 15, "y": 38})
+    
+    
+# 用Block封住路口
+hero.buildXY("fence", 20, 37)

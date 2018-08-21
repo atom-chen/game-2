@@ -1,0 +1,25 @@
+﻿# 3_3_3_坚守阵地
+# 1. 抵御敌人进攻50秒
+# 2. 消灭5个敌人
+#
+# 你在废弃的舱房中发现了一位落单的战士，穿着打扮和之前在遗迹星球救出的囚犯如出一辙。
+# 他是这宇宙空间站的遗民，因为部族世代守护卷轴的关系，目前正被破灭之剑追捕。
+# 帮他顶住敌人的围攻！
+# 提示：获取敌人的x坐标，根据它与英雄x坐标的差来判断敌人是从左方来、右方来还是从下方来，然后在对应方向的标记处放置炸弹。
+
+while True:
+    enemy = hero.findNearestEnemy()
+    
+    if enemy and enemy.pos.x < 25:
+        hero.buildXY("bomb",26,31)
+        hero.moveXY(40,31)
+        hero.wait(5)
+    elif enemy and enemy.pos.y > 44:
+        hero.buildXY("bomb",40,44)
+        hero.moveXY(40,31)
+        hero.wait(5)
+    elif enemy and enemy.pos.x > 52:
+        hero.buildXY("bomb",53,31)    
+        hero.moveXY(40,31)
+        hero.wait(5)
+

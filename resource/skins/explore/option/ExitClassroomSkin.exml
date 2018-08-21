@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExitClassroomSkin" width="1100" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <!--<e:Image source="option_json.system_frame_png" x="0" y="0" visible="false"/>
+	<e:Button id="playerbtn" x="80" y="105" skinName="PlayerInformationSkin" visible="false"/>
+	<e:Button id="systembtn"  x="250" y="105" skinName="SettingSkin" visible="false"/>
+	<e:Button id="addclass" x="420" y="105" skinName="AddClassSkin" visible="false"/>
+	<e:Button id="btnClose" label="按钮" x="999" y="81" skinName="WindowCloseBtnSkin" visible="false"/>-->
+	<e:Label text="123456" x="578" y="227" width="115" size="28" textColor="0xffffff"/>
+	<e:Label text="123456" x="581" y="320" width="115" size="28" textColor="0xFFFFFF"/>
+	<e:Image source="option_json.system_classrome_myrome_png" x="256" y="208"/>
+	<e:Image source="option_json.system_classrome_invitationcode_png" x="259" y="300"/>
+	<e:Button id="exitclassbtn" label="按钮" x="448" y="463" width="139" height="54" skinName="ExitClassroomButton"/>
+</e:Skin>

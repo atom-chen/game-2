@@ -1,0 +1,22 @@
+﻿# 2_5_2_以退为进
+# 1. 
+# 2. 
+#
+# 凶悍的巨型恐鼠拦路。
+# 利用循环语句退一步放一个炸弹，把它慢慢消耗死。
+# 消灭敌人后，break跳出循环，然后前往终点。
+
+while True:
+    enemy = hero.findNearestEnemy()
+    if enemy:
+        hero.buildXY("bomb", hero.pos.x-5,hero.pos.y)
+        #hero.attack(enemy)
+        if hero.pos.x > 60:
+            break
+        hero.moveXY(hero.pos.x+10,hero.pos.y)
+    else:
+        break
+hero.moveXY(73,35)
+hero.wait(5)
+hero.moveXY(5,35)
+

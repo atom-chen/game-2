@@ -1,0 +1,41 @@
+﻿# 2_5_4_虎口脱险
+# 1.
+# 2.
+# 3. 
+#
+# 你终于找到了被抓走的部族成员。
+# 先消灭敌人的看守吧！
+# 提示：你可以使用while循环重复攻击，当敌人全部被消灭后再break跳出。
+
+
+# 接下来请移动到最右侧的门前，用while循环attack开房门营救，如果房里有人的话，别忘记喊话让对方逃走。
+# 提示：在这段循环代码中，你可能用得上continue语句。
+
+word = "我是来救你们的！快逃！"
+
+n=1
+hero.moveXY(85,28)
+while True:
+    enemy = hero.findNearestEnemy()
+    if enemy:
+        hero.attack(enemy)
+    else:
+        break
+x=118
+hero.moveXY(116,30)
+while n<7:
+    
+    
+    hero.moveXY(x,41)
+    x=x-21
+    hero.attack("Gate"+str(n))
+    n += 1
+    friend = hero.findNearestFriend()
+    if not friend:
+        hero.moveUp()
+        continue
+    else:
+        hero.say(word)
+hero.moveXY(4,29)
+
+

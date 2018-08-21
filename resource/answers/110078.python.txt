@@ -1,0 +1,50 @@
+﻿# 2_6_3_未雨绸缪
+#
+#
+#
+# 你从解谜宝箱中得到了藏宝地图，更令人惊喜的是，你也找回了从遗迹星球被盗的破灭之卷。
+# 敌人很快展开了堵截，先消灭敌人。
+
+
+# 仔细观察，房间里有巨大的鼠洞，静谧之中潜藏危机。
+# 为了以防万一，用双重while循环修两行障碍物，连起墙壁和隔断，把鼠洞围起来。
+# 障碍物的边长是3，写代码时你可能会用上这个数值的。
+
+
+# 然后，你就可以安全无阻地前往终点了。
+
+enemy = hero.findNearestEnemy()
+if enemy:
+    hero.attack(enemy)
+hero.moveXY(10,32)
+
+#hero.moveXY(60,40)
+n = 0
+while n<2:
+    if n == 0:
+        x=16
+        y=29
+    else:
+        x=38
+        y=29
+    while y<43:
+        hero.buildXY("block", x, y)
+        y=y+3
+        #hero.moveXY((hero.pos.x+3), hero.pos.y)
+    hero.moveXY(42,28)
+    n += 1
+
+hero.buildXY("block", 30, 27)
+hero.buildXY("block", 33, 27)
+
+hero.moveXY(62,19)
+hero.attack("Gate")
+hero.attack("Gate")
+hero.attack("Gate")
+hero.attack("Gate")
+hero.attack("Gate")
+hero.attack("Gate")
+hero.moveXY(47,2)
+
+
+

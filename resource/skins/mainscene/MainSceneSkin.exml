@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<e:Skin class="MainSceneSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="157e6093a21"/>
+	<!-- 主场景背景图片 -->
+	<e:Image source="main_scene_bg_jpg" locked="true"/>
+	<e:Image id="user_carrer_figure" source="figure_captain_png" x="102" y="101"/>
+	<e:Button id="btnCredit" label="Button" x="1771" y="7" skinName="CreditButtonSkin"/>
+
+	<!-- HUD-UI -->
+	<!--<e:Component skinName="HUDFrameSkin"/>-->
+
+	<!-- 主界面正上方,显示的宝石,体力信息 -->
+	<!--<e:Image source="main_scene_json.header_line" x="0" y="0" locked="true"/>-->
+	<!--<e:Button id="MainPanelReturnBtn" label="" x="1804" y="15" skinName="MainPanelReturnBtnSkin" visible="false"/>-->
+
+	<!-- 宝石信息栏 -->
+	<!--<e:Image source="main_scene_json.util_frame_big" x="679" y="9" locked="true"/>
+	<e:Image source="main_scene_json.diamond_icon" x="705" y="-4" locked="true"/>
+	<e:Label text="5,000,000,00" x="1330" y="26" width="213" height="55" size="36" textAlign="center" verticalAlign="middle" fontFamily="Impact"/>
+	<e:Image source="main_scene_json.main_buybtn" x="1041" y="18" locked="true"/>-->
+
+	<!-- 体力信息栏 -->
+	<!--<e:Image source="main_scene_json.util_frame_big" x="1195" y="8" locked="true"/>
+	<e:Image source="main_scene_json.vigor_icon" x="1216" y="-4"/>
+	<e:Label text="5,000,000,00" x="819" y="26" width="213" height="55" size="36" textAlign="center" verticalAlign="middle" fontFamily="Impact"/>
+	<e:Image source="main_scene_json.main_buybtn" x="1557" y="18"/>-->
+
+	<!--  地图按钮 -->
+	<!--<e:Button x="984" y="100" skinName='CampaignTabBtnNormalSkin'/>
+	<e:Button x="984" y="359" skinName='CampaignTabBtnSelectedSkin'/>
+	<e:Button x="984" y="639" skinName='CampaignTabBtnDisabledSkin'/>-->
+
+	<!-- 下方工具按钮集-->
+	<!--<e:Component id='mainToolBtn' skinName="MainToolBtnSkin" x="1024" y="912"/>-->
+</e:Skin>

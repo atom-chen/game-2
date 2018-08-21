@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BadgeWindowSkin" width="1076" height="804" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1076" height="804" x="0" y="0" source="badge_json.badge_frame_png"/>
+	<e:Button id="btnClose" label="按钮" x="1002" y="66" skinName="WindowCloseBtnSkin"/>
+	<e:TabBar id="tabBar" width="408" height="60" x="70" y="104" itemRendererSkinName="BadgeTabBarSkin"/>
+    <e:Scroller id="scrollerBadge"  x="46" y="176" width="1000" height="592" scrollPolicyV="auto"  skinName="skins.ScrollerSkin">
+        <e:Group  width="990" height="592">
+            <e:List id="list" width="990" itemRendererSkinName="BadgeListItemRenderSkin">
+                        <e:layout>
+                            <e:TileLayout horizontalGap="15" columnWidth="230" rowHeight="190" horizontalAlign="left" verticalAlign="top" orientation="rows"/>
+                        </e:layout>
+                    </e:List>
+        </e:Group>
+    </e:Scroller>
+</e:Skin>

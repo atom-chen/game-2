@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BadgeTipWindowSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="badge_get_title_png" x="740" y="164"/>
+	<e:Image source="badge_get_light_png" x="772" y="247"/>
+	<e:Image id="imgBadgeIcon" width="240" height="190" x="842" y="345"/>
+</e:Skin>

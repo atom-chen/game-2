@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AnonymousButtonSkin" states="up,over,down,disabled"  width="380" height="170" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="first_login_json.firstlogin_btn_start_frame_png" x="0" y="0" includeIn="up,over,down"/>
+	<e:Image source="first_login_json.firstlogin_btn_start_selected_png" x="8" y="3" includeIn="over,down"/>
+	<e:Image source="first_login_json.firstlogin_btn_start_normal_png" x="8" y="3" includeIn="up"/>
+</e:Skin>

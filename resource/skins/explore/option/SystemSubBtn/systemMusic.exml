@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="systemMusic" width="232" height="54" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" >
+    <e:Image source="option_json.system_setup_frame_png" x="-2" y="1"/>
+		<e:Image source="option_json.system_setup_pic_on_png" includeIn="downAndSelected" x="115" y="5"/>
+		<e:Image source="option_json.system_setup_pic_on_png" includeIn="upAndSelected" x="115" y="5"/>
+		<e:Image source="option_json.system_setup_pic_on_png" includeIn="down" x="115" y="5"/>
+		<e:Image source="option_json.system_setup_pic_off_png" includeIn="up" x="4" y="6"/>
+		<e:Image source="option_json.system_setup_on_png" x="32" y="13"/>
+		<e:Image source="option_json.system_setup_off_png" x="138" y="13"/>
+</e:Skin>

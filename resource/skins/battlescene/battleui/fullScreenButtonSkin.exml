@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="fullScreenButtonSkin" states="up,over,down,disabled,upAndSelected,overAndSelected,downAndSelected" width="32" height="32"
+        xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="windowHover_png" includeIn="down" x="0" y="0"/>
+	<e:Image source="windowHover_png" includeIn="over" x="0" y="0"/>
+	<e:Image source="windowUp_png" includeIn="up" x="0" y="0"/>
+	<e:Image source="windowHover_C_png" includeIn="upAndSelected" x="0" y="0"/>
+	<e:Image source="windowHover_C_png" includeIn="overAndSelected" x="0" y="0"/>
+	<e:Image source="windowHover_C_png" includeIn="downAndSelected" x="0" y="0"/>
+</e:Skin>

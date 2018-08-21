@@ -1,0 +1,15 @@
+﻿# 2_8_1_黄雀在后
+#
+#
+#
+# 螳螂捕蝉黄雀在后，你们遭到了突袭！
+# 原来敌人一直偷偷跟在后面，想伺机从你手中直接夺取卷轴。
+# 此时此刻，守护小精灵是你最坚强的援军。
+# 下面的两个列表中，各有一个元素不属于列表对应的阵营。
+# 修改列表元素，然后命令小精灵迎击！
+enemy = ["ravidelfin","Luis","Pablo"]
+friend = ["shadowelfin","Emilio","iceelfin"]
+hero.command(friend,"attack",enemy)
+
+
+

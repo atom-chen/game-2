@@ -1,0 +1,11 @@
+{"file":"barrier.png","frames":{
+"barrier_battle_png":{"x":1980,"y":27,"w":45,"h":25,"offX":0,"offY":0,"sourceW":45,"sourceH":25},
+"barrier_knowledge_png":{"x":1527,"y":0,"w":161,"h":80,"offX":0,"offY":0,"sourceW":161,"sourceH":80},
+"barrier_knowledge_frame_png":{"x":356,"y":0,"w":1169,"h":92,"offX":0,"offY":0,"sourceW":1354,"sourceH":92},
+"barrier_locked_png":{"x":1980,"y":0,"w":65,"h":25,"offX":0,"offY":0,"sourceW":65,"sourceH":25},
+"barrier_rebattle_png":{"x":1690,"y":70,"w":85,"h":25,"offX":0,"offY":0,"sourceW":85,"sourceH":25},
+"barrier_vigor_required_png":{"x":1980,"y":54,"w":29,"h":33,"offX":0,"offY":0,"sourceW":29,"sourceH":33},
+"tollgate_scrollbar_strip_png":{"x":2027,"y":27,"w":14,"h":29,"offX":0,"offY":0,"sourceW":14,"sourceH":29},
+"barrier_arrow_png":{"x":1848,"y":0,"w":130,"h":73,"offX":0,"offY":0,"sourceW":130,"sourceH":73},
+"barrier_cell_frame_png":{"x":0,"y":0,"w":354,"h":479,"offX":0,"offY":0,"sourceW":354,"sourceH":479},
+"barrier_frame_name_map_png":{"x":1690,"y":0,"w":156,"h":68,"offX":0,"offY":0,"sourceW":156,"sourceH":68}}}

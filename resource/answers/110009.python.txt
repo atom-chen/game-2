@@ -1,0 +1,17 @@
+﻿# 1_2_4_远程优势
+# 1. 没有友军伤亡
+# 2. 消灭所有敌人
+# 3. 安全抵达终点
+# 
+# 前进的路上不但有关闭的能量门，还有强大的敌人。
+# 之前救出的枪手出于感激之情，自愿送你一程。怎么才能借助他的力量来打败敌人？
+# 如果你还没想到的话，一个小小的提示：为什么不打开门，把敌人引到枪手的攻击范围内解决掉呢？
+
+hero.moveRight(2)
+hero.moveUp()
+hero.attack("Gate")
+hero.moveDown()
+hero.moveLeft()
+hero.moveRight()
+hero.moveUp(2)
+hero.moveRight()

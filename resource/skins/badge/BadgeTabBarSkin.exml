@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BadgeTabBarSkin" states="up,down,disabled" width="196" height="50"
+        xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="100%" height="100%" alpha.disabled="0.5"
+	         source="badge_json.badge_frame_label_normal_png"
+	         source.down="badge_json.badge_frame_label_selected_png"/>
+	<!--<e:Image source="item_tab_big_down_png" includeIn="down" x="0" y="0"/>
+	<e:Image source="item_tab_big_up_png" includeIn="up" x="0" y="0"/>-->
+	<e:Label id="labelDisplay"
+	         size="28" fontFamily="Microsoft Yahei" text="{data.label}"
+	         textColor="0xFFFFFF" x="26" y="9" width="151" height="32" verticalAlign="middle" stroke="5" strokeColor="0x003479" textAlign="center"/>
+</e:Skin>

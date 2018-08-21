@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<e:Skin class="ExploreWindowSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<!--<w:Config id="1587686623f"/>-->
+	<e:Image id="imgBg" source="chapterMap_1001_jpg"/>
+	
+	<!--<e:Button id="btnPrevious" skinName="ExplorePageUpBtnSkin" verticalCenter="0"/>
+	<e:Button id="btnNext" x="1854" skinName="ExplorePageDownBtnSkin" verticalCenter="0"/>-->
+
+	<e:Button id="btnClose" x="1808" y="4" skinName="CommonReturnBtnSkin" />
+</e:Skin>

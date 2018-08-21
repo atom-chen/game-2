@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleTipWindowSkin" width="1104" height="832" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="common_utils_json.common_frame_prompt_png" x="1" y="55" scale9Grid="152,125,269,76" width="1105" height="777"/>
+	<e:Button id="btnClose" label="按钮" x="1029" y="81" skinName="WindowCloseBtnSkin" scaleX="1" scaleY="1"/>
+	<e:Image source="common_utils_json.common_title_line_png" x="2" y="25"/>
+	<e:Image source="common_title_prompt_png" x="476" y="-6"/>
+</e:Skin>

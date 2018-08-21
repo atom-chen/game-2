@@ -1,0 +1,38 @@
+﻿# 2_2_3_有备无患
+# 1. 英雄存活
+# 2. 抵达终点
+#
+# 你需要经过两房间，每个房间都可能会刷新出宝箱（chest）、宝石（gem）、治疗血瓶（healthpotion）或恐鼠（rat）其中之一。
+# 依次移动到下一个房间，然后采用if语句与逻辑运算符结合的方式设定好不同应对方式。
+# 当你正确应对完毕，门会自动开启，然后你就可以移动到终点了。
+
+def findandattack():
+    item = hero.findNearestItem()
+    enemy = hero.findNearestEnemy()
+    if enemy:
+        hero.say(enemy.type)
+        
+    elif item:
+        hero.say(item.type)
+        
+    if item and item.type == "chest":
+        hero.open(item)
+        
+    elif item and (item.type == "gem" or item.type =="healthpotion"):
+        hero.moveXY(item.pos.x,item.pos.y)
+        
+    elif enemy:
+        hero.attack(enemy)
+        hero.attack(enemy)
+    return
+item = hero.findNearestItem()
+enemy = hero.findNearestEnemy()
+findandattack()
+hero.moveXY(43,21)
+findandattack()
+hero.moveXY(40,40)
+hero.moveXY(40,52)
+findandattack()
+
+hero.moveXY(70,62)
+

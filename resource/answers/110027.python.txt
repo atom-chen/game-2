@@ -1,0 +1,15 @@
+﻿# 1_6_2_举一反三
+# 1. 平安抵达终点
+# 2. 拾取所有宝石
+# 3. 消灭所有敌人
+# 
+# 现在前进路线变得比前一关更曲折了，运用同样的知识加油通关。
+
+while True:
+    hero.moveLeft()
+    hero.moveDown()
+    hero.moveUp(2)
+    enemy1=hero.findNearestEnemy()
+    hero.attack(enemy1)
+    hero.moveDown(2)
+    hero.moveUp()

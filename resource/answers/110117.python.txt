@@ -1,0 +1,24 @@
+﻿# 收集宝石，让MP到80以上。
+while hero.gold < 80:
+    coin = hero.findNearest(hero.findItems())
+    if coin:
+        hero.move(coin.pos)
+
+# 召唤4个小精灵作为诱饵。
+for i in range(4):
+    hero.summon("soldier")
+
+# 指派它们去特定位置。
+points = []
+points[0] = { "x": 13, "y": 73 }
+points[1] = { "x": 51, "y": 73 }
+points[2] = { "x": 51, "y": 53 }
+points[3] = { "x": 90, "y": 52 }
+friends = hero.findFriends()
+
+# 用range函数制造一个数组来进行循环。
+# 将友军和points一一对应，然后控制精灵们各自走过去。
+for j in range(len(friends)):
+    point = points[j]
+    friend = friends[j]
+    hero.command(friend, "move", point)

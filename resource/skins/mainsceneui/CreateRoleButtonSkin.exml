@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CreateRoleButtonSkin" states="up,over,down,disabled" width="330" height="330" currentState="up" xmlns:e="http://ns.egret.com/eui">
+	<e:Image includeIn="up"  source="create_role_btn_choose_normal_png"/>
+	<e:Image source="create_role_btn_choose_selected_png" includeIn="over,down" />
+</e:Skin>

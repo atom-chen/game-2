@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>码力中国</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+
+    <script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+    <script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+    <script src="js/mixinDisplayObject.js"></script>
+    <script egret="lib" src="libs/modules/game/game.min.js" src-release="libs/modules/game/game.min.js"></script>
+    <script egret="lib" src="libs/modules/game/game.web.min.js" src-release="libs/modules/game/game.web.min.js"></script>
+    <script egret="lib" src="libs/modules/res/res.min.js" src-release="libs/modules/res/res.min.js"></script>
+    <script egret="lib" src="libs/modules/greensock/greensock.min.js" src-release="libs/modules/greensock/greensock.min.js"></script>
+    <script egret="lib" src="libs/modules/socket/socket.min.js" src-release="libs/modules/socket/socket.min.js"></script>
+    <script egret="lib" src="libs/modules/dragonBones/dragonBones.min.js" src-release="libs/modules/dragonBones/dragonBones.min.js"></script>
+    <script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+    <script egret="lib" src="libs/modules/tween/tween.min.js" src-release="libs/modules/tween/tween.min.js"></script>
+    <script egret="lib" src="libs/modules/mouse/mouse.min.js" src-release="libs/modules/mouse/mouse.min.js"></script>
+    <!--<script src="libs/modules/box2d/box2d.2.2.1.min.js"></script>-->
+    <script src="js/mixinButton.js"></script>
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/marked.min.js"></script>
+    <script egret="lib" src="libs/modules/pomelo/PomeloClient.js" src-release="libs/modules/pomelo/PomeloClient.js"></script>
+</head>
+
+<body>
+    <div class="center" id='app'>
+        <div id='game-area'
+             class="egret-player"
+             data-entry-class="Main"
+             data-orientation="landscape"
+             data-scale-mode="showAll"
+             data-frame-rate="30"
+             data-content-width="1920"
+             data-content-height="1080"
+             data-show-paint-rect="false"
+             data-multi-fingered="2"
+             data-show-fps="false"
+             data-show-log="true"
+             data-log-filter=""
+             data-show-fps-style="x:0,y:0,size:10,textColor:0x00c200,bgAlpha:0.4">
+        </div>
+        <!-- 代码编辑区域 -->
+        <div id="code-area" class="hidden"></div>
+        <!-- 错误提示框 -->
+        <div id='problem-alert-view' style="display:none;
+                                            position:absolute;
+                                            left:323px;
+                                            top:110px;
+                                            width:253px;
+                                            height:157px;
+                                            z-index:100;
+                                            font-size:13px;
+                                            background-image:url('resource/battle/ace/error.png')"></div>
+        <!-- 战斗中方法提示 -->
+        <div id="codeTipData" class="hidden"/>
+    </div>
+    <script src="http://sdk.talkingdata.com/g/h5/v1/5D28F3BA086227513C84010F200164C3" type="text/javascript"></script>
+    <script src="lib/ace/zatanna/zatanna.js"></script>
+    <script src="lib/ace/ace.js"></script>
+    <script src="lib/aether-plugin/lodash/lodash.min.js"></script>
+    <script src="lib/aether-plugin/esper.min.js"></script>
+    <!--<script src="lib/aether-lib/commonjs-mode/aether.js"></script>-->
+    <script src="lib/aether-lib/mali-aether/aether.min.js"></script>
+    <script src="js/view-resize.js"></script>
+    <script src="dist/mali-bundle.js?v=1"></script>
+    <script src="js/worker.js"></script>
+    <!--<script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js"
+            data-appid="101371743" data-redirecturi="http://47.96.103.163/" charset="utf-8"></script>-->
+</body>
+
+</html>

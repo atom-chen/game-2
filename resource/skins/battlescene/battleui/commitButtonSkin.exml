@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="commitButtonSkin" states="up,down,disabled,over" width="166" height="51"
+        xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="battle_scene_json.btn_seletced_png" includeIn="over,down"/>
+	<e:Image source="btnRunDown_png" includeIn="down" x="0" y="0"/>
+	<e:Image source="btnRunHover_png" includeIn="over" x="0" y="0"/>
+	<e:Image source="btnRunUp_png" includeIn="up" x="0" y="0"/>
+</e:Skin>

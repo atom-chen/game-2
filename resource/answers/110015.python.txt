@@ -1,0 +1,24 @@
+﻿# 1_3_5_继续深入
+# 1. 安全抵达终点
+# 2. 消灭所有敌人
+# 3. 拾取宝石
+# 
+# 你在废墟中迷失了方向，要怎么才能到达终点呢？
+# 当地图太大的时候，点击关卡右下的缩小按钮，可以看到关卡全局。记得善用这一点！
+
+hero.moveLeft(4)
+hero.moveDown(4)
+hero.moveLeft(2)
+hero.moveUp(2)
+hero.moveLeft(2)
+hero.moveUp()
+hero.attack("Ark")
+hero.attack("Ark")
+hero.moveDown(5)
+hero.moveRight(2)
+hero.moveDown()
+hero.attack("Ash")
+hero.attack("Ash")
+hero.moveDown()
+hero.moveLeft(2)
+

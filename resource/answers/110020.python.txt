@@ -1,0 +1,17 @@
+﻿# 1_4_5_生死时速
+# 1. 拾取加速药水
+# 2. 拾取所有宝石
+# 3. 平安抵达终点
+# 
+# 循环语句可以与其他代码组合起来使用。
+# 拾取加速药水，然后使用循环语句逃离迷宫。
+
+hero.moveRight()
+hero.moveUp()
+hero.moveDown()
+hero.moveRight(3)
+hero.moveDown()
+while True:
+    hero.moveLeft(2)
+    hero.moveDown()
+

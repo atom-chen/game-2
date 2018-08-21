@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClassHelpItemRendererSkin" width="1742" height="89" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="teaching_help_frame_png" x="0" y="0" scale9Grid="54,32,86,24" width="1736" height="89" scaleX="1" scaleY="1" anchorOffsetX="0"/>
+	<e:Button id="btnGoToHelp" label="按钮" x="1374" y="6" skinName="HelpButtonSkin"/>
+	<e:Label id="labMsg" text="XXXX在XXXX遇到困难，发来求助。" x="44" y="30" width="1040" height="30" size="28"/>
+	<e:Label id="labDate" text="2017-4-10" x="1112" y="34" size="24" textColor="0x00fcff" stroke="3" strokeColor="0x001d45" width="251" anchorOffsetX="0" anchorOffsetY="0" height="26"/>
+	<e:Button id="btnRemove" label="删除" x="1528" y="10" skinName="CommonButtonSkin"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<e:Skin class="battleZoomoutButton" states="up,over,down,disabled" width="51" height="52" currentState="up" xmlns:e="http://ns.egret.com/eui">
+        <e:Image source="battle_scene_json.map_zoom_small_normal_png" includeIn="up"/>
+
+        <e:Image source="battle_scene_json.map_zoom_small_selected_png" includeIn="over" />
+
+        <e:Image source="battle_scene_json.map_zoom_small_selected_png" includeIn="down"/>
+
+        <e:Image source="battle_scene_json.map_zoom_small_gray_png" includeIn="disabled"/>
+</e:Skin>

@@ -1,0 +1,11 @@
+﻿# 1_4_3_穿越回廊
+# 1. 拾取宝石
+# 2. 抵达终点
+# 
+# 用最简洁的代码穿越这片迷宫吧。
+
+while True:
+    hero.moveRight()
+    hero.moveDown()
+    hero.moveRight(2)
+    hero.moveUp()

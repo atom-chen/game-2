@@ -1,0 +1,24 @@
+﻿# 1_5_4_伏兵
+# 1. 消灭罗格兽
+# 2. 消灭萨尔瓦蛮兵
+# 3. 平安抵达终点
+# 
+# 在装备得到提升之前，贸然攻击罗格兽可能会让你战死哦！
+# 所以先2星通关试试吧！
+
+hero.moveRight()
+hero.moveDown(2)
+hero.moveRight(5)
+hero.moveDown(3)
+my1 = hero.findNearestEnemy()
+hero.attack(my1)
+hero.attack(my1)
+hero.moveUp(5)
+my1 = hero.findNearestEnemy()
+hero.attack(my1)
+hero.attack(my1)
+my2 = hero.findNearestEnemy()
+hero.attack(my2)
+hero.attack(my2)
+hero.moveDown(2)
+hero.moveRight()

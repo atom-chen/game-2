@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DialogWindowSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="labStory" text="标签" x="255" y="382" width="1410" height="236"/>
+	<e:Button id="btnSkip" label="跳过" x="212" y="856" skinName="skins.ButtonSkin"/>
+	<e:Button id="btnNext" label="下一步" x="1565" y="856" skinName="skins.ButtonSkin"/>
+</e:Skin>

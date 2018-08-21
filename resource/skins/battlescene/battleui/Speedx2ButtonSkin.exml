@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Speedx2ButtonSkin" width="151" height="56" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,over,down,disabled" >
+	<e:Image source="btn_speed2_normal_png" includeIn="up"/>
+    <e:Image source="btn_speed2_selected_png" includeIn="over"/>
+    <e:Image source="btn_speed2_selected_png" includeIn="down"/>
+</e:Skin>

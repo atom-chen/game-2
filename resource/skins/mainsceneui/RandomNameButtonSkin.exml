@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RandomNameButtonSkin" width="86" height="89" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,over,down,disabled" >
+	<e:Image source="register_json.register_btn_sieve_normal_png" includeIn="up" y="4" x="5"/>
+	<e:Image source="register_json.register_btn_sieve_selected_png" includeIn="over"/>
+	<e:Image source="register_json.register_btn_sieve_selected_png" includeIn="down"/>
+</e:Skin>

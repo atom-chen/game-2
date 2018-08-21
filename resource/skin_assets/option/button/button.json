@@ -1,0 +1,7 @@
+{"file":"button.png","frames":{
+"btn_cancel_normal_png":{"x":110,"y":1,"w":107,"h":80,"offX":0,"offY":0,"sourceW":107,"sourceH":80},
+"btn_cancel_selected_png":{"x":1,"y":1,"w":107,"h":80,"offX":0,"offY":0,"sourceW":107,"sourceH":80},
+"btn_sure_normal_png":{"x":109,"y":83,"w":106,"h":80,"offX":0,"offY":0,"sourceW":106,"sourceH":80},
+"btn_sure_selected_png":{"x":1,"y":83,"w":106,"h":80,"offX":0,"offY":0,"sourceW":106,"sourceH":80},
+"system_btn_rename_normal_png":{"x":109,"y":165,"w":106,"h":80,"offX":0,"offY":0,"sourceW":106,"sourceH":80},
+"system_btn_rename_selected_png":{"x":1,"y":165,"w":106,"h":80,"offX":0,"offY":0,"sourceW":106,"sourceH":80}}}

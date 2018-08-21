@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="AlertSkin" width="642" height="452" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="alert_bg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+	<e:Button id="btnConfirm" y="330" label="确定" x="378" skinName="CommonButtonSkin"/>
+	<e:Button id="btnCancel" y="330" label="取消" x="147" skinName="CommonButtonSkin"/>
+	<e:Label id="labContent" text="content" x="118" y="150" width="386" height="93" size="23" textAlign="center" verticalAlign="middle"/>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SystemNicknameSkin" width="762" height="349" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="option_json.system_frame_name_png" x="0" y="0"/>
+	<e:Image source="option_json.system_info_newname_png" x="57" y="109"/>
+	<e:Button id="btnClose" label="按钮" x="681" y="71" skinName="WindowCloseBtnSkin"/>
+	<e:Button id="surebtn" label="按钮" x="311" y="245" skinName="SureButton"/>
+	<e:TextInput id="InputNickname" x="230" y="121" width="412" height="54" skinName="SystemInputSkin"/>
+</e:Skin>

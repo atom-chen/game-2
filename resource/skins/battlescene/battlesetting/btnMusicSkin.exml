@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="btnMusicSkin" width="144" height="179" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,over,down,disabled,upAndSelected,overAndSelected,downAndSelected,disabledAndSelected" >
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_music_close_normal_img_png" includeIn="downAndSelected" x="0" y="0"/>
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_music_close_normal_word_png" includeIn="downAndSelected" x="-14" y="100"/>
+
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_music_close_normal_img_png" includeIn="overAndSelected" x="0" y="0"/>
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_music_close_normal_word_png" includeIn="overAndSelected" x="-14" y="100"/>
+	
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_music_close_normal_img_png" includeIn="upAndSelected" x="0"/>
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_music_close_normal_word_png" includeIn="upAndSelected" x="-14" y="100"/>
+
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_music_open_selected_img_png" includeIn="down" x="0" y="0"/>
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_music_open_selected_word_png" includeIn="down" x="-14" y="100"/>
+
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_music_open_selected_img_png" includeIn="over" x="0"/>
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_music_open_selected_word_png" includeIn="over" x="-14" y="100"/>
+
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_music_open_normal_img_png" includeIn="up" x="0" y="0"/>
+	<e:Image source="battle_scene_setting_json.battle_setting_btn_music_open_normal_word_png" includeIn="up" x="-14" y="100"/>
+</e:Skin>

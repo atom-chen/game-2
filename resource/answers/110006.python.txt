@@ -1,0 +1,22 @@
+﻿# 1_2_1_战斗之剑
+# 1. 拾取宝石
+# 2. 到达终点
+# 3. 英雄存活
+#
+# 现在你拥有了第一把武器，可以和敌人一战了！
+# 括号里加引号的内容是敌人的名字，你可以在敌人头上看到它。
+
+hero.moveUp()
+hero.attack("Afra")
+hero.attack("Afra")
+# 在星际旅行之中，这只是入门级武器，如果一刀没有打倒对方，记得多写一行代码再补一刀。
+# 大胆尝试也是探险的乐趣所在。
+
+hero.moveUp()
+hero.attack("Afra") 
+hero.attack("Afra")
+hero.moveLeft(2)
+hero.attack("York")
+hero.attack("York")
+hero.moveLeft(2)
+

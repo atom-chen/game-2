@@ -1,0 +1,19 @@
+
+/// <reference path="../libs/modules/dragonBones/dragonBones.d.ts" />
+/// <reference path="../libs/modules/egret/egret.d.ts" />
+/// <reference path="../libs/modules/game/game.d.ts" />
+/// <reference path="../libs/modules/res/res.d.ts" />
+/// <reference path="../libs/modules/socket/socket.d.ts" />
+/// <reference path="../libs/modules/tween/tween.d.ts" />
+/// <reference path="globals/ace/index.d.ts" />
+/// <reference path="globals/aether/index.d.ts" />
+/// <reference path="globals/lodash/index.d.ts" />
+/// <reference path="globals/jquery/index.d.ts" />
+/// <reference path="globals/marked/index.d.ts" />
+/// <reference path="globals/qq/index.d.ts" />
+/// <reference path="globals/talkingdata/TDGA.d.ts" />
+/// <reference path="../libs/modules/greensock/greensock.d.ts"/>
+/// <reference path="../libs/modules/eui/eui.d.ts"/>
+/// <reference path="../libs/modules/box2d/box2dweb.d.ts"/>
+/// <reference path="../libs/modules/pomelo/PomeloClient.d.ts"/>
+/// <reference path="../libs/modules/mouse/mouse.d.ts"/>

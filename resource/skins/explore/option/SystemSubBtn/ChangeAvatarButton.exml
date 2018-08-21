@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChangeAvatarButton" states="up,over,down,disabled" height="55" minWidth="100" currentState="up" xmlns:e="http://ns.egret.com/eui" >
+    <e:Image source="common_utils_json.common_btn_frame_01_png" width="208"/>
+	<e:Image source="option_json.system_btn_change_avatar_selected_png" includeIn="down" x="23" y="-12"/>
+	<e:Image source="option_json.system_btn_change_avatar_selected_png" includeIn="over" x="23" y="-12"/>
+	<e:Image source="option_json.system_btn_change_avatar_normal_png" includeIn="up" x="23" y="-12"/>
+    
+</e:Skin>

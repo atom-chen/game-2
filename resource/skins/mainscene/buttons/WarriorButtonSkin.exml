@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WarriorButtonSkin" states="up,over,down,disabled" width="187" height="187" currentState="up" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="main_scene_json.btn_frame" includeIn="up"/>
+	<e:Image source="main_scene_json.btn_frame_highlight" includeIn="over,down"/>
+
+	<!-- 按钮各状态 -->
+	<e:Image source="main_scene_json.warrior_image_up" includeIn="up" x="49" y="41"/>
+	<e:Image source="main_scene_json.warrior_word_up" includeIn="up" x="28" y="102"/>
+
+	<e:Image source="main_scene_json.warrior_image_over" includeIn="over" x="49" y="41"/>
+	<e:Image source="main_scene_json.warrior_word_over" includeIn="over" x="28" y="102"/>
+
+	<e:Image source="main_scene_json.warrior_image_over" includeIn="down" x="49" y="41"/>
+	<e:Image source="main_scene_json.warrior_word_over" includeIn="down" x="28" y="102"/>
+</e:Skin>

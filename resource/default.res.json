@@ -1,0 +1,1224 @@
+{
+	"groups": [
+		{
+			"keys": "pic_progress-bar_png,loading_pic_bg_png,loadingBg_jpg,pic_effect_png,sys_json,Team_png",
+			"name": "preload"
+		},
+		{
+			"keys": "description_json,action,skill,pve_story_map,pve_story_level_goal,buff,hero,pve_story_group,npc_enemy,pve_story_level,item,equip,ai,story,event,guide",
+			"name": "config"
+		},
+		{
+			"keys": "main_scene_bg_jpg,main_scene_json,figure_captain_png,novice_boot_npc_png,novice_boot_next_png,novice_boot_frame_png,first_login_json,loading1Bg_jpg,jiantou_texture_png,jiantou_skeleton_json,jiantou_texture_json",
+			"name": "mainscene"
+		},
+		{
+			"keys": "e01_jg_attack_1_mp3,e01_qs_attack_1_mp3,fight1_mp3,fight2_mp3,g01_bomb_mp3,g02_open_mp3,g04_lightning_mp3,g04_wrong_mp3,g05_transfer_mp3,g06_build_mp3,g07_laser_mp3,g09_gem_mp3,g11_dragon_mp3,g12_tiger_mp3,s01_zs_attack_1_mp3,u01_button_mp3,u02_back_mp3,u06_score_mp3,u07_skill_mp3,u10_start_mp3,u11_run_mp3,ui_mp3",
+			"name": "sounds"
+		},
+		{
+			"keys": "common_utils_json",
+			"name": "common"
+		},
+		{
+			"keys": "battleBg_png_png,battle_scene_json,battle_scene_setting_json,SimplePaletteTip_tpl,battle_victory_window_json,win_blingbling_png,win_chib_json,win_chib_png,win_1_json,win_1_png,win_2_json,win_2_png,win_3_json,win_3_png,win_blingbling_json",
+			"name": "battlescene"
+		},
+		{
+			"keys": "explore_json,tollgateBtn_json,tollgateBtn_png,chapterMap_1005_jpg,chapterMap_1004_jpg,chapterMap_1003_jpg,chapterMap_1002_jpg,chapterMap_1001_jpg,barrier_json",
+			"name": "explore"
+		},
+		{
+			"keys": "equip_json,equip_tips_json,equip_bg_png",
+			"name": "equip"
+		},
+		{
+			"keys": "hero_json",
+			"name": "hero"
+		},
+		{
+			"keys": "badge_json",
+			"name": "badge"
+		},
+		{
+			"keys": "register_json",
+			"name": "register"
+		},
+		{
+			"keys": "login_json",
+			"name": "login"
+		},
+		{
+			"keys": "option_json,button_json",
+			"name": "option"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "explore"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "config/action.csv",
+			"type": "text",
+			"name": "action"
+		},
+		{
+			"url": "config/skill.csv",
+			"type": "text",
+			"name": "skill"
+		},
+		{
+			"url": "battle/map/foot.png",
+			"type": "image",
+			"name": "foot_png"
+		},
+		{
+			"url": "battle/map/bubble.png",
+			"type": "image",
+			"name": "bubble_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_bg.jpg",
+			"type": "image",
+			"name": "main_scene_bg_jpg"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene.json",
+			"type": "sheet",
+			"name": "main_scene_json",
+			"subkeys": "Producer_a,Producer_b,badge_image_over,badge_image_up,badge_word_over,badge_word_up,btn_frame,btn_frame_highlight,campaign_word_normal_1,campaign_word_normal_2,campaign_word_normal_3,campaign_word_normal_4,campaign_word_normal_5,campaign_word_selected_1,campaign_word_selected_2,campaign_word_selected_3,campaign_word_selected_4,campaign_word_selected_5,common_btn_buy_normal,common_btn_buy_selected,common_btn_login_normal,common_btn_login_selected,common_btn_quit_normal,common_btn_quit_selected,common_btn_register_normal,common_btn_register_selected,common_icon_gem,comomon_icon_vigor,gamefeature_disabled,gamefeature_display_normal,gamefeature_display_selected,gamefeature_frame_normal_gray,gamefeature_locked,gamefeature_word_disabled_2,gamefeature_word_disabled_3,gamefeature_word_normal_1,gamefeature_word_selected_1,hud_head_frame,hud_name_frame,hud_tips_frame,mall_image_over,mall_image_up,mall_word_over,mall_word_up,return_normal,return_selected,setting_image_over,setting_image_up,setting_word_over,setting_word_up,teaching_btn_icon_normal,teaching_btn_icon_selected,vigor_cell_normal,vigor_cell_selected,warrior_image_over,warrior_image_up,warrior_word_over,warrior_word_up"
+		},
+		{
+			"url": "skin_assets/loading/pic_progress-bar.png",
+			"type": "image",
+			"name": "pic_progress-bar_png"
+		},
+		{
+			"url": "skin_assets/loading/loading_pic_bg.png",
+			"type": "image",
+			"name": "loading_pic_bg_png"
+		},
+		{
+			"url": "skin_assets/loading/loading1Bg.jpg",
+			"type": "image",
+			"name": "loading1Bg_jpg"
+		},
+		{
+			"url": "skin_assets/loading/loadingBg.jpg",
+			"type": "image",
+			"name": "loadingBg_jpg"
+		},
+		{
+			"url": "skin_assets/loading/pic_effect.png",
+			"type": "image",
+			"name": "pic_effect_png"
+		},
+		{
+			"url": "skin_assets/common_utils/common_utils.json",
+			"type": "sheet",
+			"name": "common_utils_json",
+			"subkeys": "ability_attack_icon_png,ability_life_icon_png,ability_speed_icon_png,ability_view_icon_png,card_blue_png,card_golden_png,card_green_png,card_icon_limit_png,card_orange_png,card_purple_png,card_white_png,career_all_icon_png,career_assassin_icon_png,career_gunman_icon_png,career_mage_icon_png,career_warrior_icon_png,common_btn_check_off_png,common_btn_check_on_png,common_btn_close_normal_png,common_btn_close_selected_png,common_btn_frame_01_png,common_btn_frame_02_png,common_btn_frame_03_normal_png,common_btn_frame_03_selected_png,common_btn_frame_04_normal_png,common_btn_frame_05_normal_png,common_btn_frame_05_selected_png,common_btn_frame_big_1_png,common_btn_frame_big_2_png,common_btn_frame_medium_1_png,common_btn_frame_medium_2_png,common_btn_frame_small_1_png,common_btn_frame_small_2_png,common_btn_next_normal_png,common_btn_next_selected_png,common_btn_receive_normal_png,common_btn_receive_selected_png,common_btn_sure_normal_png,common_btn_sure_selected_png,common_frame_prompt_png,common_input_frame_png,common_split_line_png,common_title_line_png,equip_btn_card_info_normal_png,equip_btn_card_info_selected_png,equip_icon_1_png,equip_icon_2_png,equip_icon_3_png,equip_icon_4_png,equip_icon_5_png,equip_icon_6_png,equip_icon_7_png,equip_icon_8_png,item_frame_png,num_blue_0_png,num_blue_1_png,num_blue_2_png,num_blue_3_png,num_blue_4_png,num_blue_5_png,num_blue_6_png,num_blue_7_png,num_blue_8_png,num_blue_9_png,num_blue_and_png,num_yellow_0_png,num_yellow_1_png,num_yellow_2_png,num_yellow_3_png,num_yellow_4_png,num_yellow_5_png,num_yellow_6_png,num_yellow_7_png,num_yellow_8_png,num_yellow_9_png,num_yellow_and_png"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battleBg_png.png",
+			"type": "image",
+			"name": "battleBg_png_png"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene.json",
+			"type": "sheet",
+			"name": "battle_scene_json",
+			"subkeys": "HP_corner_blue_png,HP_dissatisfied_blue_png,HP_full_blue_png,HP_notfull_blue_png,battle_adventure_image_normal_png,battle_adventure_image_selected_png,battle_adventure_word_normal_png,battle_adventure_word_selected_png,battle_scene_HP_img_png,battle_scene_MP_img_png,battle_setting_image_normal_png,battle_setting_image_selected_png,battle_setting_word_normal_png,battle_setting_word_selected_png,btn_finish_normal_png,btn_finish_selected_png,btn_frame_normal_png,btn_frame_selected_png,btn_shrink_png,btn_speed1_normal_png,btn_speed1_selected_png,btn_speed2_normal_png,btn_speed2_selected_png,btn_start_normal_png,btn_start_selected_png,btn_stop_normal_png,btn_stop_selected_png,btn_strip_png,btn_submit_normal_png,btn_submit_selected_png,code_model_png,function_down_normal_png,function_down_selected_png,function_up_normal_png,function_up_selected_png,goal_frame_png,goal_word_img_png,hp_blue_bg_png,hp_blue_png,hp_green_bg_png,hp_green_png,hp_red_bg_png,hp_red_png,icon_model_png,map_bottom_png,map_png,map_zoom_big_gray_png,map_zoom_big_normal_png,map_zoom_big_selected_png,map_zoom_small_gray_png,map_zoom_small_normal_png,map_zoom_small_selected_png,medal_normal_png,medal_selected_png,method_default_png,min_hud_frame_png,mission_finish_img_png,mission_unfinish_img_png,palette_group_bg_png,palette_group_border_png,palette_icon_bg_png,palette_item_bg_png,red_png,rule_2_png,rule_png,star_normal_png,star_selected_png,strip_png,switch_bottom_png"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_scene_setting/battle_scene_setting.json",
+			"type": "sheet",
+			"name": "battle_scene_setting_json",
+			"subkeys": "battle_setting_Bg_png,battle_setting_btn_continue_normal_img_png,battle_setting_btn_continue_normal_word_png,battle_setting_btn_continue_selected_img_png,battle_setting_btn_continue_selected_word_png,battle_setting_btn_effect_close_normal_img_png,battle_setting_btn_effect_close_normal_word_png,battle_setting_btn_effect_open_normal_img_png,battle_setting_btn_effect_open_normal_word_png,battle_setting_btn_effect_open_selected_img_png,battle_setting_btn_effect_open_selected_word_png,battle_setting_btn_music_close_normal_img_png,battle_setting_btn_music_close_normal_word_png,battle_setting_btn_music_open_normal_img_png,battle_setting_btn_music_open_normal_word_png,battle_setting_btn_music_open_selected_img_png,battle_setting_btn_music_open_selected_word_png,battle_setting_btn_quit_normal_img_png,battle_setting_btn_quit_normal_word_png,battle_setting_btn_quit_selected_img_png,battle_setting_btn_quit_selected_word_png,battle_setting_btn_restart_normal_img_png,battle_setting_btn_restart_normal_word_png,battle_setting_btn_restart_selected_img_png,battle_setting_btn_restart_selected_word_png"
+		},
+		{
+			"url": "config/buff.csv",
+			"type": "text",
+			"name": "buff"
+		},
+		{
+			"url": "config/hero.csv",
+			"type": "text",
+			"name": "hero"
+		},
+		{
+			"url": "config/item.csv",
+			"type": "text",
+			"name": "item"
+		},
+		{
+			"url": "config/npc_enemy.csv",
+			"type": "text",
+			"name": "npc_enemy"
+		},
+		{
+			"url": "config/pve_story_group.csv",
+			"type": "text",
+			"name": "pve_story_group"
+		},
+		{
+			"url": "config/pve_story_level.csv",
+			"type": "text",
+			"name": "pve_story_level"
+		},
+		{
+			"url": "config/pve_story_map.csv",
+			"type": "text",
+			"name": "pve_story_map"
+		},
+		{
+			"url": "config/pve_story_level_goal.csv",
+			"type": "text",
+			"name": "pve_story_level_goal"
+		},
+		{
+			"url": "skin_assets/explore/explore_win/explore.json",
+			"type": "sheet",
+			"name": "explore_json",
+			"subkeys": "explore_btn_buy_normal_png,explore_btn_buy_selected_png,explore_chapter_name_png,explore_flip_png,explore_hud_name_frame_png,explore_icon_gem_png,explore_icon_vigor_png,explore_tips_frame_png,tanxian1_png,tanxian4_png,tanxian5_png,tanxian6_png,tanxian7_png,tanxian_frame_png,tanxian_pagedown_over_png,tanxian_pagedown_up_png,tanxian_pageup_over_png,tanxian_pageup_up_png,tanxian_star_png,titleTanxian_png,tollgate_lock_png"
+		},
+		{
+			"url": "skin_assets/explore/explore_win/explore_assets/tollgateBtn.json",
+			"type": "json",
+			"name": "tollgateBtn_json"
+		},
+		{
+			"url": "skin_assets/explore/explore_win/explore_assets/tollgateBtn.png",
+			"type": "image",
+			"name": "tollgateBtn_png"
+		},
+		{
+			"url": "skin_assets/explore/chaptermap/chapterMap_1001.jpg",
+			"type": "image",
+			"name": "chapterMap_1001_jpg"
+		},
+		{
+			"url": "skin_assets/explore/chaptermap/chapterMap_1002.jpg",
+			"type": "image",
+			"name": "chapterMap_1002_jpg"
+		},
+		{
+			"url": "skin_assets/explore/chaptermap/chapterMap_1003.jpg",
+			"type": "image",
+			"name": "chapterMap_1003_jpg"
+		},
+		{
+			"url": "skin_assets/explore/chaptermap/chapterMap_1004.jpg",
+			"type": "image",
+			"name": "chapterMap_1004_jpg"
+		},
+		{
+			"url": "skin_assets/explore/chaptermap/chapterMap_1005.jpg",
+			"type": "image",
+			"name": "chapterMap_1005_jpg"
+		},
+		{
+			"url": "config/equip.csv",
+			"type": "text",
+			"name": "equip"
+		},
+		{
+			"url": "skin_assets/explore/equip_win/equip.json",
+			"type": "sheet",
+			"name": "equip_json",
+			"subkeys": "equip_btn_fight_normal_png,equip_btn_fight_selected_png,equip_card_frame_master_png,equip_card_frame_png,equip_card_label_have_png,equip_card_label_nothave_png,equip_card_lable_have_prompt_png,equip_card_lable_nothave_prompt_png,equip_card_master_png,equip_iconbox_normal_png,equip_iconbox_selected_png,equip_info_frame_png,equip_label_0_normal_png,equip_label_0_selected_png,equip_label_1_normal_png,equip_label_1_selected_png,equip_label_2_normal_png,equip_label_2_selected_png,equip_label_3_normal_png,equip_label_3_selected_png,equip_label_4_normal_png,equip_label_4_selected_png,equip_label_5_normal_png,equip_label_5_selected_png,equip_label_6_normal_png,equip_label_6_selected_png,equip_label_7_normal_png,equip_label_7_selected_png,equip_label_8_normal_png,equip_label_8_selected_png,equip_label_frame_png,equip_master_png,equip_prompt_png"
+		},
+		{
+			"url": "skin_assets/explore/equip_win/equip_win_assests/equip_bg.png",
+			"type": "image",
+			"name": "equip_bg_png"
+		},
+		{
+			"url": "config/ai.csv",
+			"type": "text",
+			"name": "ai"
+		},
+		{
+			"url": "skin_assets/battlescene/action/SimplePaletteTip.tpl",
+			"type": "text",
+			"name": "SimplePaletteTip_tpl"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_victory/battle_victory_window.json",
+			"type": "sheet",
+			"name": "battle_victory_window_json",
+			"subkeys": "battle_level_pic_png,battle_next_normal_png,battle_next_selected_png,battle_rule_png,pic_charts_normal_png,pic_charts_selected_png,pic_continue_normal_png,pic_continue_selected_png,pic_reward_get_png,pic_victory_01_png,pic_victory_03_png,xp_empty_png,xp_full_png"
+		},
+		{
+			"url": "skin_assets/explore/barrier_win/barrier.json",
+			"type": "sheet",
+			"name": "barrier_json",
+			"subkeys": "barrier_arrow_png,barrier_battle_png,barrier_cell_frame_png,barrier_frame_name_map_png,barrier_knowledge_frame_png,barrier_knowledge_png,barrier_locked_png,barrier_rebattle_png,barrier_vigor_required_png,tollgate_scrollbar_strip_png"
+		},
+		{
+			"url": "config/story.csv",
+			"type": "text",
+			"name": "story"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_victory/result_animation/win_blingbling.png",
+			"type": "image",
+			"name": "win_blingbling_png"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_victory/result_animation/win_chib.json",
+			"type": "json",
+			"name": "win_chib_json"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_victory/result_animation/win_chib.png",
+			"type": "image",
+			"name": "win_chib_png"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_victory/result_animation/win_1.json",
+			"type": "json",
+			"name": "win_1_json"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_victory/result_animation/win_1.png",
+			"type": "image",
+			"name": "win_1_png"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_victory/result_animation/win_2.json",
+			"type": "json",
+			"name": "win_2_json"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_victory/result_animation/win_2.png",
+			"type": "image",
+			"name": "win_2_png"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_victory/result_animation/win_3.json",
+			"type": "json",
+			"name": "win_3_json"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_victory/result_animation/win_3.png",
+			"type": "image",
+			"name": "win_3_png"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_victory/result_animation/win_blingbling.json",
+			"type": "json",
+			"name": "win_blingbling_json"
+		},
+		{
+			"url": "skin_assets/explore/equip_tips/equip_tips.json",
+			"type": "sheet",
+			"name": "equip_tips_json",
+			"subkeys": "equip_tips_btn_equip_png,equip_tips_btn_unload_png,equip_tips_frame_png,equip_tips_info_career_png,equip_tips_info_describe_png,equip_tips_info_frame_png,equip_tips_info_icon_png,equip_tips_info_rarity_png,equip_tips_info_type_png,equip_tips_line_png"
+		},
+		{
+			"url": "icon/equip/alloy_armor.png",
+			"type": "image",
+			"name": "alloy_armor_png"
+		},
+		{
+			"url": "icon/equip/chain_sword.png",
+			"type": "image",
+			"name": "chain_sword_png"
+		},
+		{
+			"url": "icon/equip/composite_armor.png",
+			"type": "image",
+			"name": "composite_armor_png"
+		},
+		{
+			"url": "icon/equip/composite_shield.png",
+			"type": "image",
+			"name": "composite_shield_png"
+		},
+		{
+			"url": "icon/equip/element_gem.png",
+			"type": "image",
+			"name": "element_gem_png"
+		},
+		{
+			"url": "icon/equip/golden_compass.png",
+			"type": "image",
+			"name": "golden_compass_png"
+		},
+		{
+			"url": "icon/equip/icon_belt.png",
+			"type": "image",
+			"name": "icon_belt_png"
+		},
+		{
+			"url": "icon/equip/icon_energy.png",
+			"type": "image",
+			"name": "icon_energy_png"
+		},
+		{
+			"url": "icon/equip/icon_exp.png",
+			"type": "image",
+			"name": "icon_exp_png"
+		},
+		{
+			"url": "icon/equip/icon_gem.png",
+			"type": "image",
+			"name": "icon_gem_png"
+		},
+		{
+			"url": "icon/equip/icon_glass.png",
+			"type": "image",
+			"name": "icon_glass_png"
+		},
+		{
+			"url": "icon/equip/icon_hammer.png",
+			"type": "image",
+			"name": "icon_hammer_png"
+		},
+		{
+			"url": "icon/equip/icon_hat.png",
+			"type": "image",
+			"name": "icon_hat_png"
+		},
+		{
+			"url": "icon/equip/icon_move.png",
+			"type": "image",
+			"name": "icon_move_png"
+		},
+		{
+			"url": "icon/equip/logic_chip_alpha.png",
+			"type": "image",
+			"name": "logic_chip_alpha_png"
+		},
+		{
+			"url": "icon/equip/logic_chip_beta.png",
+			"type": "image",
+			"name": "logic_chip_beta_png"
+		},
+		{
+			"url": "icon/equip/mithril_compass.png",
+			"type": "image",
+			"name": "mithril_compass_png"
+		},
+		{
+			"url": "icon/equip/nanomaterial_sword.png",
+			"type": "image",
+			"name": "nanomaterial_sword_png"
+		},
+		{
+			"url": "icon/equip/obsidian_compass.png",
+			"type": "image",
+			"name": "obsidian_compass_png"
+		},
+		{
+			"url": "icon/equip/rejuvenate_gem.png",
+			"type": "image",
+			"name": "rejuvenate_gem_png"
+		},
+		{
+			"url": "icon/equip/titaniumalloy_sword.png",
+			"type": "image",
+			"name": "titaniumalloy_sword_png"
+		},
+		{
+			"url": "icon/equip/highstrengthglassfibre_armor.png",
+			"type": "image",
+			"name": "highstrengthglassfibre_armor_png"
+		},
+		{
+			"url": "icon/item/common_star_normal.png",
+			"type": "image",
+			"name": "common_star_normal_png"
+		},
+		{
+			"url": "icon/item/common_star_selected.png",
+			"type": "image",
+			"name": "common_star_selected_png"
+		},
+		{
+			"url": "config/event.csv",
+			"type": "text",
+			"name": "event"
+		},
+		{
+			"url": "skin_assets/register/register.json",
+			"type": "sheet",
+			"name": "register_json",
+			"subkeys": "register_age_png,register_btn_check_off_png,register_btn_check_on_png,register_btn_complete_normal_png,register_btn_complete_selected_png,register_btn_sieve_normal_png,register_btn_sieve_selected_png,register_confirm_png,register_frame_01_png,register_frame_02_png,register_mail_png,register_name_png,register_password_png,register_title_png"
+		},
+		{
+			"url": "skin_assets/login/login.json",
+			"type": "sheet",
+			"name": "login_json",
+			"subkeys": "btn_login_normal_png,btn_login_selected_png,login_frame_png,login_icon_qq_png,login_mail_png,login_password_png"
+		},
+		{
+			"url": "skin_assets/createrole/createrole_assets/create_role_info_frame_01.png",
+			"type": "image",
+			"name": "create_role_info_frame_01_png"
+		},
+		{
+			"url": "skin_assets/createrole/createrole_assets/create_role_bg.jpg",
+			"type": "image",
+			"name": "create_role_bg_jpg"
+		},
+		{
+			"url": "skin_assets/createrole/createrole_assets/create_role_btn_choose_normal.png",
+			"type": "image",
+			"name": "create_role_btn_choose_normal_png"
+		},
+		{
+			"url": "skin_assets/createrole/createrole_assets/create_role_btn_choose_selected.png",
+			"type": "image",
+			"name": "create_role_btn_choose_selected_png"
+		},
+		{
+			"url": "skin_assets/createrole/createrole_assets/create_role_info_frame.png",
+			"type": "image",
+			"name": "create_role_info_frame_png"
+		},
+		{
+			"url": "skin_assets/createrole/createrole_assets/create_role_front.png",
+			"type": "image",
+			"name": "create_role_front_png"
+		},
+		{
+			"url": "skin_assets/alert/alert_bg.png",
+			"type": "image",
+			"name": "alert_bg_png"
+		},
+		{
+			"url": "sounds/e01_jg_attack_1.mp3",
+			"type": "sound",
+			"name": "e01_jg_attack_1_mp3"
+		},
+		{
+			"url": "sounds/e01_qs_attack_1.mp3",
+			"type": "sound",
+			"name": "e01_qs_attack_1_mp3"
+		},
+		{
+			"url": "sounds/fight1.mp3",
+			"type": "sound",
+			"name": "fight1_mp3"
+		},
+		{
+			"url": "sounds/fight2.mp3",
+			"type": "sound",
+			"name": "fight2_mp3"
+		},
+		{
+			"url": "sounds/g01_bomb.mp3",
+			"type": "sound",
+			"name": "g01_bomb_mp3"
+		},
+		{
+			"url": "sounds/g02_open.mp3",
+			"type": "sound",
+			"name": "g02_open_mp3"
+		},
+		{
+			"url": "sounds/g04_lightning.mp3",
+			"type": "sound",
+			"name": "g04_lightning_mp3"
+		},
+		{
+			"url": "sounds/g04_wrong.mp3",
+			"type": "sound",
+			"name": "g04_wrong_mp3"
+		},
+		{
+			"url": "sounds/g05_transfer.mp3",
+			"type": "sound",
+			"name": "g05_transfer_mp3"
+		},
+		{
+			"url": "sounds/g06_build.mp3",
+			"type": "sound",
+			"name": "g06_build_mp3"
+		},
+		{
+			"url": "sounds/g07_laser.mp3",
+			"type": "sound",
+			"name": "g07_laser_mp3"
+		},
+		{
+			"url": "sounds/g09_gem.mp3",
+			"type": "sound",
+			"name": "g09_gem_mp3"
+		},
+		{
+			"url": "sounds/g11_dragon.mp3",
+			"type": "sound",
+			"name": "g11_dragon_mp3"
+		},
+		{
+			"url": "sounds/g12_tiger.mp3",
+			"type": "sound",
+			"name": "g12_tiger_mp3"
+		},
+		{
+			"url": "sounds/s01_zs_attack_1.mp3",
+			"type": "sound",
+			"name": "s01_zs_attack_1_mp3"
+		},
+		{
+			"url": "sounds/u01_button.mp3",
+			"type": "sound",
+			"name": "u01_button_mp3"
+		},
+		{
+			"url": "sounds/u02_back.mp3",
+			"type": "sound",
+			"name": "u02_back_mp3"
+		},
+		{
+			"url": "sounds/u06_score.mp3",
+			"type": "sound",
+			"name": "u06_score_mp3"
+		},
+		{
+			"url": "sounds/u07_skill.mp3",
+			"type": "sound",
+			"name": "u07_skill_mp3"
+		},
+		{
+			"url": "sounds/u10_start.mp3",
+			"type": "sound",
+			"name": "u10_start_mp3"
+		},
+		{
+			"url": "sounds/u11_run.mp3",
+			"type": "sound",
+			"name": "u11_run_mp3"
+		},
+		{
+			"url": "sounds/ui.mp3",
+			"type": "sound",
+			"name": "ui_mp3"
+		},
+		{
+			"url": "skin_assets/badge_win/badge.json",
+			"type": "sheet",
+			"name": "badge_json",
+			"subkeys": "badge_btn_js_normal_png,badge_btn_js_selected_png,badge_btn_python_normal_png,badge_btn_python_selected_png,badge_frame_label_normal_png,badge_frame_label_selected_png,badge_frame_png,badge_line_png,badge_rack_png,badge_time_frame_png"
+		},
+		{
+			"url": "skin_assets/badge_win/badge_win_assets/badge_get_light.png",
+			"type": "image",
+			"name": "badge_get_light_png"
+		},
+		{
+			"url": "skin_assets/badge_win/badge_win_assets/badge_get_title.png",
+			"type": "image",
+			"name": "badge_get_title_png"
+		},
+		{
+			"url": "skin_assets/explore/hero_win/hero.json",
+			"type": "sheet",
+			"name": "hero_json",
+			"subkeys": "btn_back_normal_png,btn_back_selected_png,pic_bg_png,pic_fight_normal_png,pic_fight_selected_png,pic_frame_bg_png,pic_head_normal_png,pic_head_selected_png,pic_hero_bg_png,pic_lock_png,pic_name_Grace_png,pic_name_Hobo_png,pic_name_Neumann_png,pic_name_Turyn_png,pic_name_bg_png,pic_soldier_logo_assassin_png,pic_soldier_logo_gunman_png,pic_soldier_logo_mage_png,pic_soldier_logo_warrior_png,pic_star_png,pic_title_1_png,pic_title_2_png,pic_title_3_png,pic_title_bg_png"
+		},
+		{
+			"url": "config/guide.csv",
+			"type": "text",
+			"name": "guide"
+		},
+		{
+			"url": "skin_assets/guide/novice_boot_npc.png",
+			"type": "image",
+			"name": "novice_boot_npc_png"
+		},
+		{
+			"url": "skin_assets/guide/novice_boot_next.png",
+			"type": "image",
+			"name": "novice_boot_next_png"
+		},
+		{
+			"url": "skin_assets/guide/novice_boot_frame.png",
+			"type": "image",
+			"name": "novice_boot_frame_png"
+		},
+		{
+			"url": "skin_assets/battlescene/battletip/common_title_prompt.png",
+			"type": "image",
+			"name": "common_title_prompt_png"
+		},
+		{
+			"url": "skin_assets/option/option.json",
+			"type": "sheet",
+			"name": "option_json",
+			"subkeys": "system_btn_change_avatar_normal_png,system_btn_change_avatar_selected_png,system_btn_change_password_normal_png,system_btn_change_password_selected_png,system_btn_classrome_leave_normal_png,system_btn_classrome_leave_selected_png,system_classrome_input_png,system_classrome_invitationcode_png,system_classrome_myrome_png,system_frame_label_joinclassroom_normal_png,system_frame_label_joinclassroom_selected_png,system_frame_label_normal_png,system_frame_label_playerinfo_normal_png,system_frame_label_playerinfo_selected_png,system_frame_label_selected_png,system_frame_label_setup_normal_png,system_frame_label_setup_selected_png,system_frame_name_png,system_frame_password_png,system_frame_png,system_info_mail_png,system_info_name_png,system_info_newname_png,system_info_passwordnew_png,system_info_passwordsure_png,system_setup_arrow_png,system_setup_battlemusic_png,system_setup_battlesound_png,system_setup_frame_png,system_setup_off_png,system_setup_on_png,system_setup_pic_off_png,system_setup_pic_on_png,system_setup_selectlanguage_png,system_setup_systemmusic_png,system_setup_systemsound_png"
+		},
+		{
+			"url": "skin_assets/option/button/button.json",
+			"type": "sheet",
+			"name": "button_json",
+			"subkeys": "btn_cancel_normal_png,btn_cancel_selected_png,btn_sure_normal_png,btn_sure_selected_png,system_btn_rename_normal_png,system_btn_rename_selected_png"
+		},
+		{
+			"url": "skin_assets/teach/teaching_btn_reply_selected.png",
+			"type": "image",
+			"name": "teaching_btn_reply_selected_png"
+		},
+		{
+			"url": "skin_assets/teach/teaching_btn_see_selected.png",
+			"type": "image",
+			"name": "teaching_btn_see_selected_png"
+		},
+		{
+			"url": "skin_assets/teach/teaching_btn_seekhelp_normal.png",
+			"type": "image",
+			"name": "teaching_btn_seekhelp_normal_png"
+		},
+		{
+			"url": "skin_assets/teach/teaching_btn_see_normal.png",
+			"type": "image",
+			"name": "teaching_btn_see_normal_png"
+		},
+		{
+			"url": "skin_assets/teach/teaching_btn_seekhelp_selected.png",
+			"type": "image",
+			"name": "teaching_btn_seekhelp_selected_png"
+		},
+		{
+			"url": "skin_assets/teach/teaching_choose_frame_bottom.png",
+			"type": "image",
+			"name": "teaching_choose_frame_bottom_png"
+		},
+		{
+			"url": "skin_assets/teach/teaching_help_btn_go_normal.png",
+			"type": "image",
+			"name": "teaching_help_btn_go_normal_png"
+		},
+		{
+			"url": "skin_assets/teach/teaching_help_btn_go_selected.png",
+			"type": "image",
+			"name": "teaching_help_btn_go_selected_png"
+		},
+		{
+			"url": "skin_assets/teach/teaching_btn_reply_normal.png",
+			"type": "image",
+			"name": "teaching_btn_reply_normal_png"
+		},
+		{
+			"url": "skin_assets/teach/teaching_reddot.png",
+			"type": "image",
+			"name": "teaching_reddot_png"
+		},
+		{
+			"url": "skin_assets/teach/teaching_help_frame.png",
+			"type": "image",
+			"name": "teaching_help_frame_png"
+		},
+		{
+			"url": "battle/ace/error_btn.png",
+			"type": "image",
+			"name": "error_btn_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/common_btn_buy_normal.png",
+			"type": "image",
+			"name": "common_btn_buy_normal_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/common_btn_buy_selected.png",
+			"type": "image",
+			"name": "common_btn_buy_selected_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/hud_head_frame.png",
+			"type": "image",
+			"name": "hud_head_frame_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/hud_name_frame.png",
+			"type": "image",
+			"name": "hud_name_frame_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/hud_tips_frame.png",
+			"type": "image",
+			"name": "hud_tips_frame_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/comomon_icon_vigor.png",
+			"type": "image",
+			"name": "comomon_icon_vigor_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/common_icon_gem.png",
+			"type": "image",
+			"name": "common_icon_gem_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/common_btn_login_normal.png",
+			"type": "image",
+			"name": "common_btn_login_normal_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/common_btn_login_selected.png",
+			"type": "image",
+			"name": "common_btn_login_selected_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/common_btn_quit_normal.png",
+			"type": "image",
+			"name": "common_btn_quit_normal_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/common_btn_quit_selected.png",
+			"type": "image",
+			"name": "common_btn_quit_selected_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/common_btn_register_normal.png",
+			"type": "image",
+			"name": "common_btn_register_normal_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/common_btn_register_selected.png",
+			"type": "image",
+			"name": "common_btn_register_selected_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/vigor_cell_normal.png",
+			"type": "image",
+			"name": "vigor_cell_normal_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/HUD_btn/vigor_cell_selected.png",
+			"type": "image",
+			"name": "vigor_cell_selected_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/badge_word_up.png",
+			"type": "image",
+			"name": "badge_word_up_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/badge_image_over.png",
+			"type": "image",
+			"name": "badge_image_over_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/badge_image_up.png",
+			"type": "image",
+			"name": "badge_image_up_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/badge_word_over.png",
+			"type": "image",
+			"name": "badge_word_over_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/gamefeature_display_normal.png",
+			"type": "image",
+			"name": "gamefeature_display_normal_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/gamefeature_display_selected.png",
+			"type": "image",
+			"name": "gamefeature_display_selected_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/gamefeature_word_normal_1.png",
+			"type": "image",
+			"name": "gamefeature_word_normal_1_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/gamefeature_word_selected_1.png",
+			"type": "image",
+			"name": "gamefeature_word_selected_1_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/gamefeature_word_disabled_3.png",
+			"type": "image",
+			"name": "gamefeature_word_disabled_3_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/gamefeature_word_disabled_2.png",
+			"type": "image",
+			"name": "gamefeature_word_disabled_2_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/gamefeature_disabled.png",
+			"type": "image",
+			"name": "gamefeature_disabled_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/gamefeature_locked.png",
+			"type": "image",
+			"name": "gamefeature_locked_png"
+		},
+		{
+			"url": "skin_assets/first_login/first_login.json",
+			"type": "sheet",
+			"name": "first_login_json",
+			"subkeys": "firstlogin_bg_jpg,firstlogin_btn_frame_png,firstlogin_btn_lodin_selected_png,firstlogin_btn_login_normal_png,firstlogin_btn_register_normal_png,firstlogin_btn_register_selected_png,firstlogin_btn_start_frame_png,firstlogin_btn_start_normal_png,firstlogin_btn_start_selected_png"
+		},
+		{
+			"url": "skin_assets/common_utils/common_utils_assets/role/figure_captain.png",
+			"type": "image",
+			"name": "figure_captain_png"
+		},
+		{
+			"url": "battle/ace/error.png",
+			"type": "image",
+			"name": "error_png"
+		},
+		{
+			"url": "skin_assets/battlescene/action/Tips.png",
+			"type": "image",
+			"name": "Tips_png"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_victory/battle_victory_window_assets/Battle-result-effect.png",
+			"type": "image",
+			"name": "Battle-result-effect_png"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_victory/battle_victory_window_assets/Battle_star_selected.png",
+			"type": "image",
+			"name": "Battle_star_selected_png"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/battle_victory/battle_victory_window_assets/pic_victory_02.png",
+			"type": "image",
+			"name": "pic_victory_02_png"
+		},
+		{
+			"url": "skin_assets/battlescene/battle_scene_assets/TaskTips.png",
+			"type": "image",
+			"name": "TaskTips_png"
+		},
+		{
+			"url": "skin_assets/explore/equip_win/equip_win_assests/herocareer_1.png",
+			"type": "image",
+			"name": "herocareer_1_png"
+		},
+		{
+			"url": "skin_assets/explore/hero_win/hero_win_assets/pic_battle.png",
+			"type": "image",
+			"name": "pic_battle_png"
+		},
+		{
+			"url": "skin_assets/explore/hero_win/hero_win_assets/pic_hero_1.png",
+			"type": "image",
+			"name": "pic_hero_1_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/campaign_word_normal_1.png",
+			"type": "image",
+			"name": "campaign_word_normal_1_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/campaign_word_normal_2.png",
+			"type": "image",
+			"name": "campaign_word_normal_2_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/campaign_word_normal_3.png",
+			"type": "image",
+			"name": "campaign_word_normal_3_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/campaign_word_normal_4.png",
+			"type": "image",
+			"name": "campaign_word_normal_4_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/campaign_word_normal_5.png",
+			"type": "image",
+			"name": "campaign_word_normal_5_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/campaign_word_selected_1.png",
+			"type": "image",
+			"name": "campaign_word_selected_1_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/campaign_word_selected_2.png",
+			"type": "image",
+			"name": "campaign_word_selected_2_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/campaign_word_selected_3.png",
+			"type": "image",
+			"name": "campaign_word_selected_3_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/campaign_word_selected_4.png",
+			"type": "image",
+			"name": "campaign_word_selected_4_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/gamefeature_btn/campaign_word_selected_5.png",
+			"type": "image",
+			"name": "campaign_word_selected_5_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/btn_frame.png",
+			"type": "image",
+			"name": "btn_frame_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/btn_frame_highlight.png",
+			"type": "image",
+			"name": "btn_frame_highlight_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/mall_image_over.png",
+			"type": "image",
+			"name": "mall_image_over_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/mall_image_up.png",
+			"type": "image",
+			"name": "mall_image_up_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/mall_word_over.png",
+			"type": "image",
+			"name": "mall_word_over_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/mall_word_up.png",
+			"type": "image",
+			"name": "mall_word_up_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/setting_image_over.png",
+			"type": "image",
+			"name": "setting_image_over_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/setting_image_up.png",
+			"type": "image",
+			"name": "setting_image_up_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/setting_word_over.png",
+			"type": "image",
+			"name": "setting_word_over_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/setting_word_up.png",
+			"type": "image",
+			"name": "setting_word_up_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/teaching_btn_icon_normal.png",
+			"type": "image",
+			"name": "teaching_btn_icon_normal_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/teaching_btn_icon_selected.png",
+			"type": "image",
+			"name": "teaching_btn_icon_selected_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/warrior_image_over.png",
+			"type": "image",
+			"name": "warrior_image_over_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/warrior_image_up.png",
+			"type": "image",
+			"name": "warrior_image_up_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/warrior_word_over.png",
+			"type": "image",
+			"name": "warrior_word_over_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/main_tool_btns/warrior_word_up.png",
+			"type": "image",
+			"name": "warrior_word_up_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/small_loading/small_loading_bg.png",
+			"type": "image",
+			"name": "small_loading_bg_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/small_loading/small_loading_top.png",
+			"type": "image",
+			"name": "small_loading_top_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/return_normal.png",
+			"type": "image",
+			"name": "return_normal_png"
+		},
+		{
+			"url": "skin_assets/mainscene/main_scene_assets/return_selected.png",
+			"type": "image",
+			"name": "return_selected_png"
+		},
+		{
+			"url": "skin_assets/teach/teaching_btn_goto_normal.png",
+			"type": "image",
+			"name": "teaching_btn_goto_normal_png"
+		},
+		{
+			"url": "skin_assets/teach/teaching_btn_goto_selected.png",
+			"type": "image",
+			"name": "teaching_btn_goto_selected_png"
+		},
+		{
+			"url": "skin_assets/guide/jiantou_texture.png",
+			"type": "image",
+			"name": "jiantou_texture_png"
+		},
+		{
+			"url": "skin_assets/guide/jiantou_skeleton.json",
+			"type": "json",
+			"name": "jiantou_skeleton_json"
+		},
+		{
+			"url": "skin_assets/guide/jiantou_texture.json",
+			"type": "json",
+			"name": "jiantou_texture_json"
+		},
+		{
+			"url": "sys/sys.json?ver=1.0.1",
+			"type": "json",
+			"name": "sys_json"
+		},
+		{
+			"url": "skin_assets/teach/yj_reply_normal.png",
+			"type": "image",
+			"name": "yj_reply_normal_png"
+		},
+		{
+			"url": "skin_assets/teach/yj_reply_selected.png",
+			"type": "image",
+			"name": "yj_reply_selected_png"
+		},
+		{
+			"name": "Team_png",
+			"type": "image",
+			"url": "skin_assets/mainscene/main_scene_assets/Team.png"
+		}
+	]
+}

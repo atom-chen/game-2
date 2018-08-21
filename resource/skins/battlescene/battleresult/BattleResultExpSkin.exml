@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleResultExpSkin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="battle_victory_window_json.xp_empty_png" x="-2" y="-4" scaleX="1" scaleY="1"/>
+	<e:Image source="battle_victory_window_json.xp_full_png" x="13" y="11" scaleX="1" scaleY="1"/>
+	
+	<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="23" fontFamily="Macrosoft YaHei" textColor="0xffffff" horizontalCenter="0" verticalCenter="0" stroke="2"/>
+</e:Skin>

@@ -1,0 +1,39 @@
+﻿# 2_1_4_一脉相承
+# 1. 抵达终点
+# 2. 打开大门
+#
+# 你来到了一个密闭的舱房，房门旁有个印记魔符，看来虽然建筑风格差异很大，但这个空间站与遗迹星球的文明果然出自同源。
+# 要想继续前进就必须解开相应谜题，先用check语句看看谜面吧。
+
+
+
+# 打开房门后，你还需要经过两个房间才能到达终点。
+# 每个房间都可能出现宝石或恐鼠，别忘记用if语句进行判断。
+
+hero.check("Sigil",3)
+a = "可以被17整除"
+if 564%17 == 0:
+    hero.say("564"+a)
+elif 952%17 == 0:
+    hero.say("952"+a)
+hero.moveXY(14,26)
+hero.moveXY(26,23)
+enemy=hero.findNearestEnemy()
+item=hero.findNearestItem()
+if enemy:
+    hero.attack(enemy)
+elif item:
+    hero.moveXY(item.pos.x,item.pos.y)
+
+hero.moveXY(64,33)
+enemy=hero.findNearestEnemy()
+item=hero.findNearestItem()
+
+if enemy:
+    hero.attack(enemy)
+elif item:
+    hero.moveXY(item.pos.x,item.pos.y)
+else:
+    hero.moveXY(63,67)
+    
+hero.moveXY(64,68)

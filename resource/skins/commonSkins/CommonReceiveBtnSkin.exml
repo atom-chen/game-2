@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<e:Skin class="CommonReceiveBtnSkin" width="80" height="38" xmlns:e="http://ns.egret.com/eui" states="up,over,down,disabled,alreadyReceive" >
+	<e:Image source="btncommon_AlreadyReceive_up-_png" includeIn="alreadyReceive" x="0"/>
+    <e:Image source="btncommon_Receive_up_png" includeIn="up" x="0" y="0"/>
+	<e:Image source="btncommon_Receive_over_png" includeIn="over" x="0" y="0"/>
+	<e:Image source="btncommon_Receive_down_png" includeIn="down" x="0"/>
+    <e:Image source="btncommon_NotReached_png" includeIn="disabled" x="0"/>
+</e:Skin>

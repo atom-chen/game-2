@@ -1,0 +1,20 @@
+﻿# 2_5_3_三岔路口
+# 1. 
+# 2. 
+# 3. 
+#
+# 你来到了一个三岔路口，哪一条路才是正确的？
+# 用while循环语句让英雄在两条支路的房门之间来回走动，如果发现敌人就发起攻击。
+# 在循环语句中，请正确运用continue语句结束本次迭代。
+
+hero.moveXY(60,39)
+while True:
+    enemy = hero.findNearestEnemy()
+    if not enemy:
+        hero.moveUp()
+        hero.moveDown()
+        continue
+    
+    hero.attack(enemy)
+
+

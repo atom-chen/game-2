@@ -1,0 +1,17 @@
+rsync.sh
+rsync.exclude
+client
+node_modules
+.DS_Store
+.idea
+tsconfig.json
+typings.json
+wingProperties.json
+package-lock.json
+package.json
+gulpfile.js
+gulpfile2.js
+egretProperties.json
+src
+typings
+*.log

@@ -1,0 +1,48 @@
+﻿# 2_5_1_静谧长廊
+# 1. 英雄存活
+# 2. 抵达终点
+# 3. 清理道路
+#
+# 又一条长廊出现在你眼前。
+# 移动到循环路线起始位置，然后利用循环语句前进。
+# 下面已经帮你写出了部分代码，把代码补充完整后运行看看，pass语句不会让电脑做任何事。
+
+
+    # 拾取宝石(gem)或者打开宝箱(chest)
+    
+    # 消灭恐鼠（rate)
+    
+    # 什么都没有就pass
+
+    
+x = 8
+y = 16
+offset_x = 22
+offset_y = 22
+i=1
+hero.moveXY(x,y)
+
+while y < 60:
+    if i%2:
+        x = x + offset_x
+        hero.moveXY(x,y)
+    else:
+        y = y + offset_y
+        hero.moveXY(x,y)
+    i +=1
+    
+    
+    item = hero.findNearestItem()
+    enemy = hero.findNearestEnemy()
+    if item:
+        if item.type == "chest":
+            hero.open(item)
+        elif item.type == "gem":
+            hero.moveXY(item.pos.x,item.pos.y)
+    elif enemy:
+        hero.attack(enemy)
+    else:
+        pass
+hero.moveXY(73,69)
+
+

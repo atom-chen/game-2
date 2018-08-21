@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HeroFightButtonSkin" states="up,over,down,disabled" width="241" height="120" currentState="up" xmlns:e="http://ns.egret.com/eui">
+	<e:Image includeIn="up"  source="common_utils_json.common_btn_frame_04_normal_png"/>
+	<e:Image source="common_utils_json.common_btn_frame_04_normal_png" includeIn="over,down" />
+    <e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8"
+             size="28"
+             textColor="0xFFFe9c" verticalAlign="middle" textAlign="center" stroke="3" strokeColor="0x4c2f26" text="已出战"/>
+</e:Skin>

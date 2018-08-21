@@ -1,0 +1,30 @@
+﻿# 这一关展示了如何定义的函数。
+# 函数内的代码不会被立即执行。它是保存起来等会用的。
+# This function has your hero collect the nearest coin.
+def pickUpNearestCoin():
+    items = hero.findItems()
+    nearestCoin = hero.findNearest(items)
+    if nearestCoin:
+        hero.move(nearestCoin.pos)
+
+# 这一函数控制你在MP足够时召唤精灵。
+def summonSoldier():
+    # Fill in code here to summon a soldier if you have enough gold.
+    if hero.gold >= hero.costOf("soldier"):
+        hero.summon("soldier")
+
+# 这一函数控制你的精灵攻击力他最近的英雄。
+def commandSoldiers():
+    for soldier in hero.findFriends():
+        enemy = soldier.findNearestEnemy()
+        if enemy:
+            hero.command(soldier, "attack", enemy)
+
+while True:
+    # 在你的循环中，你可以调用之前定的函数。
+    # 下面这一行会让"pickUpNearestCoin"里面的代码被执行。
+    pickUpNearestCoin()
+    # 在下面调用summonSoldier。
+    summonSoldier()
+    # 在下面调用commandSoldiers。
+    commandSoldiers()

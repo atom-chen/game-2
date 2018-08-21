@@ -1,0 +1,24 @@
+﻿f^id^name^icon^type^description^invisible^physicalw^physicalh^isphysicalblock^ismoveblock^isvisionblock^effect^selectable^whocollect^openable^drop_type^drop_number^buff^teleport_target^findtype^nameh^b
+0^40002^MP^ ^6^用来给宝石补充MP^0^3^3^0^0^0^ ^0^0^0^0^0^0^ ^ ^140^0
+0^40003^触发点^Diamond^2^触发关卡目标^0^3^3^0^0^0^ ^0^0^0^0^0^0^ ^ ^140^0
+0^40004^宝石^Diamond^3^宝石^1^3^3^0^0^0^Diamond^1^2^0^40002^3^0^ ^gem^140^0
+0^40005^传送点^Diamond^5^传送点^1^3^3^0^0^0^ ^0^0^0^0^0^0^ ^teleportpoint^140^0
+0^40006^加速药水^SpeedPotion^3^加速药水^1^3^3^0^0^0^SpeedPotion^1^1^0^0^0^90100^ ^speedpotion^140^0
+0^40007^结界宝石^DiamondPurple^3^结界宝石^1^3^3^0^0^0^DiamondPurple^1^1^0^0^0^90102^ ^fielddiamond^140^0
+0^40008^生命药水^HealthPotion^3^生命药水^1^3^3^0^0^0^HealthPotion^1^1^0^0^0^90101^ ^healthpotion^140^0
+0^40009^宝箱^Box1^4^宝箱^1^3^3^0^0^0^Box1^1^0^1^40004^3^0^ ^chest^140^0
+0^40010^能量块^Block^4^暂时用box2素材^1^3^3^1^1^1^Box2^0^0^0^0^0^0^ ^block^140^0
+0^40011^check测试^Diamond^7^宝石^1^3^3^0^0^0^Diamond^1^1^0^0^3^0^ ^gem^140^0
+0^40012^宝石^Diamond^3^宝石^1^3^3^0^0^0^Diamond^1^1^0^40002|702021^3|1^0^ ^gem^140^0
+0^40013^能量块^Block^4^暂时用box2素材^1^3^3^1^1^0^Box2^0^0^0^0^0^0^ ^block^140^0
+0^40301^密码宝箱^Box1^7^^1^3^3^0^0^0^Box1^0^0^0^0^0^0^^chest^140^0
+0^40302^宝箱^Box1^4^宝箱^1^3^3^0^0^0^Box1^1^0^1^40303|40304^1|1^0^ ^chest^140^0
+0^40303^地图^Map^3^地图^1^3^3^0^0^0^Map^1^1^0^0^0^0^^map^140^0
+0^40304^卷轴^Scroll^3^卷轴^1^3^3^0^0^0^Scroll^1^1^0^0^0^0^^scroll^140^0
+0^40305^紫色宝石^DiamondPurple^3^紫色宝石^1^3^3^0^0^0^DiamondPurple^1^2^0^40002^5^0^ ^diamondpurple^140^0
+0^40306^黄色宝石^DiamondYellow^3^黄色宝石^1^3^3^0^0^0^DiamondYellow^1^2^0^40002^7^0^ ^diamondyellow^140^0
+0^40307^食物^Bread1^3^食物^1^3^3^0^0^0^Bread2^1^1^0^40002^5^0^ ^food^140^0
+0^40308^医疗箱^MedicalBox^3^医疗箱^1^3^3^0^0^0^MedicalBox^1^1^0^40002^8^0^ ^medkit^140^0
+0^40309^宝石^Diamond^3^宝石^1^3^3^0^0^0^Diamond^1^1^0^702326^1^0^ ^gem^140^0
+0^40310^紫色宝石^DiamondPurple^3^紫色宝石^1^3^3^0^0^0^DiamondPurple^1^1^0^702327^1^0^ ^diamondpurple^140^0
+0^40311^宝箱^Box1^4^宝箱^1^3^3^0^0^0^Box1^1^0^1^40004^1^0^ ^chest^140^0

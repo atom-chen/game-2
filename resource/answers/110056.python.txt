@@ -1,0 +1,20 @@
+﻿# 2_2_1_身陷重围
+# 1. 英雄必须存活
+# 2. 消灭5个敌人
+#
+# 你意外进入了一个被大群敌人盘踞的舱房。
+# 小心在原处防守，只攻击进入防守区域的恐鼠，毕竟被它们围攻可不是能轻松脱身的。
+
+    # 请把下一行代码补充完整，把变量enemy与英雄之间的距离赋给distance。
+
+        
+    # 请写代码：如果敌人的种类是恐鼠（rat），而且与英雄的距离小于10，就发动攻击。
+    # 消灭5个敌人后，会自动通关。
+
+
+
+while True:
+    enemy = hero.findNearestEnemy()
+    distance = hero.distanceTo(enemy)
+    if enemy.type == "rat" and distance < 25:
+        hero.attack(enemy)

@@ -1,0 +1,19 @@
+﻿# 1_8_2_各个击破
+# 1. 英雄必须存活
+# 2. 消灭所有敌人
+# 3. 安全抵达终点
+#
+# 又要同时迎战近战和远程的敌人！
+# 消灭所有敌人后，移动到终点。
+
+hero.moveXY(33,55)
+enemy = hero.findNearestEnemy()
+hero.attack(enemy)
+hero.attack(enemy)
+hero.moveXY(33,42)
+enemy = hero.findNearestEnemy()
+hero.attack(enemy)
+hero.attack(enemy)
+hero.moveXY(74,13)
+
+

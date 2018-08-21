@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpButtonSkin" states="up,over,down,disabled" width="147" height="78" xmlns:e="http://ns.egret.com/eui">
+    <e:Image source="teaching_help_btn_go_normal_png" includeIn="up"  />
+	<e:Image source="teaching_help_btn_go_selected_png" includeIn="over,down" />
+</e:Skin>

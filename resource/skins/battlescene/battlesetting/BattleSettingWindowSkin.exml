@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleSettingWindowSkin" width="900" height="452" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="battle_scene_setting_json.battle_setting_Bg_png" x="2" y="1" locked="true"/>
+
+	<e:Button id="btnQuit" label="" x="55" y="160" skinName="btnQuitSkin" />
+
+	<e:Button id="btnContinue" label="" x="212" y="160" skinName="btnComtinue"/>
+
+	<e:Button id="btnReload" label="" x="372" y="159" skinName="btnReload"/>
+
+	<e:ToggleButton id="btnMusic" label="" x="539" y="158" skinName="btnMusicSkin"/>
+	
+	<e:ToggleButton id="btnSound" label="" x="695" y="157" skinName="btnSoundSkin"/>
+
+</e:Skin>

@@ -1,0 +1,143 @@
+﻿f^id^name^description^type^optional^world_end_after^who^target^codeline^b
+0^120001^t抵达多地^0^1^0^0^hero^Target3|Target4|exit^0^0
+0^120002^抵达目的地^0^1^0^1^hero^exit^0^0
+0^120003^走出迷宫^0^1^0^0^hero^Target1^0^0
+0^120004^抵达终点^0^1^0^1^hero^exit^0^0
+0^121000^t阻止抵达多地^0^2^1^0^hero^Target3|Target4^0^0
+0^122000^t多人存活^0^3^0^0^hero|Native2_1|Native2_2^ ^0^0
+0^122001^英雄存活^0^3^0^0^hero^ ^0^0
+0^122002^没有友军伤亡^0^3^0^0^hero|Hunter^ ^0^0
+0^122003^没有友军伤亡^0^3^0^0^hero|Elder^ ^0^0
+0^122004^英雄存活30秒^0^3^0^0^hero^ ^0^0
+0^122005^英雄存活15秒^0^3^0^0^hero^ ^0^0
+0^122006^英雄存活^0^3^0^0^hero^ ^0^0
+0^122007^抵御敌人60秒^0^3^0^0^hero|Native02^ ^0^0
+0^122008^英雄存活80秒^0^3^0^0^hero^ ^0^0
+0^122009^英雄存活30秒^0^3^0^0^hero^ ^0^0
+0^122010^英雄存活45秒^0^3^0^0^hero^ ^0^0
+0^122011^没有友军伤亡^0^3^1^0^IceElfin|RavidElfin|ShadowElfin^ ^0^0
+0^122012^保护长老^0^3^0^0^elder^ ^0^0
+0^122013^保护友军^0^3^0^0^Peasant1|Peasant2|Peasant3|Peasant4|Peasant5|Peasant6|Peasant7|Peasant8^ ^0^0
+0^122014^保护低阶精灵^0^3^0^0^Percivale|Gawaine|Bors^ ^0^0
+0^122301^友军存活^0^3^0^0^Leonid|Andrei|Alexei|Anatoly^ ^0^0
+0^122302^没人伤亡^0^3^0^0^hero|zhanglao|friend1|friend2^ ^0^0
+0^122303^没人伤亡^0^3^0^0^hero|zhanglao|soldier1|soldier2^ ^0^0
+0^122304^没人伤亡^0^3^0^0^hero|cunmin1|cunmin2|cunmin3|cunmin4|ShadowElfin^ ^0^0
+0^122305^没有友军伤亡^0^3^0^0^hero|Peasant1|Peasant2|Peasant3|Peasant4^ ^0^0
+0^122306^没有友军伤亡^0^3^0^0^hero|Elder|Native1|Native2^ ^0^0
+0^123000^t消灭多人^0^4^1^0^Salva1|Salva2^ ^0^0
+0^123001^消灭Boss^0^4^0^1^Tiger^ ^0^0
+0^123002^消灭敌人^0^4^0^0^Afra|York^ ^0^0
+0^123003^消灭敌人^0^4^0^0^Dumb|Dumber^ ^0^0
+0^123004^消灭敌人^0^4^1^0^Arno^ ^0^0
+0^123005^消灭敌人^0^4^1^0^Rogue^ ^0^0
+0^123006^消灭敌人^0^4^1^0^Ark|Ash^ ^0^0
+0^123007^消灭杂兵^0^4^1^1^Boil|Salva1|Rogue^ ^0^0
+0^123008^消灭蛮牛^0^4^1^0^Rogue^ ^0^0
+0^123009^消灭敌人^0^4^1^0^Salva1|Salva2|Tiger_1^ ^0^0
+0^123010^消灭蛮牛^0^4^1^0^Rogue1|Rogue2^ ^0^0
+0^123011^消灭杂兵^0^4^0^0^Salva1|Salva2|Salva3^ ^0^0
+0^123012^消灭敌人^0^4^0^0^Salva1|Salva2|Salva3|Salva4^ ^0^0
+0^123013^消灭敌人^0^4^1^0^Salva1|Cannon1^ ^0^0
+0^123014^消灭敌人^0^4^1^0^Cannon1|Cannon2^ ^0^0
+0^123015^激活石雕^0^4^1^0^Tiger^ ^0^0
+0^123016^消灭敌人^0^4^0^0^Salva1|Salva2|Salva3|Cannon^ ^0^0
+0^123017^消灭敌人^0^4^0^0^Cannon1|Cannon2|Cannon3^ ^0^0
+0^123018^答对所有问题^0^4^1^0^Tiger1|Tiger2^ ^0^0
+0^123019^消灭敌人^0^4^0^0^Genna|Euge^ ^0^0
+0^123020^穿过魔法树林^0^4^1^0^MagicTree1|MagicTree2|MagicTree3|MagicTree4^ ^0^0
+0^123021^消灭敌人^0^4^1^0^Salva1|Rogue|Tiger^ ^0^0
+0^123022^解开谜题^0^4^1^0^Gate^ ^0^0
+0^123023^消灭敌人^0^4^0^1^Tiger_1^ ^0^0
+0^123024^打开大门^0^4^0^1^Gate^ ^0^0
+0^123025^打开大门^0^4^0^0^Gate|Gate_2^ ^0^0
+0^123026^完成随机任务^0^4^1^0^shudong01_1|shudong02_1|shudong03_1^ ^0^0
+0^123027^打开大门^0^4^0^0^Gate^ ^0^0
+0^123028^消灭5只恐鼠^0^4^0^1^point_1|point_2|point_3|point_4|point_5^ ^0^0
+0^123029^消灭敌人^0^4^1^1^enemy01|enemy02|enemy04|enemy05|Salva1|Salva2|Salva3|Salva4|Salva5|Rogue1^ ^0^0
+0^123030^释放囚徒^0^4^0^0^Gate^ ^0^0
+0^123031^打开所有宝箱^0^4^0^0^Chest1|Chest2|Chest3|Chest4^ ^0^0
+0^123032^消灭敌人^0^4^0^1^shua1_1|shua2_1|shua3_1|shua4_1^ ^0^0
+0^123033^消灭敌人^0^4^0^1^Salva1_1|Salva2_1|Salva3_1|Cannon1_1|Cannon2_1|Variant2_1^ ^0^0
+0^123034^消灭敌人^0^4^0^0^enemy1|enemy2|enemy3|enemy4|enemy5|enemy6|enemy7^ ^0^0
+0^123035^消灭敌人^0^4^0^0^Salva1|Salva2^ ^0^0
+0^123036^消灭5个敌人^0^4^0^0^enemy_1_1|enemy_2_1|enemy_3_1|enemy_4_1|enemy_5_1^ ^0^0
+0^123037^清理道路^0^4^0^0^trigger^ ^0^0
+0^123038^消灭敌人^0^4^0^0^enemy01|enemy02|enemy03|dark^ ^0^0
+0^123039^获得卷轴^0^4^0^1^trigger^ ^0^0
+0^123040^解开龙柱谜题^0^4^0^0^tree1^ ^0^0
+0^123041^解开龙柱谜题^0^4^0^0^tree1^ ^0^0
+0^123042^解开龙柱谜题^0^4^0^0^tree1^ ^0^0
+0^123043^消灭敌人^0^4^1^0^Salva1|Salva2^ ^0^0
+0^123044^完成对话^0^4^0^0^Gate^ ^0^0
+0^123045^消灭敌人^0^4^0^0^shua1_1|shua2_1|shua3_1|shua4_1|shua5_1|shua6_1|shua7_1|shua8_1|shua9_1^ ^0^0
+0^123046^消灭敌人^0^4^0^1^Random_1_1|Random_1_2|Random_1_3|Random_1_4|Random_1_5^ ^0^0
+0^123047^完成对话^0^4^0^0^trigger1|trigger2^ ^0^0
+0^123048^消灭白虎^0^4^0^0^enemy1_1|enemy2_1|enemy3_1^ ^0^0
+0^123049^消灭敌人^0^4^0^1^Luis|Pablo|Emilio^ ^0^0
+0^123050^解救友军^0^4^0^0^native1|native2|native3|elder^ ^0^0
+0^123051^正确画出法阵^0^4^0^1^trigger1|trigger2|trigger3|trigger4|trigger5|trigger6|trigger7|trigger8|trigger9|trigger10^ ^0^0
+0^123052^消灭敌人^0^4^0^0^Enemy_1|Enemy_2|Enemy_3|Enemy_4|Enemy_5^ ^0^0
+0^123053^消灭所有敌人^0^4^0^1^enemy1|enemy2|enemy3|enemy4|enemy5|enemy6|chaos1|chaos2|chaos3|chaos4|chaos5|chaos6^ ^0^0
+0^123054^消灭上方敌人^0^4^0^0^enemy1|enemy2|enemy3|enemy4|enemy5|enemy6^ ^0^0
+0^123055^消灭右方敌人^0^4^0^0^enemy7|enemy8|enemy9|enemy10|enemy11|enemy12^ ^0^0
+0^123056^消灭下方敌人^0^4^0^0^enemy13|enemy14|enemy15|enemy16|enemy17|enemy18^ ^0^0
+0^123057^祸水东引^0^4^0^1^enemy_1|enemy_2|enemy_3|enemy_4^ ^0^0
+0^123058^正确判断^0^4^0^1^trigger1|trigger2|trigger3|trigger4|trigger5^ ^0^0
+0^123059^派出足够兵力^0^4^0^0^trigger1|trigger2|trigger3^ ^0^0
+0^123301^消灭敌人^0^4^0^0^Variable rat^ ^0^0
+0^123302^打开大门^0^4^0^0^Gate^ ^0^0
+0^123303^消灭敌人^0^4^1^0^enemy01|enemy02|enemy03|enemy04|enemy05^ ^0^0
+0^123304^消灭敌人^0^4^1^0^enemy01|enemy02|enemy03^ ^0^0
+0^123305^消灭敌人^0^4^1^0^enemy01|enemy02^ ^0^0
+0^123306^消灭敌人^0^4^1^0^enemy^ ^0^0
+0^123307^消灭敌人^0^4^1^0^enemy01|enemy02|enemy03|enemy04^ ^0^0
+0^123308^消灭敌人^0^4^1^0^enemy01|enemy02|enemy03^ ^0^0
+0^123309^消灭敌人^0^4^1^0^enemy01|enemy02|enemy03|dark^ ^0^0
+0^123310^消灭敌人^0^4^1^0^enemy01|enemy02|enemy03|enemy04|enemy05|enemy06^ ^0^0
+0^123311^成功对话^0^4^0^0^yinxing^ ^0^0
+0^123312^消灭敌人^0^4^1^0^enemy01|enemy02|mouse01|mouse02^ ^0^0
+0^123313^消灭敌人^0^4^1^0^enemy01|enemy02^ ^0^0
+0^123314^消灭首领^0^4^1^0^GiantRat^ ^0^0
+0^123315^成功道别^0^4^1^0^yinxing^ ^0^0
+0^123316^消灭敌人^0^4^1^0^enemy1|enemy2|enemy3|dark1|dark2|dark3|cannon1|cannon2|cannon3^ ^0^0
+0^123317^消灭敌人^0^4^1^0^enemy1|enemy2|enemy3^ ^0^0
+0^123318^消灭敌人^0^4^1^0^Salva1|Salva2|Salva3|Disciple1|Disciple2|Disciple3|Cannon1|Cannon2|Cannon3^ ^0^0
+0^123319^成功道别^0^4^0^0^yinxing1|yinxing2|yinxing3^ ^0^0
+0^123320^消灭敌人^0^4^0^0^Rat1|Rogue1|Variant1|Variant2^ ^0^0
+0^123321^消灭敌人^0^4^0^0^Salva1|Salva2|Rat1|Rat2^ ^0^0
+0^123322^成功对话^0^4^0^0^yinxing1|yinxing2^ ^0^0
+0^124000^t拾取多个物品^0^5^0^0^hero^Gem1|Gem2|Gem3|Gem4^0^0
+0^124001^拾取宝石^0^5^1^0^hero^Gem1|Gem2^0^0
+0^124002^拾取宝石^0^5^1^0^hero^Gem1|Gem2|Gem3^0^0
+0^124003^拾取宝石^0^5^1^0^hero^Gem1^0^0
+0^124004^拾取宝石^0^5^1^0^hero^Gem1|Gem2|Gem3|Gem4|Gem5|Gem6^0^0
+0^124005^拾取宝石^0^5^1^1^hero^Gem1|Gem2|Gem3^0^0
+0^124006^拾取宝石^0^5^1^0^hero^Gem_1|Gem_2|Gem_3|Gem_4|Gem_5^0^0
+0^124007^拾取10颗宝石^0^5^0^1^hero^gem01|gem02|gem03|gem04|Gem_1|Gem_2|Gem_3|Gem_4|Gem_5|Gem_6^0^0
+0^124008^拾取宝石^0^5^1^0^hero^Gem1|Gem2|Gem3|Gem4|Gem5|Gem6|Gem7|Gem8^0^0
+0^124009^拾取物资^0^5^0^1^hero^dong3_1|dong3_2|dong3_3^0^0
+0^124010^拾取所有宝石^0^5^0^1^hero^Purple|Yellow|Blue^0^0
+0^124011^拾取物资^0^5^0^0^hero^medicine13|food09|food08|medicine08^0^0
+0^124012^拾取15颗宝石^0^5^0^0^hero^Gem1_1|Gem1_2|Gem1_3|Gem1_4|Gem1_5|Gem2_1|Gem2_2|Gem2_3|Gem2_4|Gem2_5|Gem3_1|Gem3_2|Gem3_3|Gem3_4|Gem3_5^0^0
+0^124013^拾取宝石^0^5^1^0^hero^Gem1|Gem2|Gem3|Gem4|Gem5|Gem6|Gem7|Gem8|Gem9^0^0
+0^124301^拾取宝石^0^5^1^0^hero^gem01|gem02|gem03|gem04^0^0
+0^124302^拾取宝石^0^5^1^0^hero^gem01|gem02|gem03|gem04|gem05|gem06|gem07|gem08^0^0
+0^124303^拾取蓝宝石^0^5^1^0^IceElfin^Blue^0^0
+0^124304^拾取紫宝石^0^5^1^0^ShadowElfin^Purple^0^0
+0^124305^拾取黄宝石^0^5^1^0^RavidElfin^Yellow^0^0
+0^124306^拾取足够的宝石^0^4^1^0^door^^0^0
+0^124307^拾取宝石^0^4^1^0^yinxing^^0^0
+0^124308^拾取宝石^0^5^1^0^hero^diamond1|diamond2|diamond3|diamond4|diamond5|diamond6|diamond7|diamond8|diamond9|diamond10|diamond11|diamond12|diamond13|diamond14|diamond15^0^0
+0^124309^拾取宝石^0^5^1^0^hero^gem1|gem2|gem3|gem4|gem5|gem6|gem7|gem8^0^0
+0^124310^拾取宝石^0^5^1^0^hero^Gem1|Gem2|Gem3|Gem4|Gem5|Gem6|Gem7|Gem8^0^0
+0^124311^拾取宝石^0^5^1^0^hero^Gem1|Amethyst2|Gem3|Topaz4|Gem5|Amethyst6|Gem7|Gem8|Topaz9|Gem10|Topaz11|Amethyst12|Gem13|Topaz14|Amethyst15^0^0
+0^124312^拾取宝石^0^5^1^0^hero^Gem1|Gem2|Gem3|Gem4|Gem5|Gem6|Gem7^0^0
+0^125000^t阻止拾取多个物品^0^6^1^0^hero^Gem1|Gem2|Gem3|Gem4^0^0
+0^126000^t代码行数限制^0^7^0^0^ ^ ^0^0
+0^126001^不超过9行代码^0^7^1^0^ ^ ^9^0
+0^127000^t特定代码语句要求^0^8^1^0^ ^ ^0^0
+0^127001^使用while语句^0^8^1^0^ ^while^0^0
+0^127301^使用列表^0^8^1^0^ ^"hero.command(list1[3], ""attack"", list2[3])"^0^0
+0^127302^使用特定代码^0^8^1^0^ ^friendIndex += 1^0^0
+0^127303^使用列表合并^0^8^1^0^ ^List=[1:3]+[1:3]^0^0

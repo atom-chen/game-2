@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeacherCheckButtonSkin" states="up,over,down,disabled"  width="187" height="187" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="main_scene_json.teaching_btn_icon_normal" includeIn="up"  width="187" height="187"/>
+	<e:Image source="main_scene_json.teaching_btn_icon_selected" includeIn="over,down"  width="187" height="187"/>
+</e:Skin>

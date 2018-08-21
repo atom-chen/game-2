@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="AchievementButtonSkin" states="up,over,down,disabled" width="187" height="187" currentState="up" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="main_scene_json.btn_frame" includeIn="up"/>
+	<e:Image source="main_scene_json.btn_frame_highlight" includeIn="over,down"/>
+
+	<!-- 按钮各状态 -->
+	<e:Image source="main_scene_json.badge_image_up" includeIn="up" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image source="main_scene_json.badge_word_up" includeIn="up" x="48" y="112"/>
+
+	<e:Image source="main_scene_json.badge_image_over" includeIn="over" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image source="main_scene_json.badge_word_over" includeIn="over" x="48" y="113"/>
+
+	<e:Image source="main_scene_json.badge_image_over" includeIn="down" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image source="main_scene_json.badge_word_over" includeIn="down" x="48" y="113"/>
+</e:Skin>

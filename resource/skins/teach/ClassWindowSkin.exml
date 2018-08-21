@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClassWindowSkin" width="1239" height="861" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="teaching_choose_frame_bottom_png" x="0" y="0"/>
+	<e:Button id="btnClose" label="按钮" x="1144" y="37" skinName="WindowCloseBtnSkin"/>
+	<e:List id="list" width="934" height="722" x="142" y="84">
+		<e:layout>
+			<e:TileLayout columnWidth="440" rowHeight="180"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

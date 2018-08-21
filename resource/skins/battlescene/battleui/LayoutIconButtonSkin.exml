@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="LayoutIconButtonSkin" states="up,over,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" width="140" height="30">
+	<e:Image source="battle_scene_json.icon_model_png" includeIn="down" x="0" y="0"/>
+    <e:Image source="battle_scene_json.icon_model_png" includeIn="over" x="0" y="0"/>
+	<e:Image source="battle_scene_json.icon_model_png" includeIn="up" x="0" y="0"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ReplyListItemRendererSkin" width="788" height="85" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="teaching_help_frame_png" x="0" y="0" scale9Grid="51,34,88,21" height="84" width="787" anchorOffsetX="0"/>
+	<e:Label id="labMsg" text="标签" x="33" y="27" width="527" height="34" size="28" verticalAlign="middle" anchorOffsetX="0"/>
+	<e:Button id="btnView" label="前往" x="545" y="2" skinName="StudentCheckCodeButtonSkin"/>
+	<e:Button id="btnRemove" label="删除" x="634" y="9" skinName="CommonButtonSkin"/>
+</e:Skin>

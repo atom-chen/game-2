@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Add-castDrainLife-s (1).png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{196,530},{172,388}}</string>
+                <key>offset</key>
+                <string>{3,148}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{92,58},{172,388}}</string>
+                <key>sourceSize</key>
+                <string>{350,800}</string>
+            </dict>
+            <key>Add-castDrainLife-s (2).png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,530},{192,418}}</string>
+                <key>offset</key>
+                <string>{6,169}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{85,22},{192,418}}</string>
+                <key>sourceSize</key>
+                <string>{350,800}</string>
+            </dict>
+            <key>Add-castDrainLife-s (3).png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,168},{216,360}}</string>
+                <key>offset</key>
+                <string>{7,191}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{74,29},{216,360}}</string>
+                <key>sourceSize</key>
+                <string>{350,800}</string>
+            </dict>
+            <key>Add-castDrainLife-s (4).png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{274,2},{236,244}}</string>
+                <key>offset</key>
+                <string>{8,257}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{65,21},{236,244}}</string>
+                <key>sourceSize</key>
+                <string>{350,800}</string>
+            </dict>
+            <key>Add-castDrainLife-s (5).png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,88},{254,78}}</string>
+                <key>offset</key>
+                <string>{11,309}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{59,52},{254,78}}</string>
+                <key>sourceSize</key>
+                <string>{350,800}</string>
+            </dict>
+            <key>Add-castDrainLife-s (6).png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{270,84}}</string>
+                <key>offset</key>
+                <string>{13,310}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{53,48},{270,84}}</string>
+                <key>sourceSize</key>
+                <string>{350,800}</string>
+            </dict>
+            <key>Add-castDrainLife-s (7).png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{258,88},{0,0}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{0,0}}</string>
+                <key>sourceSize</key>
+                <string>{350,800}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>Add-castDrainLife-s.png</string>
+            <key>size</key>
+            <string>{512,950}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:2cea51abea18d608c7ce6c63a6ca0c7c$</string>
+            <key>textureFileName</key>
+            <string>Add-castDrainLife-s.png</string>
+        </dict>
+    </dict>
+</plist>

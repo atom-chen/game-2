@@ -1,0 +1,18 @@
+﻿# 1_2_5_魔法龙柱
+# 1. 消灭所有敌人
+# 2. 穿过魔法树林
+# 3. 安全抵达终点
+#
+# 在地图一侧，通往终点的路被一丛颜色奇异的灌木阻断了。
+# 终点附近有一个魔法龙柱。在需要解谜的关卡中，它往往负责给出谜题。
+# 请用move语句向它靠近，当然，拦路的敌人要先消灭掉哦。
+
+hero.moveLeft()
+hero.attack("Genna")
+hero.attack("Genna")
+hero.attack("Euge")
+hero.attack("Euge")
+hero.moveLeft()
+hero.moveDown()
+hero.moveLeft(3)
+hero.moveUp()

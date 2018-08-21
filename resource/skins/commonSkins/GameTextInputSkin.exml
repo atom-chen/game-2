@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameTextInputSkin" width="458" height="56" states="normal,disabled,normalWithPrompt,disabledWithPrompt" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="100%" height="100%" source="common_utils_json.common_input_frame_png" scale9Grid="9,10,238,21"/>
+
+	<e:EditableText id="textDisplay" verticalCenter="0" left="20" right="10"
+	                textColor="0xeeeeee" textColor.disabled="0xff0000" width="100%" height="34" size="20"  verticalAlign="middle" minHeight="30" height.normalWithPrompt="38"/>
+	
+	<e:Label id="promptDisplay" verticalCenter="0" left="10" right="10"
+         textColor="0xa9a9a9" width="100%" height="38" size="20" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" visible.disabledWithPrompt="false" visible.disabled="false" visible.normal="false" visible.normalWithPrompt="false" visible="false"/>
+</e:Skin>

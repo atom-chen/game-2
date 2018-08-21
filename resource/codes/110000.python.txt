@@ -1,0 +1,11 @@
+﻿# 在这里，编程思维就是你的力量与武器。
+# 输入代码，点击运行，战胜通关。
+# 用你的智慧引导游戏中的英雄，追寻胜利的荣光与多元宇宙的秘密。
+
+while True:
+    hero.moveLeft()
+    enemy = hero.findNearestEnemy()
+    hero.attack(enemy)
+    
+
+

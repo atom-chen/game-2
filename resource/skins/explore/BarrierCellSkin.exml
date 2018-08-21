@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BarrierCellSkin" width="354" height="479" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="barrier_json.barrier_cell_frame_png"/>
+	<e:Label text="奖励:" x="60" y="90" width="107" size="24" fontFamily="MicroSoft YaHei UI" textColor="0x00CAFF" strokeColor="0x001D45" stroke="2"/>
+
+	<e:Label id="labelLevelName" text="虎牢关" x="23" y="12" width="310" height="33" bold="true" stroke="2" strokeColor="0x023d8c" textAlign="center" verticalAlign="middle" size="24" fontFamily="Microsoft YaHei"/>
+
+	<e:Image source="barrier_json.barrier_vigor_required_png" x="66" y="281"/>
+	<e:Label id="labelVigor" text="-7" x="102" y="285" height="26" size="23" width="76" textAlign="left" verticalAlign="middle" stroke="3" strokeColor="0x001d45"/>
+
+	<e:Image source="common_star_normal_png" x="96" y="334"/>
+	<e:Image source="common_star_normal_png" x="156" y="334"/>
+	<e:Image source="common_star_normal_png" x="216" y="334"/>
+
+	<e:Button id="btnReFight" skinName="ReFightBtnSkin" verticalCenter="163.5" horizontalCenter="0" name="btnReFight"/>
+	<e:Button id="btnFight" y="378" enabled="true" skinName="FightBtnSkin" horizontalCenter="0" name="btnFight"/>
+	<e:Label text="体力消耗:" x="60" y="240" width="107" size="24" fontFamily="MicroSoft YaHei UI" textColor="0x00caff" strokeColor="0x001d45" stroke="2"/>
+</e:Skin>

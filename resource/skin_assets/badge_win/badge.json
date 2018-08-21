@@ -1,0 +1,11 @@
+{"file":"badge.png","frames":{
+"badge_frame_label_selected_png":{"x":1212,"y":972,"w":196,"h":50,"offX":0,"offY":0,"sourceW":196,"sourceH":50},
+"badge_line_png":{"x":0,"y":972,"w":1012,"h":13,"offX":0,"offY":0,"sourceW":1012,"sourceH":13},
+"badge_rack_png":{"x":0,"y":806,"w":1027,"h":164,"offX":0,"offY":0,"sourceW":1027,"sourceH":164},
+"badge_time_frame_png":{"x":1029,"y":806,"w":146,"h":62,"offX":0,"offY":0,"sourceW":146,"sourceH":62},
+"badge_btn_js_normal_png":{"x":1029,"y":870,"w":161,"h":48,"offX":0,"offY":0,"sourceW":161,"sourceH":48},
+"badge_btn_js_selected_png":{"x":1029,"y":920,"w":160,"h":48,"offX":1,"offY":0,"sourceW":161,"sourceH":48},
+"badge_btn_python_normal_png":{"x":1308,"y":920,"w":115,"h":47,"offX":0,"offY":0,"sourceW":115,"sourceH":47},
+"badge_btn_python_selected_png":{"x":1191,"y":920,"w":115,"h":47,"offX":0,"offY":0,"sourceW":115,"sourceH":47},
+"badge_frame_png":{"x":0,"y":0,"w":1076,"h":804,"offX":0,"offY":0,"sourceW":1076,"sourceH":804},
+"badge_frame_label_normal_png":{"x":1014,"y":972,"w":196,"h":50,"offX":0,"offY":0,"sourceW":196,"sourceH":50}}}

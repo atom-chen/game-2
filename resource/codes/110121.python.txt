@@ -1,0 +1,27 @@
+﻿# 这个数组是各个区域的位置坐标。
+penPositions = [ {'x':20,'y':24}, {'x':28,'y':24}, {'x':36,'y':24}, {'x':44,'y':24}, {'x':52,'y':24} ]
+
+# 这个数组是从左至右各个区域的伤员情况。
+penOccupants = [ 'empty', 'empty', 'empty', 'empty', 'empty' ]
+
+# 这一个数组是我们的伤员们。
+friends = hero.findFriends()
+
+# 找出已经在区域内的伤员。
+for manIndex in range(len(friends)):
+    gunman = friends[manIndex]
+
+    # 一个一个查看伤员的坐标位置是否和各区域对应。
+    for penIndex in range(len(penPositions)):
+        penPos = penPositions[penIndex]
+
+        if penPos.x == gunman.pos.x and penPos.y == gunman.pos.y:
+            # 将penOccupants的id放入penIndex。
+            penOccupants[penIndex] = reindeer.id
+            # 循环break。
+            break
+
+# 向Merek报告各个区域伤员情况。
+for occIndex in range(len(penOccupants)):
+    # 例："Pen 3 is Dasher"
+    hero.say('Pen ' + occIndex + ' is ' + penOccupants[occIndex])

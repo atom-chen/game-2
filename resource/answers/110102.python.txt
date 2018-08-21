@@ -1,0 +1,15 @@
+﻿# 在这一关，不需要你亲自出马战斗。
+# 控制你的冰精灵们，去攻击血量最多的怪物。
+while True:
+    toughest = None
+    mostHealth = 0
+    enemies = hero.findEnemies()
+    for enemy in enemies:
+        if enemy.health > mostHealth:
+            toughest = enemy
+            mostHealth = enemy.health
+
+    if toughest:
+        friends = hero.findFriends()
+        for friend in friends:
+            hero.command(friend, "attack", toughest)

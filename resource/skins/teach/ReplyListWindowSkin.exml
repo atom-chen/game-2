@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ReplyListWindowSkin" width="942" height="527" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="common_utils_json.common_frame_prompt_png" x="0" y="21" scale9Grid="159,120,271,78" width="941" height="506" anchorOffsetX="0"/>
+	<e:Image source="common_utils_json.common_split_line_png" x="177" y="24"/>
+	<e:Button id="btnClose" label="按钮" x="865" y="46" skinName="WindowCloseBtnSkin"/>
+	<e:Scroller id="scrollerReply" width="815" height="396" x="59" y="91" skinName="skins.ScrollerSkin" anchorOffsetX="0">
+		<e:Group width="815" height="396">
+			<e:List id="list" width="815" x="0" y="0" scaleX="1" scaleY="1">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center"/>
+				</e:layout>
+			</e:List>
+			<e:Label id="labTip" text="你还没收到老师的答复哦！" x="191" y="158" width="437" scaleX="1" scaleY="1" verticalAlign="middle" textAlign="center"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

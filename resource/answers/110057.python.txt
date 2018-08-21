@@ -1,0 +1,26 @@
+﻿# 2_2_2_祸福未卜
+# 1. 抵达终点
+# 2. 打开大门
+#
+# 从这一关开始，你需要亲自在if语句中运用逻辑运算符（and/or/not）了。
+# 两个房间出现在你面前，每一个房间都可能随机出现出现一个敌人，或者刷新一个宝石(gem)。
+# 结合if语句与逻辑运算符写出代码，消灭敌人，或拾取宝石，最后抵达终点。
+
+hero.moveXY(22,38)
+enemy=hero.findNearestEnemy()
+item = hero.findNearestItem()
+if not enemy:
+    hero.moveXY(60,36)
+    item = hero.findNearestItem()
+    if item:
+        pos = item.pos
+        hero.moveXY(pos)
+        hero.moveXY(64,62)
+else:
+    hero.attack(enemy)
+    hero.moveXY(60,36)
+    item = hero.findNearestItem()
+    if item:
+        pos = item.pos
+        hero.moveXY(pos.x,pos.y)
+    hero.moveXY(64,62)

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="BattleContinueButtonSkin" states="up,over,down,disabled" height="55" minWidth="100" currentState="up" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="common_utils_json.common_btn_frame_01_png"/>
+	
+	<e:Image source="battle_victory_window_json.pic_continue_selected_png" includeIn="up" x="17" y="-12"/>
+	<e:Image source="battle_victory_window_json.pic_continue_normal_png" includeIn="over" x="17" y="-12"/>
+	<e:Image source="battle_victory_window_json.pic_continue_normal_png" includeIn="down" x="17" y="-12"/>
+</e:Skin>

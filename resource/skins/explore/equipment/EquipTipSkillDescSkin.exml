@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipTipSkillDescSkin" width="400" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="battle_scene_json.palette_icon_bg_png" x="10" y="19"/>
+        <e:Image id="skillPropertyIcon" x="30" y="40"/>
+        
+        <e:Label id="skillPropertyName" text="雷霆闪电" x="141" y="19" width="264" height="33" scaleX="1" scaleY="1" size="28" fontFamily="Microsoft YaHei UI" strokeColor="0x003479" stroke="3"/>
+        <e:Label id="skillPropertyAdd" text="技能加成" x="125" y="46" width="155" size="22" fontFamily="Microsoft YaHei UI" visible="false" locked="true"/>
+        <e:Label id="skillPropertyAddValue" text="20%" x="230" y="47" width="107" size="22" fontFamily="Microsoft YaHei UI" textColor="0x00bf0d" visible="false" locked="true"/>
+        <e:Label id="skillPropertyDesc" text="一大片伤害" x="145" y="70" width="255" height="60" size="22"/>
+</e:Skin>

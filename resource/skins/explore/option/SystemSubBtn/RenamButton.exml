@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RenamButton" states="up,over,down,disabled" height="55" minWidth="100" currentState="up" xmlns:e="http://ns.egret.com/eui" >
+    <e:Image source="common_utils_json.common_btn_frame_01_png"/>
+	<e:Image source="button_json.system_btn_rename_selected_png" includeIn="down" x="18" y="-12"/>
+	<e:Image source="button_json.system_btn_rename_selected_png" includeIn="over" x="18" y="-12"/>
+	<e:Image source="button_json.system_btn_rename_normal_png" includeIn="up" x="18" y="-12"/>
+</e:Skin>

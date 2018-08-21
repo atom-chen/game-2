@@ -1,0 +1,14 @@
+       <font size=20 color=#d6eaff>从这一关开始，你的英雄可以在战斗中大展身手了！</font>
+       <font size=20 color=#d6eaff>让我们从最基础的攻击指令开始吧。</font>
+<font size=40 color=#00F5FF fontFamily="微软雅黑">方法调用</font><font size=30 color=#EEEE00 fontFamily="微软雅黑"> - attack()</font>
+       <font size=20 color=#d6eaff>当英雄移动到适合攻击的位置后，输入如下攻击代码——
+       <font color=#0000FF fontFamily="微软雅黑"><b>self.attack(enemy)</b></font>
+       别小看这短短一行代码，里面却有两个很有用的知识点。</font>
+<font size=40 color=#00F5FF fontFamily="微软雅黑">参数</font>
+       <font size=20 color=#d6eaff>括号里的<font size=20 color=#ff6a6a>enemy</font>是一个参数。当你调用一个方法时，可以通过提供一些额外的信息来进一步设定该方法应如何作用。这些额外信息通常被称为“参数”。以
+       <font color=#0000FF fontFamily="微软雅黑"><b>self.attack(enemy)</b></font>
+       来说，就表示让英雄去攻击用<font color=#FF6A6A>enemy</font>指代的特定某个敌人。</font>
+<font size=40 color=#00F5FF fontFamily="微软雅黑">字符串</font>
+       <font size=20 color=#d6eaff>在这一关有两个敌人，所以接下来我们需要把enemy写得更具体。你可以把它改成<font color=#FF6A6A>"Afra"</font>，注意引号必须是英文的。这表示攻击的对象是名字叫<font color=#FF6A6A>Afra</font>的那个敌人。
+       在Python中将文本填入双引号可以使之变成字符串格式，字符串是编程语言中表示文本的数据类型。
+       顺带一提，Python有五个标准的数据类型：<font color=#FF6A6A>Numbers（数字）</font>、<font color=#FF6A6A>String（字符串）</font>、<font color=#FF6A6A>List（列表）</font>、<font color=#FF6A6A>Tuple（元组）</font>、<font color=#FF6A6A>Dictionary（字典）</font>。将来我们会逐一学到相关的内容。</font>

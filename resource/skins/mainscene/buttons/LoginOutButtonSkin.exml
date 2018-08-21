@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginOutButtonSkin" width="110" height="60" xmlns:e="http://ns.egret.com/eui" states="up,down,over,disabled" >
+	<e:Image source="common_utils_json.common_btn_frame_05_normal_png" includeIn="up"/>
+	<e:Image source="main_scene_json.common_btn_quit_normal" includeIn="up" horizontalCenter="0" y="13"/>
+	
+	<e:Image source="common_utils_json.common_btn_frame_05_selected_png" includeIn="down,over,disabled"/>
+	<e:Image source="main_scene_json.common_btn_quit_selected" includeIn="down,over" horizontalCenter="0" y="14"/>
+</e:Skin>

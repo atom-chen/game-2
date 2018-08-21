@@ -1,0 +1,33 @@
+﻿# 1_8_1_火速赴援
+# 1. 英雄存活
+# 2. 消灭敌人
+# 3. 抵达终点
+#
+# 从之前被救的囚犯处得知，敌人意图夺取藏宝迷宫中收藏的珍贵卷轴——破灭之卷。快去阻止他们！
+# 上一组关卡中，我们已经用到了x、y坐标。
+# 从这一关开始，我们能借助它们进行自由移动了，这会让英雄的走动更加灵活，不仅限于上下左右四个方向。
+# 把鼠标悬停在地图上，会显示出该点的坐标。
+# 参照以下代码的语法，把代码写完整，消灭敌人到达终点。
+
+# 注意：你的目标点应该是在英雄可以直接看到的地方，中间最好不要有其他遮挡。
+
+hero.moveXY(29,67)
+my=hero.findNearestEnemy()
+hero.attack(my)
+hero.attack(my)
+hero.moveXY(20,25)
+my=hero.findNearestEnemy()
+hero.attack(my)
+hero.attack(my)
+hero.moveXY(50,50)
+my=hero.findNearestEnemy()
+hero.attack(my)
+hero.attack(my)
+hero.moveXY(70,29)
+my=hero.findNearestEnemy()
+hero.attack(my)
+hero.attack(my)
+hero.moveXY(68,13)
+
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerInformationSkin" height="55" minWidth="100" currentState="up" xmlns:e="http://ns.egret.com/eui" >
+	<e:Image source="option_json.system_frame_label_normal_png" x="0" y="0"/>
+	<!--<e:Image source="option_json.system_frame_label_playerinfo_normal_png" includeIn="downAndSelected" x="7" y="5"/>
+	<e:Image source="option_json.system_frame_label_playerinfo_normal_png" includeIn="overAndSelected" x="7" y="5"/>
+	<e:Image source="option_json.system_frame_label_playerinfo_normal_png" includeIn="upAndSelected" x="7" y="5"/>
+	<e:Image source="option_json.system_frame_label_playerinfo_selected_png" includeIn="down" x="7" y="5"/>
+	<e:Image source="option_json.system_frame_label_playerinfo_normal_png" includeIn="over" x="7" y="5"/>
+	<e:Image source="option_json.system_frame_label_playerinfo_selected_png" includeIn="up" x="7" y="5"/>-->
+
+	<e:Image id="imgNormal" source="option_json.system_frame_label_playerinfo_normal_png" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="imgSelected" source="option_json.system_frame_label_playerinfo_selected_png" horizontalCenter="0" verticalCenter="0"/>
+
+	<!--<e:Image id="imgNormal" source="option_json.system_frame_label_setup_normal_png"  verticalCenter="0" horizontalCenter="0"/>
+    <e:Image id="imgSelected" source="option_json.system_frame_label_setup_selected_png" horizontalCenter="0" verticalCenter="0"/>-->
+
+</e:Skin>

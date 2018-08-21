@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HUDPanelSkin" width="1007" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15ad59d796f"/>
+	<e:Image source="main_scene_json.hud_name_frame" x="149" y="58" scaleX="1" scaleY="1" locked="true"/>
+	<e:Image source="main_scene_json.hud_tips_frame" x="149" y="62" scaleX="1" scaleY="1" visible="false"/>
+
+
+	<e:Image id="imgHead" x="38" y="26" scaleX="1" scaleY="1" width="119" height="123"/>
+	<e:Image source="main_scene_json.hud_head_frame" x="18" y="11" scaleX="1" scaleY="1"/>
+
+	<e:Label id='player_name_label' text="码力玩家" x="171" y="22" width="257" size="36" strokeColor="0x090000" stroke="2"/>
+	<e:Label id="labelExp" text="EXP    0/0" x="160" y="118" width="208" height="24" size="24" textAlign="left" stroke="3" strokeColor="0x023d8c"/>
+	<e:Label id="labelLvl" text="Lv. 19" x="18" y="153" size="24" strokeColor="0x023d8c" stroke="3" width="159" textAlign="center" fontFamily="Microsoft YaHei UI" textColor="0xffffff"/>
+
+	<e:Button id='btnRegister' x="254" y="148" skinName="RegisterButtonSkin"/>
+	<e:Button id="btnLoginOut" x="145" y="148" skinName="LoginOutButtonSkin"/>
+	<e:Button id='btnLoginIn'  x="145" y="148" skinName="LoginInButtonSkin"/>
+
+	<!-- 玩家等级 -->
+
+	<!-- 体力格子 -->
+	<e:Image source="main_scene_json.vigor_cell_normal" x="160" y="76"/>
+	<e:Image source="main_scene_json.vigor_cell_normal" x="180" y="76"/>
+	<e:Image source="main_scene_json.vigor_cell_normal" x="200" y="76"/>
+	<e:Image source="main_scene_json.vigor_cell_normal" x="220" y="76"/>
+	<e:Image source="main_scene_json.vigor_cell_normal" x="240" y="76"/>
+	<e:Image source="main_scene_json.vigor_cell_normal" x="260" y="76"/>
+	<e:Image source="main_scene_json.vigor_cell_normal" x="280" y="76"/>
+	<e:Image source="main_scene_json.vigor_cell_normal" x="300" y="76"/>
+	<e:Image source="main_scene_json.vigor_cell_normal" x="320" y="76"/>
+	<e:Image source="main_scene_json.vigor_cell_normal" x="340" y="76"/>
+
+	<e:Image id="vigor_cell_0" source="main_scene_json.vigor_cell_selected" x="160" y="76"/>
+	<e:Image id="vigor_cell_1" source="main_scene_json.vigor_cell_selected" x="180" y="76"/>
+	<e:Image id="vigor_cell_2" source="main_scene_json.vigor_cell_selected" x="200" y="76"/>
+	<e:Image id="vigor_cell_3" source="main_scene_json.vigor_cell_selected" x="220" y="76"/>
+	<e:Image id="vigor_cell_4" source="main_scene_json.vigor_cell_selected" x="240" y="76"/>
+	<e:Image id="vigor_cell_5" source="main_scene_json.vigor_cell_selected" x="260" y="76"/>
+	<e:Image id="vigor_cell_6" source="main_scene_json.vigor_cell_selected" x="280" y="76"/>
+	<e:Image id="vigor_cell_7" source="main_scene_json.vigor_cell_selected" x="300" y="76"/>
+	<e:Image id="vigor_cell_8" source="main_scene_json.vigor_cell_selected" x="320" y="76"/>
+	<e:Image id="vigor_cell_9" source="main_scene_json.vigor_cell_selected" x="340" y="76"/>
+
+	<!-- 宝石信息栏 -->
+	<e:Image source="explore_json.explore_tips_frame_png" x="501" y="33"/>
+	<e:Image source="explore_json.explore_icon_vigor_png" x="449" y="22"/>
+	<e:Label id="labelVigorCount" text="200/200" x="517" y="40" width="127" height="46" size="24" verticalAlign="middle" textAlign="center" stroke="3" strokeColor="0x023d8c"/>
+	<e:Button id="btnBuyVigor" skinName="CommonBuyBtnSkin" x="637" y="41"/>
+
+	<!-- 体力信息栏 -->
+	<e:Image source="explore_json.explore_tips_frame_png" x="772" y="32"/>
+	<e:Image source="explore_json.explore_icon_gem_png" x="731" y="21"/>
+	<e:Label id="labelGemCount" text="2345" x="796" y="38" width="120" height="45" size="24" verticalAlign="middle" textAlign="center" stroke="3" strokeColor="0x023d8c"/>
+	<e:Button id="btnBuyGem" skinName="CommonBuyBtnSkin" x="907" y="40"/>
+
+</e:Skin>

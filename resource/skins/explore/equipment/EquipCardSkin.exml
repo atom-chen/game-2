@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipCardSkin" width="214" height="278" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="equipQualityImg" source="common_utils_json.card_blue_png" y="0" x="0"/>
+    <e:Image id="equipIconImg" source="element_gem_png" x="48" y="79"/>
+    
+	<e:Label id="equipNameLabel" text="红宝石" x="0" y="224" fontFamily="MicroSoft YaHei UI" size="22" bold="true" strokeColor="0x3a3a3b" stroke="3" width="208" height="29" textAlign="center"/>
+	<e:Image id="heroCareer" source="common_utils_json.career_warrior_icon_png" x="18" y="11"/>
+
+	<e:Component id="infoBtn" skinName="EquipTipInfoBtnSkin" x="150" y="13"/>
+</e:Skin>

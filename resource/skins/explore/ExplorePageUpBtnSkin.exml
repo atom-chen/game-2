@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExplorePageUpBtnSkin" width="46" height="72" xmlns:e="http://ns.egret.com/eui">
+    <e:Image source="explore_json.explore_flip_png" scaleX="-1" x="46"/>
+</e:Skin>

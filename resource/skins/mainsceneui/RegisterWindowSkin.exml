@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RegisterWindowSkin" width="793" height="757" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="register_json.register_title_png" x="17" y="0" scaleX="1" scaleY="1"/>
+	<e:Image source="register_json.register_frame_02_png" x="2" y="53"/>
+	<e:Button id="btnClose" label="按钮" x="720" y="66" skinName="WindowCloseBtnSkin"/>
+	<e:Image source="register_json.register_mail_png" x="138" y="92"/>
+	<e:TextInput id="txtNickName" x="137" y="593" width="506" height="58" skinName="GameTextInputSkin"/>
+	<e:TextInput id="txtPsd" x="136" y="313" width="506" height="58" displayAsPassword="true" skinName="GameTextInputSkin"/>
+	<e:TextInput id="txtPsd2" x="136" y="453" width="506" height="58" displayAsPassword="true" skinName="GameTextInputSkin"/>
+	<e:TextInput id="txtEmail" x="135" y="175" width="506" height="58" skinName="GameTextInputSkin"/>
+	<e:Image source="register_json.register_password_png" x="139" y="232"/>
+	<e:Image source="register_json.register_confirm_png" x="137" y="372"/>
+	<e:Image source="register_json.register_name_png" x="139" y="510"/>
+	<e:Button id="btnRandName" x="654" y="577" skinName="RandomNameButtonSkin"/>
+	<e:Button id="btnRegister" label="注册" x="335" y="658" skinName="CommonButtonSkin"/>
+	<e:Label id="labHasAccount" text="已有账号" x="530" y="679" size="22"/>
+</e:Skin>

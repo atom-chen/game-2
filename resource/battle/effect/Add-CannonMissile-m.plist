@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>CannonMissile-m.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{63,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{63,11}}</string>
+                <key>sourceSize</key>
+                <string>{63,11}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>Add-CannonMissile-m.png</string>
+            <key>size</key>
+            <string>{67,15}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:d08edb49d94e67156ef335a855dde0bc$</string>
+            <key>textureFileName</key>
+            <string>Add-CannonMissile-m.png</string>
+        </dict>
+    </dict>
+</plist>

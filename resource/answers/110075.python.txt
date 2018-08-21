@@ -1,0 +1,29 @@
+﻿# 2_5_5_第二个卷轴
+# 1. 抵达终点
+# 2. 打开大门
+#
+# 你们回到部族住地，暂时安全了。
+# 用循环语句安抚舱房里的遗民：
+# 如果对方只是普通族民（nativewarrior），只要用word1慰问一下就好；
+# 如果面对的是长老（elder），用word2和word3和长老对话。
+# 全部完成后，移动到终点。
+
+word1 = "你们受苦了……"
+word2 = "长老，您也平安无事真是太好了！破灭之卷可能已经被敌人夺走，您有没有什么线索？"
+word3 = "还有另一个卷轴？如果被他们滥用就糟了！我们马上去阻止！"
+while True:
+    friend = hero.findNearestFriend()
+    #hero.say(friend.type)
+    if friend and friend.type=="nativewarrior":
+        hero.moveXY((friend.pos.x-5), friend.pos.y)
+        hero.say(word1)
+    elif friend and friend.type=="elder":
+        hero.moveXY((friend.pos.x-5), friend.pos.y)
+        hero.say(word2)
+        hero.say(word3)
+    elif not friend:
+        break
+    hero.wait(3)
+    hero.moveXY(40,39)
+hero.moveXY(40,3)
+

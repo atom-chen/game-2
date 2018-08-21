@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SystemSkin" width="1100" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="option_json.system_frame_png" x="1" y="0"/>
+	<e:Image source="option_json.system_frame_label_playerinfo_normal_png" x="81" y="112" visible="false"/>
+	<e:Image source="option_json.system_frame_label_setup_normal_png" x="233" y="114" visible="false"/>
+	<!--<e:Button id="systembtn0" x="80" y="105" skinName="PlayerInformationSkin" locked="true"/>
+	<e:Button id="systembtn1"  x="250" y="105" skinName="SettingSkin" locked="true"/>
+	<e:Button id="systembtn2" x="420" y="105" skinName="AddClassSkin" locked="true"/>-->
+	<e:Component id="systembtn0" skinName="PlayerInformationSkin" x="90" y="105"/>
+	<e:Component id="systembtn1" skinName="SettingSkin" x="260" y="105"/>
+	<e:Button id="btnClose" label="按钮" x="999" y="81" skinName="WindowCloseBtnSkin"/>
+
+	<e:ViewStack id="viewStack" selectedIndex="3" width="976" x="48" y="191" height="373">
+		<e:Group x="41" y="18" visible="false">
+			<e:Button id="renamebtn" label="" x="735" y="22" skinName="RenamButton"/>
+			<e:Image source="explore_json.explore_head_frame_png" x="23" y="18"/>
+			<e:Image id="imgHead" x="45" y="38" scaleX="1" scaleY="1" width="119" height="123"/>
+			<e:Group width="426" height="67" x="262" y="16">
+			<e:Image source="option_json.system_info_name_png" x="-14" y="3"/>
+			<e:Label id="player_name_label" text="玩家" x="182" y="13" width="229" height="45" size="28" textColor="0xffffff" stroke="3" strokeColor="0x0046a6" verticalAlign="middle"/>
+			</e:Group>
+			<e:Group width="613" height="67" x="265" y="113">
+			<e:Image source="option_json.system_info_mail_png" x="-14" y="3"/>
+			<e:Label id="player_email_label" text="登录名" x="180" y="13" width="419" height="48" size="28" textColor="0xffffff" stroke="3" strokeColor="0x0046a6" verticalAlign="middle" textAlign="left"/>
+		</e:Group>
+			<e:Button id="avatarbtn" label="按钮" x="7" y="253" skinName="ChangeAvatarButton"/>
+		</e:Group>
+		<e:Group x="43" y="14" visible="false">
+			<e:ToggleButton id="selectedbtn0" label="切换按钮" x="190" y="91" skinName="systemMusic"/>
+			<e:ToggleButton id="selectedbtn1" label="切换按钮" x="636" y="91" skinName="systemSound"/>
+			<e:Image source="option_json.system_setup_systemmusic_png" x="28" y="80"/>
+			<e:Image source="option_json.system_setup_systemsound_png" x="469" y="86"/>
+
+			<e:Image source="option_json.system_setup_selectlanguage_png" x="28" y="199"/>
+			<e:Button id="Languagebtn" label="" x="190" y="208" skinName="SelectLanguage"/>
+			<!--<e:ViewStack id="selectlanguage" selectedIndex="0" width="976" x="48" y="191" height="373">-->
+
+			<!--</e:ViewStack>-->
+			
+			<!--<e:ProgressBar id="selecttalk" x="193" y="263" skinName="SelectLanguage"/>
+			<e:Image id="dropBtn" x="600" y="276" source="option_json.system_setup_arrow_png"/>-->
+		</e:Group>
+	</e:ViewStack>
+</e:Skin>

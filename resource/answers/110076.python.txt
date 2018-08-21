@@ -1,0 +1,26 @@
+﻿# 2_6_1_捷径
+#
+#
+#
+# 从长老处得知了被抢的藏宝地图所在，你又一次出发了。这是一条捷径。
+# 用双重while循环经过这条危机四伏的长廊：整个循环需要进行3次迭代，每一次迭代需要消灭3个敌人。
+n = 0
+m = 0
+
+
+# 最后，移动到终点。
+
+while hero.pos.y < 60:
+    
+    hero.moveRight(2)
+    hero.moveDown(2)
+
+    
+    enemy = hero.findNearestEnemy()
+    hero.say(enemy.type)
+    while enemy:
+        hero.attack(enemy)
+        enemy = hero.findNearestEnemy()
+        
+hero.moveXY(86,70)
+

@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BarrierWindowSKin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	
+	<e:Image source="barrier_json.barrier_knowledge_frame_png" x="0" y="266"/>
+	<e:Image source="barrier_json.barrier_knowledge_png" x="64" y="272"/>
+	<e:Label id="knowledgePoints" text="基本语法" x="225" y="272" width="559" height="81" size="28" fontFamily="Microsoft YaHei UI" bold="true" verticalAlign="middle"/>
+	<e:Image source="barrier_json.barrier_cell_frame_png" x="64" y="405" locked="true" visible="false"/>
+
+	<e:Button id="btnPrev" skinName="ExplorePageUpBtnSkin" verticalCenter="0"/>
+	<e:Button id="btnNext" skinName="ExplorePageDownBtnSkin" verticalCenter="0" x="1859"/>
+
+	<e:Button id="btnClose" skinName="CommonReturnBtnSkin" x="1804" y="9"/>
+	<e:Image source="barrier_json.barrier_cell_frame_png" x="446" y="403" locked="true" visible="false"/>
+	
+	<e:Image source="barrier_json.barrier_frame_name_map_png" x="127" y="193" scale9Grid="27,18,102,32"/>
+	<e:Label id="labGroupName" text="怒斩天下" x="75" y="214" width="266" height="29" textAlign="center" size="28" fontFamily="Microsoft YaHei UI" strokeColor="0x0040c3" stroke="2"/>
+</e:Skin>

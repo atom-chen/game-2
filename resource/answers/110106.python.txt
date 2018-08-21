@@ -1,0 +1,13 @@
+﻿# 控制你的士兵向右行进并攻击敌人。
+# 使用for循环和find.Friends。
+# 控制你的精灵使用findNearestEnemy()，而不是你。
+enemy instead of yours.
+while True:
+    friends = hero.findFriends()
+    for friend in friends:
+        enemy = friend.findNearestEnemy()
+        if enemy:
+            hero.command(friend, "attack", enemy)
+        else:
+            moveTo = {"x": friend.pos.x + 0.35, "y": friend.pos.y}
+            hero.command(friend, "move", moveTo)

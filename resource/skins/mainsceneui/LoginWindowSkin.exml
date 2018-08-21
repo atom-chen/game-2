@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginWindowSkin" width="793" height="588" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="login_json.login_frame_png" x="0" y="0"/>
+	<e:Button id="btnClose" label="按钮" x="718" y="65" skinName="WindowCloseBtnSkin"/>
+	<e:Image source="login_json.login_mail_png" x="123" y="90"/>
+	<e:TextInput id="txtEmail" x="123" y="170" width="538" skinName="GameTextInputSkin"/>
+	<e:TextInput id="txtPsd" x="123" y="336" width="538" displayAsPassword="true" skinName="GameTextInputSkin"/>
+	<e:Image source="login_json.login_password_png" x="123" y="252"/>
+	<e:Label id="labNoUser" text="该用户不存在" x="123" y="236" width="279" size="22" textColor="0xdd544a"/>
+	<e:Image id="imgQQ" source="login_json.login_icon_qq_png" x="362" y="407" visible="false"/>
+	<e:Label id="labForgetPsd" text="忘记密码？" x="123" y="394" size="22"/>
+	<e:Button id="btnLogin" label="登录" x="326" y="479" skinName="CommonButtonSkin"/>
+	<e:Label id="labNewAccount" text="注册新账号" x="523" y="502" size="22"/>
+</e:Skin>

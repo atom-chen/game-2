@@ -1,0 +1,250 @@
+html,
+body {
+    -ms-touch-action: none;
+    touch-action: none;
+    width: 100%;
+    height: 100%;
+    color: black;
+    /*background: black url('../resource/bg/gameBg.jpg') no-repeat;*/
+    background-size:cover;
+    background-color: #02041c; 
+    overflow:hidden;
+}
+#game-area {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1920px;
+    height: 1080px;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.hidden {
+    display: none;
+}
+
+#app{
+    position: absolute;
+}
+#code-area {
+    margin-top: 10px;
+    position:absolute;
+    left:1477px;
+    top:20px;
+    height: 650px;
+    width: 440px;
+    overflow:auto;
+    background: transparent;
+    color:white;
+}
+#code-area .nav-tabs{
+    top: 0px;
+    left:40px;
+    height: 32px;
+    width:400px;
+}
+#code-area .ace {
+    height: 300px;
+    width: inherit;
+    top: 20px;
+    background: transparent;
+    color:white;
+}
+#code-area .ace_gutter{
+    background: transparent;
+    color:white;
+}
+
+
+.prop-name{
+    color: #ffffff;
+}
+
+.example_name{
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#codeTipData
+{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 300px;
+    top: 150px;
+    background-position:center;
+    background-size:contain;
+    border-radius:10px;
+    color:#eeeeee;
+
+    max-width: 300px;
+    padding: 0;
+
+    /*border-image-source:url('resource/game/common/Tips.png');
+    border-image-width:50px;
+    border-image-slice:50 130 50 130;
+    border-image-outset:15px;
+    border-image-repeat:stretch;*/
+    border-style: solid;
+    border-image: url('../resource/skin_assets/battlescene/action/Tips.png') 16 12 fill;
+    border-width: 16px 12px;
+    /*font-family: Monaco, Menlo, Ubuntu Mono, Consolas, "source-code-pro", monospace !important;*/
+    font-variant: normal;
+    z-index: 100;
+}
+
+#codeTipData code
+{
+    background-color: #85d409;
+    border-radius: 2px;
+    color: bisque;
+    color:#1D67A5;
+    /*font-family: Monaco, Menlo, Ubuntu Mono, Consolas, "source-code-pro", monospace !important;*/
+    font-size: 12px;
+}
+
+#codeTipData .docs-ace{
+    /*background-color: #eeeeee;*/
+    border-radius: 2px;
+    white-space: pre;
+    font-size: 14px;
+    color:#f3ff8d;
+    font-family:'Microsoft YaHei';
+    /*font-weight:bold;*/
+}
+
+.thang-avatar{
+    width:32px;
+}
+.ace_editor{
+    width:100%;
+    line-height:20px;
+    overflow:visible;
+    background-color: transparent;
+    font-family: Monaco, Menlo, Ubuntu Mono, Consolas, "source-code-pro", monospace !important;
+}
+.ace_editor.disable{
+    opacity:0.8;
+}
+/*注释*/
+.ace_cjk {
+    color: #63ff57 !important;
+}
+/*.ace-tm .ace_comment {
+    color: #63ff57 !important;
+}*/
+.ace_comment {
+    color: #eac410 !important;
+}
+/*this或self关键字*/
+span.ace_variable.ace_language {
+    color: #fff000 !important;
+}
+/*关键字*/
+span.ace_keyword {
+    color: #ff2424 !important;
+    font-weight: bold;
+}
+span.ace_support.ace_function {
+    color: #ffffff !important;
+}
+/*函数声明*/
+.ace_identifier {
+    color: #ffffff !important;
+}
+/*函数参数里的数字*/
+.ace-tm.ace_constant.ace_numeric {
+    color: #29dd1b !important;
+}
+span.ace_constant.ace_numeric {
+    color: #00aeff !important;
+}
+
+.ace-tm.ace_string {
+    color: #29dd1b !important;
+}
+span.ace_string {
+    color: #29dd1b !important;
+}
+/*代码当前输入行*/
+.ace_active-line, .ace_gutter-active-line {
+    color: #0c3950 !important;
+    opacity:0.5;
+    background-color: #fff000 !important;
+}
+div.ace_gutter-active-line {
+    background-color: #0c395c !important;
+    color: #0c395c !important;
+}
+.ace_line_group .ace_line {
+    color: #ffffff !important;
+}
+/*输入光标*/
+.ace-tm .ace_cursor {
+    color: #ffffff !important;
+}
+/*括号-左边*/
+span.ace_paren.ace_lparen {
+    color: #ffffff !important;
+}
+/*括号-右边*/
+span.ace_paren.ace_rparen {
+    color: #ffffff !important;
+}
+/*逗号*/
+span.ace_punctuation.ace_operator {
+    color: #ffffff !important;
+}
+.ace_keyword.ace_operator {
+    color: #ffea00 !important;
+}
+/*行号*/
+div .ace_gutter-cell {
+    color: #ffffff !important;
+}
+
+.ace_gutter{
+    background-color: transparent;
+    border-right: 1px solid rgb(195, 178, 156);
+    width: 35px;
+    margin-left: 4px;
+}
+div.ace_layer.ace_gutter-layer {
+    width: 50px !important;
+}
+.ace_content .executing, .ace_content .executed, .problem-marker-info, .problem-marker-warning, .problem-marker-error, .problem-line{
+    position: absolute;
+}
+/*用于高亮当前行*/
+.executing {
+    /*background-color: #ff2424;*/
+    outline: 0;
+    -webkit-box-shadow: 0 0 0px black;
+    box-shadow: 0 0 0px black;
+}
+/*高亮当前行指示箭头*/
+div.ace_gutter-cell.executing  {
+    margin-left: 10px;
+    background-position: 0px center;
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA7JpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wUmlnaHRzPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvcmlnaHRzLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcFJpZ2h0czpNYXJrZWQ9IkZhbHNlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InV1aWQ6OTIyNzNFN0I5M0RCRTUxMTg1N0E4QUI0RjNENDI3NDciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDhDMDRDRjg5QzE4MTFFNjk3QTU5RjczODFDRTZENDQiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDhDMDRDRjc5QzE4MTFFNjk3QTU5RjczODFDRTZENDQiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjc5ZTFiMzQ2LTMxZjItNGM0MS1iNjFhLTk5NDAxYjk4NzJiNCIgc3RSZWY6ZG9jdW1lbnRJRD0idXVpZDo5MjI3M0U3QjkzREJFNTExODU3QThBQjRGM0Q0Mjc0NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pp4LVzAAAABTSURBVHjaYrT5372fgYGhAYgPMuABTEDsAMQHgBikwR6fQhjAq4EJi2asGpjwOAtFAz6FMMAIwix4FByEhgbIVAYWQgpggIWQAmSFeBXAAECAAQCG5hPgHBDooAAAAABJRU5ErkJggg==);
+}
+
+.executed {
+    background-color: rgba(110, 110, 110, 0.12);
+}
+canvas{
+    background-color: #000000;
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipTabMicroChipSkin" width="160" height="51" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="equip_label_frame_png" alpha="0"/>
+    
+	<e:Image id="imgNormal" source="equip_json.equip_label_4_normal_png" verticalCenter="0" horizontalCenter="0"/>
+    <e:Image id="imgSelected" source="equip_json.equip_label_4_selected_png" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,17 @@
+﻿# 1_8_3_湖畔漫步
+# 1. 英雄必须存活
+# 2. 拾取所有宝石
+# 3. 代码不超过9行
+#
+# 小湖泊附近散落着很多宝石，把它们捡起来。
+
+while True:
+    hero.moveXY(59,32)
+    hero.moveXY(52,20)
+    hero.moveXY(30,15)
+    hero.moveXY(19,38)
+    hero.moveXY(23,46)
+    hero.moveXY(37,54)
+    hero.moveXY(54,47)
+
+

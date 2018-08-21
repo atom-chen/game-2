@@ -1,0 +1,261 @@
+﻿f^id^name^name_cn^icon^type^skill_type^shortname^fullname^description^fulldescription^example^isattack^action^skill_action^dmgtype^atkdamage^atkrange^dmgrange^cd^s_effect^m_effect^e_holdtime^e_effect^s_sound^buff^build_id^build_name^tabtrigger^snippet_python^snippet_javascript^islinebreak^b
+0^20000^moveUp^移动:上^moveUp^moveUp^moveSimply^Up^hero.moveUp()^向上走一个单元格^使英雄向上移动一个单元格^hero.moveUp()^0^80000^move^3^0^0^0^1000^ ^ ^0^ ^ ^0^0^ ^moveUp^hero.moveUp()^hero.moveUp();^1^0
+0^20001^moveDown^移动:下^moveDown^moveDown^moveSimply^Down^hero.moveDown()^向下走一个单元格^使英雄向下移动一个单元格^hero.moveDown()^0^80001^move^3^0^0^0^1000^ ^ ^0^ ^ ^0^0^ ^moveDown^hero.moveDown()^hero.moveDown()^1^0
+0^20002^moveRight^移动:右^moveRight^moveRight^moveSimply^Right^hero.moveRight()^向右走一个单元格^使英雄向右移动一个单元格^hero.moveRight()^0^80002^move^3^0^0^0^1000^ ^ ^0^ ^ ^0^0^ ^moveRight^hero.moveRight()^hero.moveRight()^1^0
+0^20003^moveLeft^移动:左^moveLeft^moveLeft^moveSimply^Left^hero.moveLeft()^向左走一个单元格^使英雄向左移动一个单元格^hero.moveLeft()^0^80003^move^3^0^0^0^1000^ ^ ^0^ ^ ^0^0^ ^moveLeft^hero.moveLeft()^hero.moveLeft()^1^0
+0^20004^moveXY^移动:坐标^moveXY^moveXY^moveXY^moveXY^hero.moveXY(x,y)^向一个指定坐标地点走^英雄走向指定的坐标(x, y)；鼠标指向地图点可以看到该点坐标。^hero.moveXY(x, y)^0^80004^move^3^0^0^0^1000^ ^ ^0^ ^ ^0^0^ ^moveXY^hero.moveXY(${1:x},${2:y})^hero.moveXY(x,y)^0^0
+0^20005^say^说^say^say^say^say^hero.say(message)^说出一句话^让英雄说出指定message内容,message可以是字符串或者数字类型。^"hero.say(""Hi"")"^0^80006^say^3^0^0^0^1000^ ^ ^0^ ^ ^0^0^ ^say^hero.say(${1:message})^hero.say(message)^0^0
+0^20009^attackWarrior1^攻击^attackWarrior^attack^attack^attack^hero.attack(enemy)^用来攻击目标一次^攻击指定的敌人enemy一次,enemy可以是敌军名字或者一个敌军对象^"hero.attack(""York"")<br><br>enemy = hero.findNearestEnemy()<br>hero.attack(enemy)"^1^80005^attack^3^19^4^0^0^ ^ ^0.16^ ^s01_zs_attack_1^0^0^ ^attack^hero.attack(${1:enemy})^hero.attack(${1:enemy})^0^0
+0^20006^findNearestEnemy^寻找最近敌人^findNearestEnemy^findNearestEnemy^find^findNearestEnemy^hero.findNearestEnemy()^获取最近的敌方对象^获取视线范围内距离最近敌军对象；如果不存在，返回空值。^enemy = hero.findNearestEnemy()^0^80007^ ^3^0^0^0^1000^ ^ ^0^ ^ ^0^0^ ^findNearestEnemy^hero.findNearestEnemy()^hero.findNearestEnemy()^0^0
+0^20007^buildXYBlock^建造路障^buildXYBlock^block^build^buildBlock^"hero.buildXY(""block"",x,y)"^在给定的坐标上建筑一个障碍物^在指定的坐标 (x,y) 上建造一个障碍物block。^"hero.buildXY(""block"", 36, 30)"^0^80008^build^3^1^5^0^1000^ ^ ^0^ ^g06_build^0^40010^ ^buildXYblock^"hero.buildXY(${1:""block""},${2:x},${3:y})"^"hero.buildXY(""block"",20,30)"^0^0
+0^20008^buildXYBomb^建造地雷^buildXYBomb^bomb^build^buildBomb^"hero.buildXY(""bomb"",x,y)"^在给定的坐标上建筑一个炸弹^在指定的坐标 (x,y) 上建造一个炸弹bomb。^"hero.buildXY(""bomb"", 40, 34)"^0^80008^build^3^1^5^0^1000^ ^ ^0^ ^g06_build^0^50000^ ^buildXYbomb^"hero.buildXY(${1:""bomb""},${2:x},${3:y})"^"hero.buildXY(""bomb"",20,30)"^0^0
+0^20010^lightningbolt1^闪电链^lightningbolt^lightning-bolt^lightning-bolt^castLightningBolt^"hero.cast(""lightning-bolt"", target)"^[法术]雷霆闪电^对target目标施放“雷霆闪电”法术，造成300点伤害，并对范围3x3内的敌人造成溅射伤害，有12秒冷却时间；参数target可以是敌军对象或者坐标（x,y)^"enemy = hero.findNearestEnemy()<br>hero.cast(""<font color=""red"">lightning-bolt</font>"", enemy)"^0^80009^cast^2^300^21^3^1200^ ^ ^0.1^Add-castLightningBolt^g04_lightning^0^0^ ^lightning-bolt^"hero.cast(${1:""lightning-bolt""}, ${2:target})"^"hero.cast(""lightning-bolt"", target)"^0^0
+0^20011^if^if判断^if^if^grammar^if^if^if条件语句^if 判断条件为True,则去执行A^"<font color=""red"">if hero.isReady(""lightning-bolt"")</font>:<br>&nbsp;&nbsp;&nbsp;&nbsp;hero.cast(""lightning-bolt"", ""York"")<br><font color=""red"">else:</font><br>&nbsp;&nbsp;&nbsp;&nbsp;hero.attack(""York"")"^0^80010^ ^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^if^if ${1:condition}:^if^0^0
+0^20012^else^else判断^else^else^grammar^else^else^else条件语句^else判断条件为False,则去执行B^else:^0^80011^ ^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^else^else:^else^0^0
+0^20013^while^while判断^while^while^grammar^while^while^while循环语句^只要判断条件为真,循环内代码就能一直反复运行下去；当判断条件为false时，循环结束^while i >= 0:^0^80012^ ^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^while^while ${1:condition}^while^0^0
+0^20014^while-true^while true循环^while-true^while-true^grammar^while-true^while-true^while-true循环^判断条件始终为True,代码块持续循环，直到关卡触发中断。^while True:^0^80013^ ^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^while-true^while True:^while-true^0^0
+0^20015^isReady^是否冷却^isReady^isReady^grammar^isReady^"hero.isReady(""skill"")"^判断指定特技冷却是否完成^返回指定技能是否冷却完成并可以释放；参数skill是特技名字,可。^"if hero.isReady(""lightning-bolt""):"^0^80014^ ^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^isReady^"hero.isReady(${1:""skill""})"^"hero.isReady("""")"^0^0
+0^20016^summon1^召唤^summon^summon^grammar^summonRavid^废弃^废弃^废弃^"hero.cast(""lightning-bolt"", ""York"")"^0^80015^cast^3^0^0^0^1000^ ^ ^0^ ^s09_convenant^0^0^ ^summon^"hero.summon(${1:""friend""})"^"hero.summon("""")"^0^0
+0^20017^command^命令^command^command^command^command^废弃^废弃^废弃^^0^80016^say^1^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^command^"hero.command(${1:friend}, ${2:""attack""}, ${3:target})"^"hero.command(friend, ""attack"", target)"^0^0
+0^20018^wild_Bomb_explode^地雷爆炸^ ^ ^attack^ ^ ^用于地雷爆炸^用于地雷爆炸^ ^0^ ^attack^3^300^3^5^1000^Add-bomb^ ^0^ ^g01_bomb^0^0^ ^ ^ ^ ^0^0
+0^20019^enchantment^结界^^ ^attack^ ^ ^用于结界宝石^用于结界宝石^ ^0^ ^ ^2^0^0^0^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20020^enemy_Salva_attack^Salva攻击^ ^ ^attack^ ^ ^用于Salva攻击^用于Salva攻击^^0^80005^attack^1^16^5^0^1000^ ^ ^0^ ^e01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20021^npc_Native2_attack^Native2攻击^ ^ ^attack^ ^ ^用于Native2攻击^用于Native2攻击^^0^80005^attack^2^5^4^0^1000^ ^ ^0^ ^s01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20022^enemy_Puck_attack^Puck攻击^ ^ ^attack^ ^ ^用于Puck攻击^用于Puck攻击^^0^80005^attack^2^12^4^0^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20023^enemy_Tiger_attack^Tiger攻击^ ^ ^attack^ ^ ^用于Tiger攻击^用于Tiger攻击^^0^80005^attack^1^30^4^0^1000^ ^ ^0^ ^g12_tiger^0^0^ ^ ^ ^ ^0^0
+0^20024^enemy_Rogue_attack^Rogue攻击^ ^ ^attack^ ^ ^用于Rogue攻击^用于Rogue攻击^^0^80005^attack^1^30^4^0^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20025^npc_Native1_attack^Native1攻击^ ^ ^attack^ ^ ^用于Native1攻击^用于Native1攻击^^0^80005^attack^2^40^30^0^1000^ ^ ^0^ ^e01_qs_attack^0^0^ ^ ^ ^ ^0^0
+0^20026^enemy_Runes_attack^符文地板攻击^ ^ ^attack^ ^ ^符文地板攻击^符文地板攻击^^0^ ^idle^1^300^7^3^1000^Add-castLightningBolt^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20027^cleave^旋风斩^cleave^cleave^cleave^cleave^hero.cleave()^旋风斩^攻击英雄周围半径7范围内的敌军目标^"if hero.isReady(""cleave""):<br>&nbsp;&nbsp;&nbsp;&nbsp;hero.cleave()"^0^80017^cleave^2^20^1^7^1200^ ^ ^0.2^ ^s05_cleave^0^0^ ^cleave^hero.cleave()^hero.cleave()^0^0
+0^20028^powerUp^攻击强化^powerUp^powerUp^powerUp^powerUp^hero.powerUp()^攻击强化^英雄的攻击力会在下一次攻击中以特定武器的火力增强方式来增强攻击力。^"hero.powerUp()<br>hero.attack(""York"")"^0^80018^powerUp^1^0^0^0^1200^ ^ ^0^ ^s10_powerUp^90103^0^ ^powerUp^hero.powerUp()^hero.powerUp()^0^0
+0^20029^shield^举盾^shield^shield^shield^shield^hero.shield()^举盾^使用‘shield’时，英雄受到的伤害减少。^hero.shield()^0^80024^shield^1^0^0^0^0^ ^ ^0^ ^ ^90105^0^ ^shield^hero.shield()^hero.shield()^0^0
+0^20030^open^打开^open^open^open^open^hero.open(item)^打开宝箱^打开宝箱,参数item必须是宝箱才可以open，否则没有反馈^box = hero.findNearestItem();hero.open(box)^0^80025^idle^3^0^0^0^0^ ^ ^0^ ^ g02_open^0^0^ ^open^hero.open()^hero.open()^0^0
+0^20031^check^检查^check^check^check^check^hero.check(item,seconds)^检查指定物品^检查指定物品，在指定的时间里展示弹出对话框，参数item必须是可被检查的物品，否则没有反馈^"hero.check(""Sigil"",5)"^0^80026^idle^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^check^"hero.check(${1:""Sigil""},5)"^hero.check()^0^0
+0^20032^move^移动^move^move^move^move^hero.move(targetPos)^移动到指定位置^英雄移动到指定的targetPos位置，targetPos必须是一个字典类型的坐标,比如{x:10,y:12}^pos = enemy.pos<br>hero.move(pos)^0^80027^move^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^move^ ^ ^0^0
+0^20033^enemy_Variant3_attack^Variant3攻击^ ^ ^attack^ ^ ^用于Salva攻击^用于Variant3攻击^^0^80005^attack^1^300^4^0^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20034^enemy_Cannon_attack^Cannon攻击^ ^ ^attack^ ^ ^用于Native1攻击^用于Native1攻击^^0^80005^attack^1^30^30^0^1000^ ^ ^0^ ^e01_jg_attack^0^0^ ^ ^ ^ ^0^0
+0^20035^enemy_Variant1_attack^Variant1攻击^ ^ ^attack^ ^ ^用于Salva攻击^用于Variant1攻击^^0^80005^attack^1^50^4^0^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20036^enemy_Variant2_attack^Variant2攻击^ ^ ^attack^ ^ ^用于Salva攻击^用于Variant2攻击^^0^80005^attack^1^50^4^0^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20037^npc_Elder1_attack^Elder1攻击^ ^ ^attack^ ^ ^用于Elder1攻击^用于Elder1攻击^^0^80005^idle^2^0^50^0^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20038^hp^当前生命值^health^hp^hp^hp^废弃^废弃^废弃^target.hp^0^80019^idle^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^hp^${1:target}.hp^target.hp^0^0
+0^20039^pos^当前位置^pos^pos^pos^pos^target.pos^返回目标对象的坐标^返回目标对方的坐标^target.pos^0^80020^idle^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^pos^${1:target}.pos^target.pos^0^0
+0^20040^type^目标类型^while-true^type^type^type^target.type^返回目标对象的类型^返回目标对象的类型^target.type^0^80021^idle^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^type^${1:target}.type^target.type^0^0
+0^20041^wait^原地等待^wait^wait^wait^wait^hero.wait()^原地等待指定时间(秒）^原地等待指定时间(秒）^hero.wait()^0^80022^idle^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^wait^hero.wait()^hero.wait()^0^0
+0^20042^distanceTo^目标距离^distanceTo^distanceTo^distanceTo^distanceTo^hero.distanceTo(target)^返回目标单位与英雄的距离^返回target单位与英雄的距离^"hero.distanceTo(""York"")"^0^80023^idle^3^0^500^0^0^ ^ ^0^ ^ ^0^0^ ^distanceTo^hero.distanceTo()^hero.distanceTo()^0^0
+0^20043^enemy_buildRatRandom^建造Rat^enemy_buildRat^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^0^10^1000^ ^ ^0^ ^ ^0^50175|40004|40009^ ^ ^ ^ ^0^0
+0^20044^enemy_buildSalva^建造Salva^enemy_buildSalva^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^0^0^1000^ ^ ^0^ ^ ^0^50228^ ^ ^ ^ ^0^0
+0^20045^enemy_Rat_attack^Rat攻击^ ^ ^attack^ ^ ^用于Rat攻击^用于Rat攻击^^0^80005^attack^1^35^4^0^1000^ ^ ^0^ ^^0^0^ ^ ^ ^ ^0^0
+0^20046^enemy_Salva_attack2^Salva必杀攻击^ ^ ^attack^ ^ ^用于Salva攻击^用于Salva攻击^^0^80005^attack^1^500^6^0^1000^ ^ ^0^ ^s01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20047^enemy_Cannon_attack2^超远Cannon攻击^ ^ ^attack^ ^ ^用于Native1攻击^用于Native1攻击^^0^80005^attack^1^120^70^0^1000^ ^ ^0^ ^s01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20048^neutral_buildTiger1^石雕造白虎1_3_4^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^15^0^10000^ ^ ^0^ ^ ^0^50062^Tiger^ ^ ^ ^0^0
+0^20049^neutral_buildTiger2^石雕造白虎1_4_4^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^15^0^10000^ ^ ^0^ ^ ^0^50066^Tiger^ ^ ^ ^0^0
+0^20050^neutral_buildTiger3^石雕造白虎1_4_5^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^15^0^10000^ ^ ^0^ ^ ^0^50068^Tiger^ ^ ^ ^0^0
+0^20051^enemy_buildStone1^白虎造石雕1_9_2^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^15^0^10000^ ^ ^0^ ^ ^0^50187^ ^ ^ ^ ^0^0
+0^20052^enemy_buildSalva^造慢速怪2_3_3^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^15^0^5000^ ^ ^0^ ^ ^0^50323^Salva1^ ^ ^ ^0^0
+0^20053^enemy_buildSalva^造慢速怪2_3_3^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^15^0^5000^ ^ ^0^ ^ ^0^50324^Rogue^ ^ ^ ^0^0
+0^20054^enemy_buildSalva^造慢速怪2_3_3^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^15^0^5000^ ^ ^0^ ^ ^0^50325^Salva2^ ^ ^ ^0^0
+0^20055^confuse^困惑术^Confuse^confuse^cast^castConfuse^"hero.cast(""confuse"", target)"^[法术]困惑术^对范围30米内的目标施放'困惑',使其不分敌友随机攻击他附近的目标.持续4秒；target可以做坐标或者敌军单位^"hero.cast(""confuse"", enemy)"^0^80009^cast^3^0^30^0^10000^^^0^^^90104^0^ ^confuse^"hero.cast(""confuse"", ${1:target})"^"hero.cast(""confuse"", target)"^0^0
+0^20056^chaos_attack_Salva^远距离高伤害混乱攻击^ ^ ^attack^ ^ ^用于Salva攻击^用于Salva攻击^^0^80005^attack^3^500^100^0^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20057^enemy_build^随机造怪自杀2_5_3^^^build^^^随机造怪自杀2_5_3^随机造怪自杀2_5_3^^0^80008^idle^3^0^7^7^100^ ^ ^0^ ^^90106^50253|50253|50254|50254|50255^ ^ ^ ^ ^0^0
+0^20058^enemy_Rogue_attack^蛮牛攻击1_2_2^ ^ ^attack^ ^ ^蛮牛攻击1_2_2^蛮牛攻击1_2_2^^0^80005^attack^1^30^6^0^1000^ ^ ^0^ ^s01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20059^npc_Tiger_attack^好白虎攻击1_3_4^ ^ ^attack^ ^ ^好白虎攻击1_3_4^好白虎攻击1_3_4^^0^80005^attack^2^30^4^0^1000^ ^ ^0^ ^s01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20060^enemy_Salva_attack^Salva攻击1_2_3^ ^ ^attack^ ^ ^用于Salva攻击^用于Salva攻击^^0^80005^attack^1^105^4^0^1000^ ^ ^0^ ^e01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20061^enemy_buildVariable rat01^建造恐鼠^^^build^^^刷怪^刷怪测试^^0^80008^idle^3^0^15^5^1000^ ^ ^0^ ^^0^50196|50196|0^ ^ ^ ^ ^0^0
+0^20062^enemy_Cannon_attack^Cannon攻击^ ^ ^attack^ ^ ^用于Native1攻击^用于Native1攻击^^0^80005^attack^1^10^25^0^1000^ ^ ^0^ ^e01_jg_attack^0^0^ ^ ^ ^ ^0^0
+0^20063^enemy_build2_2_1^建造怪物^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^30^30^1000^ ^ ^0^ ^ ^0^50085|0^ ^ ^ ^ ^0^0
+0^20064^diamond_build^建造钻石^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^15^15^1000^ ^ ^0^ ^ ^0^40004|0^ ^ ^ ^ ^0^0
+0^20065^npc_Native1_attack^Native1攻击^ ^ ^attack^ ^ ^用于Native1攻击^用于Native1攻击^^0^80005^attack^2^70^30^0^1000^ ^ ^0^ ^e01_qs_attack^0^0^ ^ ^ ^ ^0^0
+0^20066^enemy_Rogue_attack^蛮牛攻击1_2_2^ ^ ^attack^ ^ ^蛮牛攻击1_2_2^蛮牛攻击1_2_2^^0^80005^attack^1^1000^4^0^1000^ ^ ^0^ ^s01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20067^NPC_build_1_1_5^刷新怪物^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^5^1000^ ^ ^0^ ^ ^0^50487|50487|50487|50488^ ^ ^ ^ ^0^0
+0^20068^enemy_Cannon_attack1_5_3^Cannon攻击^ ^ ^attack^ ^ ^用于Native1攻击^用于Native1攻击^^0^80005^attack^1^21^45^0^1000^ ^ ^0^ ^e01_jg_attack^0^0^ ^ ^ ^ ^0^0
+0^20069^enemy_chengfa2_1_4^建造恐鼠^^^build^^^刷怪^刷怪测试^^0^80008^idle^3^0^1^1^1000^ ^ ^0^ ^^0^50206^ ^ ^ ^ ^0^0
+0^20070^enemy_chengfattack2_1_4^符文地板攻击^ ^ ^attack^ ^ ^符文地板攻击^符文地板攻击^^0^ ^idle^1^300^20^3^1000^Add-castLightningBolt^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20071^enemy_build_rat2_2_2^建造恐鼠^^^build^^^刷怪^刷怪测试^^0^80008^idle^3^0^15^5^1000^ ^ ^0^ ^^0^50223|50223|50223|50223|50210^ ^ ^ ^ ^0^0
+0^20072^wild_attacingdoor2_2_2^攻击门掉1000血^ ^ ^attack^ ^ ^用于Salva攻击^用于Variant3攻击^^0^80005^attack^3^1000^10^0^1000000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20073^enemy_build_gem2_2_2^建造宝石^^^build^^^刷怪^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^^0^40004|40004|40004|40004|50210^ ^ ^ ^ ^0^0
+0^20074^enemy_build_doorkiller2_2_2^建造门掉1000血^^^build^^^刷怪^刷怪测试^^0^80008^idle^3^0^15^5^1000^ ^ ^0^ ^^0^50211^ ^ ^ ^ ^0^0
+0^20075^enemy_build_walkdoor2_2_2^建造走向门^^^build^^^刷怪^刷怪测试^^0^80008^idle^3^0^15^5^1000^ ^ ^0^ ^^0^50210^ ^ ^ ^ ^0^0
+0^20076^lightningbolt1^闪电链^^^lightning-bolt^^^[法术]雷霆闪电^[法术]雷霆闪电^^0^80009^cast^2^300^35^3^1000^ ^ ^0.1^Add-castLightningBolt^g04_lightning^0^0^ ^^^^0^0
+0^20077^enemy_buildVariable rat02^建造恐鼠^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^6^5^3000^ ^ ^0^ ^ ^0^50302|40004|40008|40009^ ^ ^ ^ ^0^0
+0^20078^enemy_build^建造怪物^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^20^20^1000^ ^ ^0^ ^ ^0^50086^ ^ ^ ^ ^0^0
+0^20079^diamond_build^建造钻石^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^15^15^1000^ ^ ^0^ ^ ^0^40004^ ^ ^ ^ ^0^0
+0^20080^enemy_build_gem2_3_4^建造宝石^^^build^^^刷怪^刷怪测试^^0^80008^idle^3^0^8^8^1000^ ^ ^0^ ^^0^40004^ ^ ^ ^ ^0^0
+0^20081^enemy_Salva_attack2^Salva距离10必杀攻击^ ^ ^attack^ ^ ^用于Salva攻击^用于Salva攻击^^0^80005^attack^1^500^9^0^1000^ ^ ^0^ ^s01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20082^enemy_buildVariable rat01^建造恐鼠2_4_4^^^build^^^刷怪^刷怪测试^^0^80008^idle^3^0^15^5^1000^ ^ ^0^ ^^0^50224|50224|0^ ^ ^ ^ ^0^0
+0^20083^enemy_Salva_attack^Salva攻击2_4_4^ ^ ^attack^ ^ ^用于Salva攻击^用于Salva攻击^^0^80005^attack^1^30^5^0^1000^ ^ ^0^ ^e01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20084^enemy_Rogue_attack^蛮牛攻击1_2_2^ ^ ^attack^ ^ ^蛮牛攻击1_2_2^蛮牛攻击1_2_2^^0^80005^attack^1^45^5^0^1000^ ^ ^0^ ^s01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20085^wild_Bomb_explode^地雷爆炸^ ^ ^attack^ ^ ^用于地雷爆炸^用于地雷爆炸^ ^0^ ^attack^3^1000^1^1^1000^ ^ ^0^ ^^0^0^ ^ ^ ^ ^0^0
+0^20086^enemy_attack^Tiger攻击^ ^ ^attack^ ^ ^用于Tiger攻击^用于Tiger攻击^^0^80005^attack^1^70^4^0^1000^ ^ ^0^ ^^0^0^ ^ ^ ^ ^0^0
+0^20087^enemy_Cannon_attack2^超远Cannon攻击1_7_2^ ^ ^attack^ ^ ^用于Native1攻击^用于Native1攻击^^0^80005^attack^1^40^70^0^1000^ ^ ^0^ ^s01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20088^enemy_buildSalva^建造Salva^ ^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^0^0^1000^ ^ ^0^ ^ ^0^50229^ ^ ^ ^ ^0^0
+0^20089^enemy_buildSalva^建造Salva^ ^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^0^0^1000^ ^ ^0^ ^ ^0^50230^ ^ ^ ^ ^0^0
+0^20090^enemy_buildBuilder^建造造怪的2_3_3^ ^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^0^0^1000^ ^ ^0^ ^ ^0^50233|50234|50235^ ^ ^ ^ ^0^0
+0^20091^enemy_buildVariant^造怪2_3_3^ ^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^0^0^1000^ ^ ^0^ ^ ^0^50232^ ^ ^ ^ ^0^0
+0^20092^enemy_buildRandom^随机造2_5_1^ ^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^0^0^1000^ ^ ^0^ ^ ^0^50526|40004|40009|50217^ ^ ^ ^ ^0^0
+0^20093^Box_build^建造宝箱奖励内容2_6_2^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000000^ ^ ^0^ ^ ^0^40303^ ^ ^ ^ ^0^0
+0^20094^enemy_variant_attack^变异者1型攻击2_8_1^ ^ ^attack^ ^ ^变异者1型攻击2_8_1^变异者1型攻击2_8_1^^0^80005^attack^1^30^5^0^1000^ ^ ^0^ ^s01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20095^enemy_Cannon_attack2^超远Cannon攻击^ ^ ^attack^ ^ ^用于Native1攻击^用于Native1攻击^^0^80005^attack^1^30^25^0^1000^ ^ ^0^ ^s01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20096^npc_Native2_attack^Native2攻击^ ^ ^attack^ ^ ^用于Native2攻击^用于Native2攻击^^0^80005^attack^2^5^4^0^1000^ ^ ^0^ ^s01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20097^npc_Native1_attack^Native1攻击^ ^ ^attack^ ^ ^用于Native1攻击^用于Native1攻击^^0^80005^attack^2^5^20^0^1000^ ^ ^0^ ^e01_qs_attack^0^0^ ^ ^ ^ ^0^0
+0^20098^IceElfin_attack2_8_3^冰精灵攻击^^attack^attack^attack^^冰精灵攻击^冰精灵攻击^^0^80005^attack^2^50^35^0^1000^ ^ ^0^ ^ ^0^0^ ^^ ^ ^0^0
+0^20099^enemy_Cannon_attack^Cannon攻击^ ^ ^attack^ ^ ^用于Native1攻击^用于Native1攻击^^0^80005^attack^1^5^25^0^1000^ ^ ^0^ ^e01_jg_attack^0^0^ ^ ^ ^ ^0^0
+0^20100^enemy_Cannon_attack^Cannon攻击^ ^ ^attack^ ^ ^用于Native1攻击^用于Native1攻击^^0^80005^attack^1^15^30^0^1000^ ^ ^0^ ^e01_jg_attack^0^0^ ^ ^ ^ ^0^0
+0^20101^Gem_build3_1_1^宝石制造^ ^ ^build^ ^ ^ ^ ^^0^ ^idle^1^0^30^10^1000^ ^ ^0^ ^ ^0^40004|40305|40306^ ^ ^ ^ ^0^0
+0^20102^Enemy_build3_1_1^敌人制造^ ^ ^build^ ^ ^ ^ ^^0^ ^idle^1^0^30^3^1000^ ^ ^0^ ^ ^0^50266|50267|50268^ ^ ^ ^ ^0^0
+0^20103^enemy_attack3_1_1^enemy攻击^^^attack^^^用于攻击^用于攻击^^0^80005^attack^3^25^5^0^1000^ ^ ^0^ ^ ^0^^ ^ ^ ^ ^0^0
+0^20104^enemy_attack3_1_1^enemy攻击^^^attack^^^用于攻击^用于攻击^^0^80005^attack^3^35^5^0^1000^ ^ ^0^ ^ ^0^^ ^ ^ ^ ^0^0
+0^20105^enemy_attack3_1_1^enemy攻击^^^attack^^^用于攻击^用于攻击^^0^80005^attack^1^45^5^0^1000^ ^ ^0^ ^ ^0^^ ^ ^ ^ ^0^0
+0^20106^Enemy_build3_2_2^敌人制造^ ^ ^build^ ^ ^ ^ ^^0^ ^idle^1^0^30^3^1000^ ^ ^0^ ^ ^0^50277^ ^ ^ ^ ^0^0
+0^20107^Enemy_build3_3_1^敌人制造^ ^ ^build^ ^ ^ ^ ^^0^ ^idle^1^0^30^3^1000^ ^ ^0^ ^ ^0^50284^ ^ ^ ^ ^0^0
+0^20108^Enemy_build3_3_2^敌人制造^ ^ ^build^ ^ ^ ^ ^^0^ ^idle^1^0^30^3^1000^ ^ ^0^ ^ ^0^50287^ ^ ^ ^ ^0^0
+0^20109^Gem_build3_3_2^敌人制造^ ^ ^build^ ^ ^ ^ ^^0^ ^idle^1^0^30^3^1000^ ^ ^0^ ^ ^0^40004|40305|40306^ ^ ^ ^ ^0^0
+0^20110^enemy_build3_4_1^敌人制造^ ^ ^build^ ^ ^ ^ ^^0^ ^idle^1^0^30^3^1000^ ^ ^0^ ^ ^0^50297^ ^ ^ ^ ^0^0
+0^20111^enemy_attack3_4_2^S必杀攻击^ ^ ^attack^ ^ ^用于Salva攻击^用于Salva攻击^^0^80005^attack^1^5000^6^0^1000^ ^ ^0^ ^s01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20301^enemy_build_rat01^建造恐鼠^ ^^build^^^刷怪^刷怪测试^^0^80008^idle^3^0^15^5^1000^ ^ ^0^ ^^0^50198|50198|50198|50198|0^ ^ ^ ^ ^0^0
+0^20302^enemy_Variable rat_attack^恐鼠攻击^^^attack^^^用于恐鼠攻击^用于恐鼠攻击^^0^80005^attack^1^35^6^0^1000^ ^ ^0^ ^ ^0^^ ^ ^ ^ ^0^0
+0^20303^enemy_buildOthers^建造恐鼠和钻石^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^15^7^1000^ ^ ^0^ ^^0^50302|40004|50217^ ^ ^ ^ ^0^0
+0^20304^enemy_Giant Variable rat_attack^巨型恐鼠攻击^^^attack^^^用于巨型恐鼠攻击^用于巨型恐鼠攻击^^0^80005^attack^1^50^5^0^1000^ ^ ^0^ ^ ^0^^ ^ ^ ^ ^0^0
+0^20305^enemy_build^建造怪物^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^30^30^1000^ ^ ^0^ ^ ^0^50071|50011|50021|50302^ ^ ^ ^ ^0^0
+0^20306^diamond_build^建造钻石^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^15^15^1000^ ^ ^0^ ^ ^0^40004|40004|0^ ^ ^ ^ ^0^0
+0^20307^enemy_buildVariable rat02^建造恐鼠^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^6^5^3000^ ^ ^0^ ^ ^0^50302|50302|0^ ^ ^ ^ ^0^0
+0^20308^treasure_build^建造宝物^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^10^5^1000^ ^ ^0^ ^ ^0^40004|40008|40009^ ^ ^ ^ ^0^0
+0^20309^Suicide^自杀^^^attack^^^怪物自杀^怪物自杀^^0^^idle^3^0^0^0^1000^^^^^ ^90301^0^ ^^ ^ ^0^0
+0^20310^enemy_build02^建造恐鼠^^^build^^^刷怪^刷怪测试^^0^80008^idle^3^0^15^15^1000^ ^ ^0^ ^ ^0^50327|50328^ ^ ^ ^ ^0^0
+0^20311^enemy_build03^建造怪物^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^2^5^1000000^ ^ ^0^ ^ ^0^50202^ ^ ^ ^ ^0^0
+0^20312^enemy_build04^建造怪物^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^2^5^1000000^ ^ ^0^ ^ ^0^50203^ ^ ^ ^ ^0^0
+0^20313^enemy_build05^建造怪物^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^2^5^1000000^ ^ ^0^ ^ ^0^50080^ ^ ^ ^ ^0^0
+0^20314^NPC_build^建造恐鼠^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^2^2^1000000^ ^ ^0^ ^ ^0^50336^ ^ ^ ^ ^0^0
+0^20315^enemy_build06^建造怪物^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^30^2^1000000^ ^ ^0^ ^ ^0^50339|50340^ ^ ^ ^ ^0^0
+0^20316^enemy_Salva_attack^Salva攻击^^ ^attack^ ^ ^用于Salva攻击^用于Salva攻击^^0^80005^attack^3^5000^100^0^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20317^NPC_build^建造NPC^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^2^2^1000000^ ^ ^0^ ^ ^0^50346^ ^ ^ ^ ^0^0
+0^20318^NPC_build^建造NPC^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^2^2^1000000^ ^ ^0^ ^ ^0^50348^ ^ ^ ^ ^0^0
+0^20319^NPC_build^建造NPC^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^2^2^1000000^ ^ ^0^ ^ ^0^50351^ ^ ^ ^ ^0^0
+0^20320^longattack^远程攻击^^attack^attack^attack^^用于LD攻击^用于LD攻击^^0^80005^attack^1^15^20^0^1000^ ^ ^0^ ^ ^0^0^ ^^ ^ ^0^0
+0^20321^Box_build^建造宝箱^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000000^ ^ ^0^ ^ ^0^40302^Chest^ ^ ^ ^0^0
+0^20322^enemy_Rogue_attack^Rogue攻击^^ ^attack^ ^ ^用于Rogue攻击^用于Rogue攻击^^0^80005^attack^1^1000^4^0^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20323^enemy_Tiger_attack^Tiger攻击^^ ^attack^ ^ ^用于Tiger攻击^用于Tiger攻击^^0^80005^attack^1^400^4^0^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20324^tiger_build^建造老虎^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^30^5^1000000^ ^ ^0^ ^ ^0^50373^ ^ ^ ^ ^0^0
+0^20325^diamond_build^建造钻石^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^8^1000^ ^ ^0^ ^ ^0^40004|40305|40306^ ^ ^ ^ ^0^0
+0^20326^IceElfin_attack^冰精灵攻击^^attack^attack^attack^^冰精灵攻击^冰精灵攻击^^0^80005^attack^2^50^20^5^1000^ ^ ^0^ ^ ^0^0^ ^^ ^ ^0^0
+0^20327^ShadowElfin_attack^幽影精灵攻击^^attack^attack^attack^^幽影精灵攻击^幽影精灵攻击^^0^80005^attack^2^50^4^0^1000^ ^ ^0^ ^ ^0^0^ ^^ ^ ^0^0
+0^20328^RavidElfin_attack^活化精灵攻击^^attack^attack^attack^^活化精灵攻击^活化精灵攻击^^0^80005^attack^2^50^20^5^1000^ ^ ^0^ ^ ^0^0^ ^^ ^ ^0^0
+0^20329^IceElfin_build^建造冰精灵^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^ ^0^50386^ ^ ^ ^ ^0^0
+0^20330^ShadowElfin_build^建造幽影精灵^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^ ^0^50388^ ^ ^ ^ ^0^0
+0^20331^RavidElfin_build^建造活化精灵^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^ ^0^50390^ ^ ^ ^ ^0^0
+0^20332^npc_Native2_attack^Native2攻击^^ ^attack^ ^ ^用于Native2攻击^用于Native2攻击^^0^80005^attack^2^100^4^0^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20333^NPC_build^建造NPC^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^ ^0^50392^ ^ ^ ^ ^0^0
+0^20334^NPC_build^建造NPC^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^ ^0^50394^ ^ ^ ^ ^0^0
+0^20335^NPC_build^建造NPC^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^ ^0^50396^ ^ ^ ^ ^0^0
+0^20336^NPC_build^建造NPC^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^ ^0^50398^ ^ ^ ^ ^0^0
+0^20337^Variant3_build^建造3型变异者^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^30^0^1000^ ^ ^0^ ^ ^0^50402^ ^ ^ ^ ^0^0
+0^20338^npc_Native2_attack^Native2攻击^^ ^attack^ ^ ^用于Native2攻击^用于Native2攻击^^0^80005^attack^2^20^4^0^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20339^diamond_build^建造钻石^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^10^1000^ ^ ^0^ ^ ^0^40004^ ^ ^ ^ ^0^0
+0^20340^enemy_build^建造怪物^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^ ^0^50407^Aesir^ ^ ^ ^0^0
+0^20341^enemy_build^建造怪物^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^ ^0^50408^Vanir^ ^ ^ ^0^0
+0^20342^treasure_build^建造钻石^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^15^1000000^ ^ ^0^ ^ ^0^40004|40008|40307|40308^ ^ ^ ^ ^0^0
+0^20343^treasure_build^建造药水^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^5^1000000^ ^ ^0^ ^ ^0^40008^ ^ ^ ^ ^0^0
+0^20344^treasure_build^建造食物^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^5^1000000^ ^ ^0^ ^ ^0^40307^ ^ ^ ^ ^0^0
+0^20345^treasure_build^建造医疗箱^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^5^1000000^ ^ ^0^ ^ ^0^40308^ ^ ^ ^ ^0^0
+0^20346^npc_long_attack^远程攻击^^ ^attack^ ^ ^用于远程攻击^用于远程攻击^^0^80005^attack^2^5^4^15^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20347^lightning_attack^闪电攻击^^ ^attack^ ^ ^用于远程攻击^用于远程攻击^^0^80005^attack^1^10000^4^100^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20348^attack^攻击^^ ^attack^ ^ ^用于攻击^用于攻击^^0^80005^attack^3^1000^5^0^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20349^NPC_build2_5_4^建造NPC^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50426^ ^ ^ ^ ^0^0
+0^20350^NPC_build2_5_4^建造NPC^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50428^ ^ ^ ^ ^0^0
+0^20351^NPC_build2_5_4^建造NPC^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50430^ ^ ^ ^ ^0^0
+0^20352^NPC_build2_5_4^建造NPC^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50432^ ^ ^ ^ ^0^0
+0^20353^NPC_build2_5_4^建造NPC^^^build^^^刷怪测试^刷怪测试^ ^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50434^ ^ ^ ^^0^0
+0^20354^NPC_build2_5_4^建造NPC^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50436^ ^ ^ ^ ^0^0
+0^20355^ShadowElfin_attack^幽影精灵攻击^^attack^attack^attack^^幽影精灵攻击^幽影精灵攻击^^0^80005^attack^2^1000^20^0^1000^ ^ ^0^ ^ ^0^0^ ^^ ^ ^0^0
+0^20356^NPC_build^建造NPC^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000000^ ^ ^0^ ^ ^0^50444^ ^ ^ ^ ^0^0
+0^20357^diamond_build^建造钻石^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^ ^0^40004^ ^ ^ ^ ^0^0
+0^20358^attack^攻击^^ ^attack^ ^ ^用于攻击^用于攻击^^0^80005^attack^3^0^5^0^1000000^ ^ ^0^ ^ ^90302^0^ ^ ^ ^ ^0^0
+0^20359^diamond_build^建造钻石^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^10^1000^ ^ ^0^ ^ ^0^40004|40305|40306^ ^ ^ ^ ^0^0
+0^20360^var_build^建造恐鼠^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^5^1000000^ ^ ^0^ ^ ^0^50451^ ^ ^ ^ ^0^0
+0^20361^enemy_build^建造恐鼠^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^100^ ^ ^0^ ^ ^90302^50452^ ^ ^ ^ ^0^0
+0^20362^enemy_build^建造变异者^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^^0^50459^ ^ ^ ^ ^0^0
+0^20363^enemy_build^建造变异者^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^^0^50461^ ^ ^ ^ ^0^0
+0^20364^enemy_build^建造变异者^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^^0^50463^ ^ ^ ^ ^0^0
+0^20365^enemy_build^建造变异者^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^^0^50467^ ^ ^ ^ ^0^0
+0^20366^tiger_build^建造老虎^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^30^0^1000^ ^ ^0^ ^^0^50061^Tiger^ ^ ^ ^0^0
+0^20367^hetu_build^建造左河图^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^^0^50472^ ^ ^ ^ ^0^0
+0^20368^hetu_build^建造中河图^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^^0^50474^ ^ ^ ^ ^0^0
+0^20369^hetu_build^建造右河图^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^^0^50476^ ^ ^ ^ ^0^0
+0^20370^hetu_build^建造下河图^^^build^^^刷怪测试^刷怪测试^^0^80008^idle^3^0^15^0^1000^ ^ ^0^ ^^0^50478^ ^ ^ ^ ^0^0
+0^20371^Gate_attack^能量门自残^^^buff^^^自身掉血^自身掉血^^0^80005^idle^3^0^0^0^1000^ ^ ^0^ ^^90303^0^ ^ ^ ^ ^0^0
+0^20400^lightningbolt1^闪电链^lightningbolt^lightning-bolt^lightning-bolt^castLightningBolt^"hero.cast(""lightning-bolt"", target)"^[法术]雷霆闪电^[法术]雷霆闪电^"hero.cast(""lightning-bolt"", target)"^0^80009^cast^2^300^35^3^6000^ ^ ^0.1^Add-castLightningBolt^g04_lightning^0^0^ ^lightning-bolt^"hero.cast(${1:""lightning-bolt""}, ${2:target})"^"hero.cast(""lightning-bolt"", target)"^0^0
+0^20401^attackHobo1^攻击^attackWarrior^attack^attack^attack^hero.attack()^用来攻击目标一次^用来攻击目标一次^"hero.attack(""Treg"")"^0^80005^attack^2^300^33^0^1000^ ^ ^0.16^ ^s01_zs_attack_1^0^0^ ^attack^hero.attack(${1:enemy})^hero.attack(${1:enemy})^0^0
+0^20402^NPC_build_1_1_5^刷新怪物^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^5^1000000^ ^ ^0^ ^ ^0^50214|50214|50214|50488^ ^ ^ ^ ^0^0
+0^20403^jiejie_1_1_5^结界^^^safe^^^结界^结界^^0^ ^idle^2^0^2^0^1000^ ^ ^0^ ^ ^90304^0^ ^ ^ ^ ^0^0
+0^20404^NPC_build_1_4_1.1^旋转机关刷怪^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50493^ ^ ^ ^ ^0^0
+0^20405^NPC_build_1_4_1.2^旋转机关刷怪^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50494^ ^ ^ ^ ^0^0
+0^20406^NPC_build_1_4_1.3^旋转机关刷怪^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50495^ ^ ^ ^ ^0^0
+0^20407^NPC_build_1_4_1.4^旋转机关刷怪^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50496^ ^ ^ ^ ^0^0
+0^20408^NPC_build_1_4_1.5^旋转机关刷怪^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50497^ ^ ^ ^ ^0^0
+0^20409^NPC_build_1_4_1.6^旋转机关刷怪^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50498^ ^ ^ ^ ^0^0
+0^20410^NPC_build_1_4_1.7^旋转机关刷怪^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50499^ ^ ^ ^ ^0^0
+0^20411^NPC_build_1_4_1.8^旋转机关刷怪^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50500^ ^ ^ ^ ^0^0
+0^20412^Laerboll_1_4_1^光球打人^ ^ ^attack^ ^ ^光球打人^光球打人^ ^0^ ^attack^1^300^8^3^1000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20413^NPC_build_2_7_3^刷新怪物^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^5^1000000^ ^ ^0^ ^ ^0^50504|50505|50506|50507^ ^ ^ ^ ^0^0
+0^20414^NPC_build_2_7_3_1^透明人造炸弹1^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50508^ ^ ^ ^ ^0^0
+0^20415^NPC_build_2_7_3_2^透明人造炸弹2^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50509^ ^ ^ ^ ^0^0
+0^20416^NPC_build_2_7_3_3^透明人造炸弹3^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50510^ ^ ^ ^ ^0^0
+0^20417^NPC_build_2_7_3_4^透明人造炸弹4^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50511^ ^ ^ ^ ^0^0
+0^20418^Diamond_build_2_7_3_1^刷宝石1^^^build^^^刷新宝石^刷新宝石^^0^80008^idle^3^0^0^0^1000000^ ^ ^0^ ^ ^0^40004|0|0|0^ ^ ^ ^ ^0^0
+0^20419^Diamond_build_2_7_3_2^刷宝石2^^^build^^^刷新宝石^刷新宝石^^0^80008^idle^3^0^0^0^1000000^ ^ ^0^ ^ ^0^40004|0|0|0^ ^ ^ ^ ^0^0
+0^20420^Diamond_build_2_7_3_3^刷宝石3^^^^^^刷新宝石^刷新宝石^^0^80008^idle^3^0^0^0^1000000^ ^ ^0^ ^ ^0^40004|0|0|0^ ^ ^ ^ ^0^0
+0^20421^Diamond_build_2_7_3_4^刷宝石4^^^build^^^刷新宝石^刷新宝石^^0^80008^idle^3^0^0^0^1000000^ ^ ^0^ ^ ^0^40004|0|0|0^ ^ ^ ^ ^0^0
+0^20422^rat_attack2_5_1^恐鼠攻击^^^attack^^^用于恐鼠攻击^用于恐鼠攻击^^0^80005^attack^1^25^3^0^1000^ ^ ^0^ ^ ^0^^ ^ ^ ^ ^0^0
+0^20423^NPC_build_2_6_3_1^透明人刷巨型恐鼠^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50531^ ^ ^ ^ ^0^0
+0^20424^NPC_build_2_6_3_2^透明人刷恐鼠^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50532^ ^ ^ ^ ^0^0
+0^20425^NPC_build_2_7_2^透明人刷怪^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50535|50536|50537^ ^ ^ ^ ^0^0
+0^20426^NPC_build_2_7_2_1^透明人造炸弹1^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50538^ ^ ^ ^ ^0^0
+0^20427^NPC_build_2_7_2_2^透明人造炸弹2^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50539^ ^ ^ ^ ^0^0
+0^20428^NPC_build_2_7_2_3^透明人造炸弹3^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50540^ ^ ^ ^ ^0^0
+0^20429^neutral_buildTiger1^石雕造白虎2_7_5^^^build^^^刷怪^刷怪^^0^80008^idle^3^0^15^0^1000000^ ^ ^0^ ^ ^0^50550^ ^ ^ ^ ^0^0
+0^20430^NPC_build_2_7_5_1^透明人刷精灵1^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50547^ ^ ^ ^ ^0^0
+0^20431^NPC_build_2_7_5_2^透明人刷精灵2^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50548^ ^ ^ ^ ^0^0
+0^20432^NPC_build_2_7_5_3^透明人刷精灵3^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50549^ ^ ^ ^ ^0^0
+0^20433^NPC_build_2_7_5_4^白虎死亡刷怪^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50551^ ^ ^ ^ ^0^0
+0^20434^NPC_build_2_7_5_5^白虎死亡刷怪^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50552^ ^ ^ ^ ^0^0
+0^20435^NPC_build_2_7_5_6^透明人攻击门^^^attack^^^用来攻击目标一次^用来攻击目标一次^^0^80008^idle^3^1000^2^0^1000000^ ^ ^0^ ^ ^0^0^ ^ ^ ^ ^0^0
+0^20436^NPC_build_2_6_1_1^透明人刷怪2_6_1_1^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50571^ ^ ^ ^ ^0^0
+0^20437^NPC_build_2_6_1_2^透明人刷怪2_6_1_2^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50572^ ^ ^ ^ ^0^0
+0^20438^NPC_build_2_6_1_3^透明人刷怪2_6_1_3^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50571^ ^ ^ ^ ^0^0
+0^20439^enemy_Salva_attack^Salva攻击2_6_1^ ^ ^attack^ ^ ^用于Salva攻击^用于Salva攻击^^0^80005^attack^1^8^4^0^1000^ ^ ^0^ ^e01_zs_attack^0^0^ ^ ^ ^ ^0^0
+0^20440^enemy_Variable rat_attack^恐鼠攻击2_6_1^^^attack^^^用于恐鼠攻击^用于恐鼠攻击^^0^80005^attack^1^8^3^0^1000^ ^ ^0^ ^ ^0^^ ^ ^ ^ ^0^0
+0^20441^NPC_build_1_7_3_1^透明人刷怪1_7_3_1^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50091^ ^ ^ ^ ^0^0
+0^20442^NPC_build_1_7_3_2^透明人刷怪1_7_3_2^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50092^ ^ ^ ^ ^0^0
+0^20443^NPC_build_1_7_3_3^透明人刷怪1_7_3_3^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50093^ ^ ^ ^ ^0^0
+0^20444^NPC_build_1_7_3_4^透明人刷怪1_7_3_4^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50094^ ^ ^ ^ ^0^0
+0^20445^NPC_build_1_10_4^透明人刷透明人1_10_4^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50577^ ^ ^ ^ ^0^0
+0^20446^NPC_build_1_10_4^透明人刷透明人1_10_4^^^build^^^刷新怪物^刷新怪物^^0^80008^idle^3^0^2^0^1000000^ ^ ^0^ ^ ^0^50578^ ^ ^ ^ ^0^0
+0^21001^attackGrace0^女战士基础攻击^attackWarrior^attack^attack^attack^hero.attack(enemy)^用来攻击目标一次^攻击指定的敌人enemy一次,enemy可以是敌军名字或者一个敌军对象^"hero.attack(""York"")<br><br>enemy = hero.findNearestEnemy()<br>hero.attack(enemy)"^1^80005^attack^3^20^4^0^0^ ^ ^0.16^ ^s01_zs_attack^0^0^ ^attack^hero.attack(${1:enemy})^hero.attack(${1:enemy})^0^0
+0^21002^attackTuring0^男战士基础攻击^attackWarrior^attack^attack^attack^hero.attack(enemy)^用来攻击目标一次^攻击指定的敌人enemy一次,enemy可以是敌军名字或者一个敌军对象^"hero.attack(""York"")<br><br>enemy = hero.findNearestEnemy()<br>hero.attack(enemy)"^1^80005^attack^3^30^4^0^0^ ^ ^0.16^ ^s01_zs_attack^0^0^ ^attack^hero.attack(${1:enemy})^hero.attack(${1:enemy})^0^0
+0^21003^attackWarrior1^钛合金剑^attackWarrior^attack^attack^attack^hero.attack(enemy)^用来攻击目标一次^攻击指定的敌人enemy一次,enemy可以是敌军名字或者一个敌军对象^"hero.attack(""York"")<br><br>enemy = hero.findNearestEnemy()<br>hero.attack(enemy)"^1^80005^attack^3^30^4^0^0^ ^ ^0.16^ ^s01_zs_attack^0^0^ ^attack^hero.attack(${1:enemy})^hero.attack(${1:enemy})^0^0
+0^21004^attackWarrior2^纳米剑^attackWarrior^attack^attack^attack^hero.attack(enemy)^用来攻击目标一次^攻击指定的敌人enemy一次,enemy可以是敌军名字或者一个敌军对象^"hero.attack(""York"")<br><br>enemy = hero.findNearestEnemy()<br>hero.attack(enemy)"^1^80005^attack^3^50^4^0^0^ ^ ^0.16^ ^s01_zs_attack^0^0^ ^attack^hero.attack(${1:enemy})^hero.attack(${1:enemy})^0^0
+0^21041^attackMage1^攻击^attackMage^attack^attack^attack^hero.attack(enemy)^用来攻击目标一次^攻击指定的敌人enemy一次,enemy可以是敌军名字或者一个敌军对象^"hero.attack(""York"")<br><br>enemy = hero.findNearestEnemy()<br>hero.attack(enemy)"^1^80005^attack^3^35^25^0^0^ ^Add-attackMage-m^0.16^Add-attackMage-e^s02_fs_attack^0^0^ ^attack^hero.attack(${1:enemy})^hero.attack(${1:enemy})^0^0
+0^21061^attackHobo1^攻击^attackGunman^attack^attack^attack^hero.attack(enemy)^用来攻击目标一次^攻击指定的敌人enemy一次,enemy可以是敌军名字或者一个敌军对象^"hero.attack(""York"")<br><br>enemy = hero.findNearestEnemy()<br>hero.attack(enemy)"^1^80005^attack^3^30^33^0^0^ ^ ^0.16^ ^s03_qs_attack^0^0^ ^attack^hero.attack(${1:enemy})^hero.attack(${1:enemy})^0^0
+0^21201^findNearestItem^寻找最近物体^findNearestItem^findNearestItem^find^findNearestItem^hero.findNearestItem()^获取最近的物品^返回视野内最近的物品，如果没有则返回“null”。^item=hero.findNearestItem()^0^80028^idle^3^0^1000^0^0^ ^ ^0^ ^ ^0^0^ ^findNearestItem^hero.findNearestItem()^hero.findNearestItem()^0^0
+0^21202^findNearestFriend^寻找最近友军^findNearestFriend^findNearestFriend^find^findNearestFriend^hero.findNearestFriend()^获取最近的友军^返回视野内最近的友军，如果没有则返回“null”。^friend=hero.findNearestFriend()^0^80035^idle^3^0^1000^0^0^ ^ ^0^ ^ ^0^0^ ^findNearestFriend^hero.findNearestFriend()^hero.findNearestFriend()^0^0
+0^21203^findFriends^寻找视野内所有友军^findFriends^findFriends^find^findFriends^hero.findFriends()^寻找视野内所有友军^寻找视野内所有友军，如果没有则返回“null”。^my_friends=hero.findFriends()^0^80036^idle^3^0^1000^0^0^ ^ ^0^ ^ ^0^0^ ^findFriends^hero.findFriends()^hero.findFriends()^0^0
+0^21204^findEnemies^寻找视野内所有敌人^findEnemies^findEnemies^find^findEnemies^hero.findEnemies()^寻找视野内所有敌人^寻找视野内所有敌人，如果没有则返回“null”。^enemies=hero.findEnemies()^0^80037^idle^3^0^1000^0^0^ ^ ^0^ ^ ^0^0^ ^findEnemies^hero.findEnemies()^hero.findEnemies()^0^0
+0^21205^findItems^寻找视野内所有物品^findItems^findItems^find^findItems^hero.findItems()^寻找视野内所有物品^寻找视野内所有物品，如果没有则返回“null”。^items=hero.findItems()^0^80038^idle^3^0^1000^0^0^ ^ ^0^ ^ ^0^0^ ^findItems^hero.findItems()^hero.findItems()^0^0
+0^21241^Fireball1^火球术^Fireball^fireball^fireball^fireball^"hero.cast(""fireball"", target)"^[法术]火球术^如果目标在31米内,对目标施放一个火球,造成300点伤害.同时目标周围5米内的单位会受到溅射伤害.^"hero.cast(""fireball"", enemy)"^0^80009^cast^2^120^31^5^10000^ ^Add-castFireball-m^-0.5^Add-castFireball-e^s08_fireball^0^0^ ^fireball^"hero.cast(${1:""fireball""}, ${2:target})"^"hero.cast(""fireball"", target)"^0^0
+0^21242^Haste1^加速术^Haste^haste^haste^haste^"hero.cast(""haste"", target)"^[法术]加速术^对target施放加速技能, 提升1倍移动速度和攻击速度，持续8秒.^"hero.cast(""haste"", friend)"^0^80009^cast^1^0^31^1^12000^Add-castHaste^ ^0^ ^ s13_buff^90107^0^ ^haste^"hero.cast(${1:""haste""}, ${2:target})"^"hero.cast(""haste"", target)"^0^0
+0^21243^MagicMissile1^魔法飞弹1级^MagicMissile^MagicMissile^MagicMissile^MagicMissile^"hero.cast(""magic-missile"",target)"^魔法飞弹^魔法飞弹^"hero.cast(""magic-missile"",target)"^0^80009^cast^2^80^25^0^4000^ ^ ^0^ ^s12_magic^0^0^ ^magicmissile^"hero.cast(${1:""magic-missile""},${2:target})"^"hero.cast(""magic-missile"",target)"^0^0
+0^21281^setLightColor^设置光色^setFlowercolor^setLightcolor^setLightcolor^setLightcolor^hero.setLightcolor(color)^设置激光画笔的颜色^设置激光画笔的颜色，颜色有^"hero.setLightcolor(""yellow"")"^0^80032^idle^3^0^20^0^0^ ^ ^0^ ^ ^0^0^ ^setLightColor^"hero.setLightcolor(""red"")"^hero.setLightcolor()^0^0
+0^21282^toggleLight^开关光迹^toggleFlowers^toggleLight^toggleLight^toggleLight^hero.toggleLight()^打开/关闭激光画笔^打开/关闭激光画笔^hero.toggleLight()^0^80033^idle^3^0^0^0^0^^ ^0^ ^ ^0^0^ ^toggleLight^hero.toggleLight()^hero.toggleLight()^0^0
+0^21283^summon^召唤活化精灵^summon^ravidelfin^build^summon^"hero.summon(""ravidelfin"")"^召唤活化精灵^如果你拥有足够的能量的话，可以召唤一个活化精灵任你控制command。^"hero.summon(""ravidelfin"")"^0^80015^cast^3^0^5^5^1000^ ^ ^0^ ^s09_convenant^0^50382^ ^summon^"hero.summon(""ravidelfin"")"^"hero.summon(""ravidelfin"")"^0^0
+0^21284^command^命令^command^command^command^command^"hero.command(friend, ""attack"", target)"^控制所召唤的精灵^控制所有友军中可控制的单位^"hero.command(friend, ""attack"", target)"^0^80016^say^1^0^50^0^1000^ ^ ^0^ ^ ^0^0^ ^command^"hero.command(friend, ""attack"", target)"^"hero.command(friend, ""attack"", target)"^0^0
+0^21285^costOf^召唤耗费^costOf^costOf^costOf^costOf^hero.costOf()^返回召唤精灵的所需MP^返回指定建筑或召唤物的所需的MP数量。^hero.costOf()^0^80029^idle^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^costOf^hero.costOf()^hero.costOf()^0^0
+0^21286^MP^当前魔力值^MP^mp^mp^mp^hero.mp^返还英雄当前MP能量值^返还英雄当前MP能量值^current_manapoint=hero.MP^0^80030^idle^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^MP^target.mp^target.mp^0^0
+0^21287^HP^当前生命值^health^hp^hp^hp^target.hp^返回目标单位的生命值^返回目标单位的生命值^current_health=hero.HP^0^80019^idle^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^HP^target.hp^target.hp^0^0
+0^21288^maxHP^最大生命值^maxHealth^maxHP^maxHP^maxHP^target.maxHP^返回目标单位的最大生命值^返回目标单位的最大生命值^max_enemy_hp = enemy.maxHP^0^80031^idle^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^maxHP^target.maxHP^target.maxHP^0^0
+0^21289^attackRange^当前攻击距离^attackRange^attackRange^attackRange^attackRange^target.attackRange^test^test^target.attackRange^0^80034^idle^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^attackRange^target.attackRange^target.attackRange^0^0
+0^21320^break^break^break^break^break^break^break^break^break^break^0^^ ^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^break^break^break^0^0
+0^21321^continue^continue^continue^continue^continue^continue^continue^continue^continue^continue^0^^ ^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^continue^continue^continue^0^0
+0^21322^pass^pass^pass^pass^pass^pass^pass^pass^pass^pass^0^^ ^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^pass^pass^pass^0^0
+0^21323^elif^elif^elif^elif^elif^elif^elif^elif^elif^elif^0^^ ^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^elif^elif^elif^0^0
+0^21324^dropMP^包含魔力值^dropMP^dropMP^dropMP^dropMP^target.dropMP^返回目标物品所掉落的MP能量值^返回目标物品所掉落的MP能量值^item = hero.findNearestItem<br>get_mp = item.mp^0^^idle^3^0^0^0^0^ ^ ^0^ ^ ^0^0^ ^dropMP^target.dropMP^target.dropMP^0^0
+0^21325^summon^召唤冰精灵^summon^iceelfin^build^summon^"hero.summon(""iceelfin"")"^召唤冰精灵^如果你拥有足够的能量的话，可以召唤一个冰精灵任你控制command。^"hero.summon(""iceelfin"")"^0^80015^cast^3^0^5^5^1000^ ^ ^0^ ^s09_convenant^0^50380^ ^summon^"hero.summon(""iceelfin"")"^"hero.summon(""iceelfin"")"^0^0
+0^21326^summon^召唤幽影精灵^summon^shadowelfin^build^summon^"hero.summon(""shadowelfin"")"^召唤幽影精灵^如果你拥有足够的能量的话，可以召唤一个幽影精灵任你控制command。^"hero.summon(""shadowelfin"")"^0^80015^cast^3^0^5^5^1000^ ^ ^0^ ^s09_convenant^0^50381^ ^summon^"hero.summon(""shadowelfin"")"^"hero.summon(""shadowelfin"")"^0^0

@@ -1,0 +1,20 @@
+﻿# 2_3_4_打地鼠
+# 1. 英雄存活
+# 2. 拾取10个宝石
+#
+# 被救的战士出于感激，决定带你回去见部族长老，向长老请求帮助。
+# 途中，你们发现一个房间满布宝石，但有大量恐鼠出没。
+# 遗民战士提醒你，不要主动攻击实力凶悍的巨型恐鼠（giantrat）。
+#
+# 利用while循环，根据不同敌人种类采取不同对策，同时加油拾取宝石吧！
+
+while True:
+    enemy = hero.findNearestEnemy()
+    item = hero.findNearestItem()
+    if enemy and enemy.type=="rat":
+        hero.attack(enemy)
+    elif enemy and enemy.type=="giantrat":
+        if item:
+            hero.moveXY(item.pos.x,item.pos.y)
+    elif item:
+        hero.moveXY(item.pos.x,item.pos.y)

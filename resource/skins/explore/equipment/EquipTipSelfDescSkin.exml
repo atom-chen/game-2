@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipTipSelfDescSkin" width="400" height="55" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+        <e:Image id="propertyIcon"/>
+	<e:Label id="propertyDesc1" text="范围伤害" x="104" y="17" width="152" size="22" fontFamily="Microsoft YaHei UI"/>
+	<e:Label id="propertyDesc2" text="140" x="256" y="18" width="144" bold="true" size="22" fontFamily="Microsoft YaHei UI" textColor="0xc613b2"/>
+	<e:Image source="equip_tips_json.equip_tips_info_icon_png" x="29" y="-8"/>
+</e:Skin>

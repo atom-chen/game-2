@@ -1,0 +1,12 @@
+{
+   "compilerOptions": {
+      "target": "es5",
+      "locale": "zh-CN",
+      "noImplicitAny": false,
+      "lib": [],
+      "moduleResolution": "node"
+   },
+   "exclude": [
+      "node_modules"
+   ]
+}

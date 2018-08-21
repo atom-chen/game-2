@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipTipInfoBtnSkin" width="57" height="57" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,over,down">
+	<e:Image source="common_utils_json.equip_btn_card_info_selected_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="common_utils_json.equip_btn_card_info_selected_png" includeIn="over" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="common_utils_json.equip_btn_card_info_normal_png"  includeIn="up" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

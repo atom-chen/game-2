@@ -1,0 +1,32 @@
+﻿# 保护好中心地带。
+# 在所有的过道位置都放好炸弹。
+# 敌人很快就会来袭，抓紧时间。
+
+# 在Y为114的X轴放置炸弹，X位置起始是40，终止是112，每24放一个。
+def buildNorthLine():
+    for x in range(40, 113, 24):
+        hero.buildXY("fire-trap", x, 114)
+
+# 在X为140的Y轴放置炸弹，Y位置起始是38，终止是110，每18放一个。
+def buildEastLine():
+    # Complete this function:
+    for y in range(110, 37, -18):
+        hero.buildXY("fire-trap", 140, y)
+
+# 在Y为22的Y轴放置炸弹，X位置起始是132，终止是32，每20放一个。
+def buildSouthLine():
+    # Complete this function:
+    for x in range(132, 31, -20):
+        hero.buildXY("fire-trap", x, 22)
+
+# 在X为20的X轴放置炸弹，Y位置起始是108，终止是28，每16放一个。
+def buildWestLine():
+    # Complete this function:
+    for y in range(28, 109, 16):
+        hero.buildXY("fire-trap", 20, y)
+
+buildNorthLine();
+buildEastLine();
+buildSouthLine();
+buildWestLine();
+hero.moveXY(40, 94);

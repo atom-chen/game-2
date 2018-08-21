@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CreateRoleWindowSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15b195bfe58"/>
+	<e:Image source="create_role_bg_jpg" x="0" y="0"/>
+	<e:Image id="imgFigure0" width="916" height="920" x="890" y="102" scaleX="0.72" scaleY="0.88" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="imgFigure" width="916" height="920" x="375" y="115" scaleX="0.72" scaleY="0.88" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image source="create_role_front_png" y="771" x="0" scaleX="1" scaleY="1"/>
+	<e:Image source="create_role_info_frame_png" x="0" y="310.4"/>
+	<e:Image source="create_role_info_frame_png" x="1509" y="293.73"/>
+	<e:Image source="create_role_info_frame_01_png" x="91" y="729.4"/>
+	<e:Image source="create_role_info_frame_01_png" x="91" y="789.9"/>
+	<e:Image source="create_role_info_frame_01_png" x="91" y="849.9"/>
+	<e:Image source="create_role_info_frame_01_png" x="91" y="909.4"/>
+	<e:Image source="create_role_info_frame_01_png" x="1600" y="907.88" scaleX="1" scaleY="1"/>
+	<e:Image source="create_role_info_frame_01_png" x="1600" y="848.88" scaleX="1" scaleY="1"/>
+	<e:Image source="create_role_info_frame_01_png" x="1600" y="788.88" scaleX="1" scaleY="1"/>
+	<e:Image source="create_role_info_frame_01_png" x="1600" y="727.88" scaleX="1" scaleY="1"/>
+	<e:Image source="common_utils_json.ability_life_icon_png" x="99" y="728.4" scaleX="1" scaleY="1"/>
+	<e:Image source="common_utils_json.ability_attack_icon_png" x="96" y="790.4"/>
+	<e:Image source="common_utils_json.ability_speed_icon_png" x="99" y="852.4"/>
+	<e:Image source="common_utils_json.ability_view_icon_png" x="99" y="910.4"/>
+	<e:Label text="生命" x="165" y="735.4" size="28" width="76" height="42" verticalAlign="middle" fontFamily="Microsoft Yahei" stroke="3" strokeColor="0x003479"/>
+	<e:Label text="攻击" x="165" y="793.4" size="28" width="78" height="42" verticalAlign="middle" fontFamily="Microsoft Yahei" stroke="3" strokeColor="0x003479"/>
+	<e:Label text="速度" x="165" y="853.4" size="28" width="80" height="42" verticalAlign="middle" fontFamily="Microsoft Yahei" stroke="3" strokeColor="0x003479"/>
+	<e:Label text="视野" x="165" y="913.4" size="28" width="82" height="42" verticalAlign="middle" fontFamily="Microsoft Yahei" stroke="3" strokeColor="0x003479"/>
+	<e:Label id="labHp" text="123456" x="238" y="742.4" size="28" textColor="0xFFFE9C" stroke="3" strokeColor="0x4C2F26"/>
+	<e:Label id="labAttack" text="123456" x="238" y="802.4" size="28" textColor="0xFFFE9C" stroke="3" strokeColor="0x4C2F26"/>
+	<e:Label id="labSpeed" text="123456" x="238" y="861.4" size="28" textColor="0xFFFE9C" stroke="3" strokeColor="0x4C2F26"/>
+	<e:Label id="labViewRange" text="123456" x="238" y="922.4" size="28" textColor="0xFFFE9C" stroke="3" strokeColor="0x4C2F26"/>
+	<e:Image source="common_utils_json.ability_life_icon_png" x="1613" y="724.88" scaleX="1" scaleY="1"/>
+	<e:Image source="common_utils_json.ability_attack_icon_png" x="1610" y="786.88"/>
+	<e:Image source="common_utils_json.ability_speed_icon_png" x="1613" y="848.88"/>
+	<e:Image source="common_utils_json.ability_view_icon_png" x="1613" y="906.88"/>
+	<e:Label text="生命" x="1679" y="730.88" size="28" width="76" height="42" verticalAlign="middle" fontFamily="Microsoft Yahei" stroke="3" strokeColor="0x003479"/>
+	<e:Label text="攻击" x="1679" y="795.4" size="28" width="78" height="42" verticalAlign="middle" fontFamily="Microsoft Yahei" stroke="3" strokeColor="0x003479"/>
+	<e:Label text="速度" x="1679" y="854.4" size="28" width="80" height="42" verticalAlign="middle" fontFamily="Microsoft Yahei" stroke="3" strokeColor="0x003479"/>
+	<e:Label text="视野" x="1679" y="913.4" size="28" width="82" height="42" verticalAlign="middle" fontFamily="Microsoft Yahei" stroke="3" strokeColor="0x003479"/>
+	<e:Label id="labHp0" text="123456" x="1752" y="741.4" size="28" textColor="0xFFFE9C" stroke="3" strokeColor="0x4C2F26"/>
+	<e:Label id="labAttack0" text="123456" x="1752" y="803.4" size="28" textColor="0xFFFE9C" stroke="3" strokeColor="0x4C2F26"/>
+	<e:Label id="labSpeed0" text="123456" x="1752" y="862.4" size="28" textColor="0xFFFE9C" stroke="3" strokeColor="0x4C2F26"/>
+	<e:Label id="labViewRange0" text="123456" x="1752" y="921.4" size="28" textColor="0xFFFE9C" stroke="3" strokeColor="0x4C2F26"/>
+	<e:Image id="imgHeroName" width="223" height="98" x="102" y="267.4" source="hero_json.pic_name_Grace_png"/>
+	<e:Image width="223" height="98" x="1606" y="267.4" id="imgHeroName0" source="hero_json.pic_name_Grace_png"/>
+	<e:Label id="labDesc" text="标签" x="29" y="381.55" width="360" height="314" size="24" stroke="3" strokeColor="0x0036d1" multiline="true" wordWrap="true" fontFamily="Microsoft YaHei" lineSpacing="5"/>
+	<e:Label id="labDesc0" text="标签" x="1538" y="381.55" width="360" height="314" scaleX="1" scaleY="1" stroke="3" strokeColor="0x0036d1" size="24" multiline="true" wordWrap="true" fontFamily="Microsoft YaHei" lineSpacing="5"/>
+	<e:Button id="btnCreate" label="按钮" x="792" y="771" skinName="CreateRoleButtonSkin"/>
+</e:Skin>

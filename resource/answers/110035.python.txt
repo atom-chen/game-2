@@ -1,0 +1,32 @@
+﻿# 1_7_5_请君入瓮
+# 1. 英雄必须存活
+# 2. 安全抵达终点
+#
+# 小心！这一关新出现的2型变异者是更强悍的敌人。
+# 力敌不如智取，结合地图中已经放好的障碍物，再多放置一些，用障碍物造个“口袋”把敌人关进去吧！
+# 你可能需要多尝试几次，看看怎么封堵才是最安全的。
+
+
+# 解决掉变异者后，记得打开门，让被关押的囚犯重获自由。
+
+hero.buildXY("block",16,39)
+hero.buildXY("block",16,45)
+hero.buildXY("block",16,42)
+hero.moveUp()
+hero.moveRight(3)
+hero.moveLeft(3)
+hero.moveDown(2)
+hero.buildXY("block",8,46)
+hero.buildXY("block",12,46)
+
+hero.moveRight(2)
+hero.moveUp()
+hero.moveRight()
+hero.moveUp()
+hero.buildXY("block",30,32)
+hero.moveRight(2)
+hero.attack("Gate")
+hero.attack("Gate")
+hero.attack("Gate")
+hero.moveUp()
+

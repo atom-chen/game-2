@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RegisterAgeWindowSkin" width="793" height="618" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="register_json.register_title_png" x="11" y="0" scaleX="1" scaleY="1"/>
+	<e:Image source="register_json.register_frame_01_png" x="0" y="51"/>
+	<e:Button id="btnClose" label="按钮" x="719" y="68" skinName="WindowCloseBtnSkin"/>
+	<e:Image source="register_json.register_age_png" x="211" y="129"/>
+	<e:Button id="btnNext" label="下一步" x="331" y="498" skinName="CommonButtonSkin"/>
+	<e:TextInput id="txtAge" x="362" y="151" width="162" skinName="GameTextInputSkin" height="38"/>
+	<e:Label text="*我们热心于教育事业，请填" x="62" y="289" size="22" textColor="0x36d5ff" fontFamily="Microsoft Yahei"/>
+	<e:Label text="*我们将严格保护用户的隐私信息" x="62" y="368" size="22" textColor="0x36D5FF" fontFamily="Microsoft Yahei"/>
+	<e:Label text="*当前游戏处于免费删档测试阶段，更多内容敬请期待正式版本！" x="95" y="378" size="20" textColor="0xdd544a" visible="false"/>
+	<e:Label text="真实年龄" x="337" y="289" size="22" fontFamily="Microsoft Yahei"/>
+	<e:Label text="帮助我们开发出更好的教育产品" x="424" y="289" size="22" width="330" textColor="0x36d5ff" height="23" fontFamily="Microsoft Yahei"/>
+	<e:Label id="labAccount" text="已有账号" x="538" y="521" size="22" fontFamily="Microsoft Yahei"/>
+</e:Skin>

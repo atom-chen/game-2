@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QuickReplyButtonSkin" states="up,over,down,disabled" width="68" height="68" xmlns:e="http://ns.egret.com/eui">
+    <e:Image source="yj_reply_normal_png" includeIn="up"/>
+	<e:Image source="yj_reply_selected_png" includeIn="over,down"/>
+</e:Skin>

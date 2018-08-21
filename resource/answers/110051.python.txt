@@ -1,0 +1,21 @@
+﻿# 2_1_1_变异巨鼠
+# 1. 英雄存活
+# 2. 抵达终点
+# 3. 消灭随机出现的恐鼠
+#
+# 敌人逃到了遗迹星球的近地轨道空间站，你也追到了这里。
+# 废弃的舱房里危机四伏，每到一个路口，都需要好好侦查是否有敌人发起突袭。
+# 用moveXY语句移动到每个三岔路口，然后马上用if语句判断有没有敌人，如果发现敌人则发起攻击。
+
+hero.moveXY(30,37)
+enemy=hero.findNearestEnemy()
+if enemy:
+    hero.attack(enemy)
+    hero.attack(enemy)
+hero.moveXY(46,39)
+enemy=hero.findNearestEnemy()
+if enemy:
+    hero.attack(enemy)
+    hero.attack(enemy)
+hero.moveXY(66,39)
+

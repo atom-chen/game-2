@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Add-castChainLightning-m (1).png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,254},{412,76}}</string>
+                <key>offset</key>
+                <string>{196,-3}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{415,55},{412,76}}</string>
+                <key>sourceSize</key>
+                <string>{850,180}</string>
+            </dict>
+            <key>Add-castChainLightning-m (2).png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,164},{414,88}}</string>
+                <key>offset</key>
+                <string>{190,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{408,46},{414,88}}</string>
+                <key>sourceSize</key>
+                <string>{850,180}</string>
+            </dict>
+            <key>Add-castChainLightning-m (3).png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{418,84}}</string>
+                <key>offset</key>
+                <string>{196,10}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{412,38},{418,84}}</string>
+                <key>sourceSize</key>
+                <string>{850,180}</string>
+            </dict>
+            <key>Add-castChainLightning-m (4).png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,88},{416,74}}</string>
+                <key>offset</key>
+                <string>{193,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{410,53},{416,74}}</string>
+                <key>sourceSize</key>
+                <string>{850,180}</string>
+            </dict>
+            <key>Add-castChainLightning-m (5).png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,414},{404,80}}</string>
+                <key>offset</key>
+                <string>{193,-6}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{416,56},{404,80}}</string>
+                <key>sourceSize</key>
+                <string>{850,180}</string>
+            </dict>
+            <key>Add-castChainLightning-m (6).png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,332},{410,80}}</string>
+                <key>offset</key>
+                <string>{194,1}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{414,49},{410,80}}</string>
+                <key>sourceSize</key>
+                <string>{850,180}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>Add-castChainLightning-m.png</string>
+            <key>size</key>
+            <string>{422,496}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:d0e94da45ba1ac79029fb5392249604b$</string>
+            <key>textureFileName</key>
+            <string>Add-castChainLightning-m.png</string>
+        </dict>
+    </dict>
+</plist>

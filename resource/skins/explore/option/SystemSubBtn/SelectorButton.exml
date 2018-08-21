@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelectorButton" width="237" height="55" xmlns:e="http://ns.egret.com/eui">
+	<e:Group width="232" height="56" x="4" y="0">
+		<e:ToggleButton x="0" y="0">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+				<e:Image source="option_json.system_setup_frame_png" x="-2" y="1"/>
+				<e:Image source="option_json.system_setup_pic_off_png" x="4" y="6" includeIn="up,down"/>
+				<e:Image source="option_json.system_setup_pic_on_png" includeIn="upAndSelected,downAndSelected" x="116" y="5"/>
+				<e:Image source="option_json.system_setup_on_png" x="30" y="12"/>
+				<e:Image source="option_json.system_setup_off_png" x="140" y="12"/>
+			</e:Skin>
+		</e:ToggleButton>
+		<!--<e:Image source="option_json.system_setup_frame_png" x="-2" y="1"/>
+		<e:Image source="option_json.system_setup_pic_off_png" x="4" y="6"/>
+		<e:Image source="option_json.system_setup_pic_on_png" x="116" y="5"/>
+		<e:Image source="option_json.system_setup_off_png" x="25" y="12"/>
+		<e:Image x="145" y="12" source="option_json.system_setup_on_png"/>-->
+	</e:Group>
+</e:Skin>

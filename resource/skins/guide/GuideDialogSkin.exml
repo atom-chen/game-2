@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuideDialogSkin" width="894" height="359" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="novice_boot_frame_png" x="105" y="93" scale9Grid="78,80,31,62" width="792" height="266"/>
+	<e:Image source="novice_boot_npc_png" x="-1" y="0" height="360" width="309"/>
+	<e:Label id="labText" text="标签" x="308" y="149" width="537" height="131" size="28" stroke="3" strokeColor="0x0046a6" multiline="true" wordWrap="true"/>
+	<e:Image id="imgNext" source="novice_boot_next_png" x="796" y="279" width="48" height="39"/>
+</e:Skin>

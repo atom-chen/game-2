@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CreditButtonSkin" states="up,over,down,disabled" width="112" height="112" xmlns:e="http://ns.egret.com/eui">
+    <e:Image source="main_scene_json.Producer_a" includeIn="up"/>
+	<e:Image source="main_scene_json.Producer_b" includeIn="over,down"/>
+</e:Skin>

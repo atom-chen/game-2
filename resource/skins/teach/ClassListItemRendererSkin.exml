@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClassListItemRendererSkin"  states="up,down,disabled" width="438" height="173" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="teaching_choose_frame_normal_png" x="0" y="0" source.down="teaching_choose_frame_selected_png" />
+	<e:Label id="labClassName" text="班级名" x="167" y="39" width="193" size="32" textColor="0x00fcff" stroke="3" strokeColor="0x023d8c"/>
+	<e:Label text="人数" x="167" y="98" size="28" textColor="0x009cff" stroke="3" strokeColor="0x001d45"/>
+	<e:Label id="labMax" text="/20" x="287" y="97" size="28" textColor="0x009CFF" stroke="3" strokeColor="0x001D45" width="57"/>
+	<e:Label id="labActive" text="20" x="239" y="98" size="28" textColor="0xddd76d" stroke="3" strokeColor="0x001d45" width="46" textAlign="right"/>
+    
+</e:Skin>

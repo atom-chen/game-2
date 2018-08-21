@@ -1,0 +1,12 @@
+﻿f^id^name^speed^hp_add^attack_add^safe_range^confuse^hurt_cut^delay_time^b
+0^90100^SpeedPotion^3.5^0^0^0^0^0^10^0
+0^90101^HealthPotion^0^200^0^0^0^0^0^0
+0^90102^DiamondPurple^0^0^0^7^0^0^5^0
+0^90103^powerUp^0^0^2^0^0^0^5^0
+0^90104^Confuse^0^0^0^0^Add-castConfuse^0^4^0
+0^90105^Shiled^0^0^0^0^0^10^1^0
+0^90106^Suicide^0^-200^0^0^0^0^0^0
+0^90107^Haste^2^0^0^0^0^0^8^0
+0^90301^Suicide^0^-2000^0^0^0^0^0^0
+0^90302^Suicide^0^-300^0^0^0^0^0^0
+0^90303^Suicide^0^-1000^0^0^0^0^0^0

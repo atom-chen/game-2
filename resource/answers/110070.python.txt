@@ -1,0 +1,25 @@
+﻿# 1_4_5_多多益善
+# 1. 拾取充足的物资
+#
+# 进入房间后你有点失望，不见长老等人的踪影。
+# 但房中散落的食物和医药物资立刻又让你振奋起精神，遗民部族一定也需要这些物资吧！
+# 一份食物（food）的重量是5，一份医药物资（medkit）的重量是8，你能携带的负重上限是100左右。
+# 运用循环语句拿取尽可能多的物资。
+# 请把代码补充完整。
+
+
+# 现在，走到终点。
+food = 5
+medkit =8
+weight = 0
+
+while weight+10 < 100:
+    item = hero.findNearestItem()
+    if item and item.type =="food":
+        hero.moveXY(item.pos.x,item.pos.y)
+        weight +=5
+    elif item and item.type == "medkit":
+        hero.moveXY(item.pos.x,item.pos.y)
+        weight +=8
+hero.moveXY(39,22)
+

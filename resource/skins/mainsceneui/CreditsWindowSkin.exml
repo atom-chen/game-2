@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CreditsWindowSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="btnClose" label="Button" x="1770" y="88" skinName="WindowCloseBtnSkin"/>
+	<e:Label text="易学君：‘’我有了这个点子, 并搜集资源把它变成了产品。”" x="617" y="304" textAlign="center" stroke="3" strokeColor="0x003479"/>
+	<e:Label text="YANG：‘’...不会编程的摇滚青年不是好原画师。”" x="617" y="384" width="760" textAlign="center" stroke="3" strokeColor="0x003479"/>
+	<e:Label text="洛萨：“关卡太简单？年轻人，来和我学武……编程吧！”" x="617" y="463" width="760" textAlign="center" stroke="3" strokeColor="0x003479"/>
+	<e:Label text="翔哥：“。。。”" x="617" y="543" width="760" textAlign="center" stroke="3" strokeColor="0x003479"/>
+	<e:Label text="姚桑：“技术问题？小case！”" x="617" y="622" width="760" textAlign="center" stroke="3" strokeColor="0x003479"/>
+	<e:Label text="......" x="617" y="702" width="760" textAlign="center" stroke="3" strokeColor="0x003479"/>
+	<e:Image source="Team_png" width="338" height="124" x="827" y="106" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image source="equip_tips_json.equip_tips_line_png" width="500" height="38" x="746" y="205" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

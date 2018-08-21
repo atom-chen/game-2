@@ -1,0 +1,14 @@
+{"file":"battle_victory_window.png","frames":{
+"pic_reward_get_png":{"x":1692,"y":1,"w":203,"h":54,"offX":0,"offY":0,"sourceW":203,"sourceH":54},
+"pic_victory_01_png":{"x":1,"y":1,"w":444,"h":354,"offX":0,"offY":0,"sourceW":444,"sourceH":354},
+"pic_victory_03_png":{"x":447,"y":1,"w":273,"h":130,"offX":0,"offY":0,"sourceW":273,"sourceH":130},
+"xp_empty_png":{"x":722,"y":1,"w":498,"h":54,"offX":0,"offY":0,"sourceW":498,"sourceH":54},
+"xp_full_png":{"x":1222,"y":1,"w":468,"h":24,"offX":0,"offY":0,"sourceW":468,"sourceH":24},
+"battle_level_pic_png":{"x":938,"y":57,"w":168,"h":37,"offX":0,"offY":0,"sourceW":168,"sourceH":37},
+"battle_next_normal_png":{"x":1359,"y":27,"w":131,"h":80,"offX":0,"offY":0,"sourceW":131,"sourceH":80},
+"battle_next_selected_png":{"x":1492,"y":27,"w":131,"h":79,"offX":0,"offY":0,"sourceW":131,"sourceH":79},
+"battle_rule_png":{"x":447,"y":139,"w":1140,"h":4,"offX":1,"offY":0,"sourceW":1141,"sourceH":4},
+"pic_charts_normal_png":{"x":1897,"y":1,"w":135,"h":80,"offX":0,"offY":0,"sourceW":135,"sourceH":80},
+"pic_charts_selected_png":{"x":1222,"y":27,"w":135,"h":80,"offX":0,"offY":0,"sourceW":135,"sourceH":80},
+"pic_continue_normal_png":{"x":831,"y":57,"w":105,"h":80,"offX":0,"offY":0,"sourceW":105,"sourceH":80},
+"pic_continue_selected_png":{"x":722,"y":57,"w":107,"h":80,"offX":0,"offY":0,"sourceW":107,"sourceH":80}}}

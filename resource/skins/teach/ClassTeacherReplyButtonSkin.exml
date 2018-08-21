@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClassTeacherReplyButtonSkin" states="up,over,down,disabled"  width="119" height="66" xmlns:e="http://ns.egret.com/eui">
+    <e:Image source="teaching_btn_reply_normal_png" includeIn="up"/>
+	<e:Image source="teaching_btn_reply_selected_png" includeIn="over,down"/>
+</e:Skin>

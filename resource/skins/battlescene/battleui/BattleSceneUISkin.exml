@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleSceneUISkin"  width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="157f6433802"/>
+	<e:Image source="battleBg_png_png" x="1056" y="0" height="1080" width="864" scale9Grid="76,81,571,939" locked="true"/>
+	<e:TabBar id="tabBar" width="443" height="42" x="580" y="-1"></e:TabBar>
+
+	<!-- 左上角英雄HP,MP信息 -->
+	<e:Image source="battle_scene_json.battle_scene_HP_img_png" scale9Grid="50,18,68,17" width="260"/>
+	<e:Image source="battle_scene_json.battle_scene_MP_img_png" x="187" visible="false"/>
+	<e:Label id="labelMp" text="500" x="215" y="18" width="84" height="21" size="17" textAlign="center" verticalAlign="middle"  strokeColor="0x001d45" stroke="2" visible="false"/>
+
+	<!-- 代码编辑区主功能按钮 -->
+	<e:Button id="btnCast" skinName="battleCastBtnSkin" x="1100" y="630"/>
+	<e:Button id="btnSubmit" skinName="runButtonSkin" x="1523" y="630" />
+	<e:Button id="btnDone" skinName="finishButtonSkin" x="1523" y="630" />
+	<!-- 加速按钮 -->
+	<e:Button id='speedx1Btn' skinName='Speedx1ButtonSkin' x='1320' y='630'/>
+	<e:Button id='speedx2Btn' skinName='Speedx2ButtonSkin' x='1320' y='630'/>
+
+
+	<e:Button id="zoominBtn" skinName="battleZoominButton" x="996" y="1015" width="51" height="52"/>
+	<e:Button id="zoomoutBtn" skinName="battleZoomoutButton" x="945" y="1015" width="51" height="52"/>
+
+
+	<e:Button id="btnLayout" label="按钮" x="1752" y="1045" skinName="LayoutIconButtonSkin"/>
+	<!--<e:Button id="btnSetting" label="按钮" x="1009" y="9" skinName="LevelSettingButtonSkin" width="44" height="33" visible="false"/>-->
+	<e:ProgressBar id="pgbHp" x="55" y="10" width="173" height="34" skinName="thangHealthBarSkin"/>
+
+	<e:Label text="编程语言" x="1746" y="17" width="78" height="15" size="17" textAlign="right" textColor="0x00fcff" strokeColor="0x002251" bold="true"/>
+	<e:Label id='labelLang' text="PYTHON" x="1830" y="12" size="17" width="113" textAlign="left" textColor="0xffffff" height="25" strokeColor="0x002251" bold="true" verticalAlign="middle"/>
+	<e:Image source="battle_scene_json.rule_png" x="1058" y="692" scaleX="1" scaleY="1"/>
+	<e:Image source="battle_scene_json.rule_2_png" x="1061" y="1044" scaleX="1" scaleY="1"/>
+	<e:Button id="btnUp" label="按钮" x="1468" y="666" skinName="PageUpButtonSkin" height="38"/>
+	<e:Button id="btnDown" label="按钮" x="1468" y="1044" skinName="PageDownButtonSkin" height="38"/>
+	<!-- 左下角功能按钮 -->
+	<e:Button id="btnSetting" skinName="battleSettingButtonSkin" y="929" width="151" height="151"/>
+	<e:Button id="btnStory" skinName="storyButtonSkin" x="151" y="929" width="151" height="151"/>
+	<e:Button id="btnRequest" label="求助" x="305" y="929" skinName="RequestHelpButtonSkin" width="151" height="151"/>
+	<e:Button id="btnCheckReply" label="查看" x="455" y="929" skinName="ResponseHelpButtonSkin" width="151" height="151"/>
+	<e:Button id="btnResponse" label="回复" x="1683" y="624" skinName="ClassTeacherReplyButtonSkin"/>
+	<e:Image id="imgReply" source="teaching_reddot_png" x="564" y="959"/>
+	<e:Button id="btnLock" label="锁定班级" x="688" y="981" skinName="CommonButtonSkin"/>
+	<e:Button id="btnQuickReply" label="Button" x="1807.97" y="623.15" skinName="QuickReplyButtonSkin"/>
+</e:Skin>

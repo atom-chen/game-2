@@ -1,0 +1,11 @@
+{
+  "websocket":{
+    "host":"47.96.103.163",
+    "port":3010
+  },
+  "rechargeURI":"http://47.96.103.163:9000/#/class/5948afa88eb85b23861f8857?redirect=47.96.103.163",
+  "platform":"mali",
+  "guide":"no",
+  "embedTo":"ml",
+  "embedLink":"//localhost:7070/#/signin?redirect=localhost:9011"
+}

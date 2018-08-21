@@ -1,0 +1,43 @@
+﻿{
+"mc": {
+	"win_blingbling": {
+		"frameRate":25,
+		"labels": [
+		],
+		"frames": [
+			{"res":"win_blingbling0000","x":-168.55,"y":-83.8},
+			{"res":"win_blingbling0001","x":-168.55,"y":-83.8},
+			{"res":"win_blingbling0002","x":-168.55,"y":-83.8},
+			{"res":"win_blingbling0003","x":-168.55,"y":-83.8},
+			{"res":"win_blingbling0004","x":-168.55,"y":-83.8},
+			{"res":"win_blingbling0005","x":-168.55,"y":-83.8},
+			{"res":"win_blingbling0006","x":-168.55,"y":-83.8},
+			{"res":"win_blingbling0007","x":-168.55,"y":-83.8},
+			{"res":"win_blingbling0008","x":-168.55,"y":-83.8},
+			{"res":"win_blingbling0009","x":-168.55,"y":-83.8},
+			{"res":"win_blingbling0010","x":-168.55,"y":-83.8},
+			{"res":"win_blingbling0011","x":-168.55,"y":-83.8},
+			{"res":"win_blingbling0012","x":-168.55,"y":-83.8},
+			{"res":"win_blingbling0013","x":-168.55,"y":-83.8},
+			{"res":"win_blingbling0014","x":-168.55,"y":-83.8}
+		]
+	}
+},
+"res": {
+	"win_blingbling0000":{"x":0,"y":0,"w":337,"h":146},
+	"win_blingbling0001":{"x":337,"y":0,"w":337,"h":146},
+	"win_blingbling0002":{"x":674,"y":0,"w":337,"h":146},
+	"win_blingbling0003":{"x":0,"y":146,"w":337,"h":146},
+	"win_blingbling0004":{"x":337,"y":146,"w":337,"h":146},
+	"win_blingbling0005":{"x":674,"y":146,"w":337,"h":146},
+	"win_blingbling0006":{"x":0,"y":292,"w":337,"h":146},
+	"win_blingbling0007":{"x":337,"y":292,"w":337,"h":146},
+	"win_blingbling0008":{"x":674,"y":292,"w":337,"h":146},
+	"win_blingbling0009":{"x":0,"y":438,"w":337,"h":146},
+	"win_blingbling0010":{"x":337,"y":438,"w":337,"h":146},
+	"win_blingbling0011":{"x":674,"y":438,"w":337,"h":146},
+	"win_blingbling0012":{"x":0,"y":584,"w":337,"h":146},
+	"win_blingbling0013":{"x":337,"y":584,"w":337,"h":146},
+	"win_blingbling0014":{"x":674,"y":584,"w":337,"h":146}
+}
+}

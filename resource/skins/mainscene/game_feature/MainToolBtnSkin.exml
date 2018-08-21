@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainToolBtnSkin" width="894" height="187" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="btnSetting" skinName="SettingButtonSkin" x="167" y="0"/>
+	<e:Button id="btnWarrior" skinName="WarriorButtonSkin" x="347" y="0"/>
+	<e:Button id="btnAchievement" skinName="AchievementButtonSkin" x="527" y="0"/>
+	<e:Button id="btnMall" skinName="MallButtonSkin" x="707" y="0" visible="false"/>
+	<e:Button id="btnTeacher" x="0" y="0" skinName="TeacherCheckButtonSkin"/>
+
+</e:Skin>

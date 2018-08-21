@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipSlotSkin" width="147" height="138" currentState="down" xmlns:e="http://ns.egret.com/eui" >
+	<e:Image source="equip_json.equip_iconbox_normal_png" />
+	<e:Image id="imgSelected" source="equip_json.equip_iconbox_selected_png" x="-10" y="-10" scaleX="1" scaleY="1"/>
+    
+    <e:Image id="imgIcon" source="common_utils_json.equip_icon_1_png" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

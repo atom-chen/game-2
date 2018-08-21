@@ -1,0 +1,19 @@
+﻿# 1_2_2_异星凶兽
+# 1. 拾取宝石
+# 2. 到达终点
+# 3. 英雄存活
+#
+# 面对每一种新出现的敌人，都要小心应战。
+# 这些长相凶悍的异星蛮兽看起来皮糙肉厚，可能更耐打哦！
+
+hero.moveUp()
+hero.moveRight()
+hero.attack("Dumb")
+hero.attack("Dumb")
+hero.moveRight()
+hero.moveUp()
+hero.attack("Dumber")
+hero.attack("Dumber")
+hero.attack("Dumber")
+hero.moveLeft()
+hero.moveUp()
