@@ -36,19 +36,19 @@ export default class MaliPlatform extends BasePlatform
             this._anonymous = false;
             
             //对应游戏服务器 也就是netmanger的userName！！！？
-            this.platformUserId = md5(user['username']); //data['id'];
+            this.platformUserId = user['username']; //data['id'];
             this.platformUserAccount = user['username'] +'@null.com'; //data['email'];
-            this.platformUserName = user['username'];
-            
+            this.platformUserRealName = user['name']
             //检测班级
-            return checkClassInfo(this.platformUserName).then((classeInfo)=>{
+            return checkClassInfo(this.platformUserId).then((classeInfo)=>{
                 if(classeInfo) {
                     this.bindClassInfo(classeInfo)
                 }
                 return {'anonymous':false, platformUserId: this.platformUserId }
+            }).catch( (err) =>{
+                return {'anonymous':false, platformUserId: this.platformUserId }
             })
         }).catch( (err)=>{
-
             this.platformUserId = md5(uuid.v1());
             this._anonymous = true
             this._isLogin = false;

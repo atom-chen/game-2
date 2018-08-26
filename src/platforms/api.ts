@@ -122,10 +122,8 @@ export function checkIdentity():any
       let user = decode(getToken(auth))
       let exp = user['exp']
       let timePlus = store.get('identity-auth-time-plus')
-     
       if( Math.floor(Date.now() / 1000)  + timePlus < exp){
         axios.defaults.headers.common['Authorization'] = auth
-
         return Promise.resolve(user)
       }
     }
@@ -135,6 +133,7 @@ export function checkIdentity():any
 export function checkClassInfo(username):any
 {
     let classe = store.get('identity-classe')
+    console.log('checkClassInfo', username, classe)
     if(classe && classe.username === username) {
       return Promise.resolve(classe)
     }

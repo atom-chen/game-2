@@ -14,7 +14,7 @@ export default class BasePlatform extends EventEmitter
 
     protected platformUserId:string = null;
     protected platformUserAccount:string = null;
-    protected platformUserName:string = null;
+    protected platformUserRealName:string = null;
     protected accessToken:string;
 
     protected userObject:any;
@@ -36,7 +36,7 @@ export default class BasePlatform extends EventEmitter
 
     public get platformName():string
     {
-        return this.platformUserName;
+        return this.platformUserRealName;
     }
 
     public get platformAccount():string
