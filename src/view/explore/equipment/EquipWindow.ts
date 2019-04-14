@@ -362,14 +362,15 @@ export default class EquipWindow extends BaseWindow
         
         //检查必备装备是否都已装备好
         let equipId:number = 0;
-        let needEquip = requiredEquips.find( function(requiredEquipId) {
-            if(!isNaN( parseInt(requiredEquipId) ) && -1 == currSlotEquipIDs.indexOf( parseInt(requiredEquipId) ))
+        let needEquip:boolean = false;
+        for(var equip_id in requiredEquips) {
+            if(!isNaN( parseInt(equip_id) ) && -1 == currSlotEquipIDs.indexOf( parseInt(equip_id) ))
             {
-                equipId = requiredEquipId;
-                return true;
+                equipId = equip_id;
+                needEquip = true;
+                break;
             }
-            return false;
-        }, this);
+        }
 
         if( needEquip )
         {
